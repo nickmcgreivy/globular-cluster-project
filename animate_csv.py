@@ -4,7 +4,7 @@ x = []
 
 bound = 150
 
-with open('test.csv') as csvfile:
+with open('test_sim_values.csv') as csvfile:
   readCSV = csv.reader(csvfile, delimiter = ',')
 
   for row in readCSV:
