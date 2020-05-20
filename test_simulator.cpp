@@ -20,84 +20,6 @@ double t = 0;
 double h = 0.05;
 
 
-// Overloads the "+" and "*" operators to work with vectors
-
-vector<double> operator+(const vector<double> &v1, const vector<double> &v2)
-{
-	assert(v1.size() == v2.size());
-
-	vector<double> new_vector(v1.size());
-
-	for (int i = 0; i < v1.size(); i++) {
-
-		new_vector[i] = v1[i] + v2[i];
-
-	}
-
-	return new_vector;
-}
-
-vector<double> operator-(const vector<double> &v1, const vector<double> &v2)
-{
-	assert(v1.size() == v2.size());
-
-	vector<double> new_vector(v1.size());
-
-	for (int i = 0; i < v1.size(); i++) {
-
-		new_vector[i] = v1[i] - v2[i];
-
-	}
-
-	return new_vector;
-}
-
-vector<double> operator*(const double &num, const vector<double> &v)
-{
-
-	vector<double> new_vector(v.size());
-
-	for (int i = 0; i < v.size(); i++) {
-
-		new_vector[i] = v[i] * num;
-
-	}
-
-	return new_vector;
-}
-
-vector<vector<double> > operator+(const vector<vector<double> > &v1, const vector<vector<double> > &v2)
-{
-	assert(v1.size() == v2.size());
-
-	vector<vector<double> > new_vector(v1.size());
-
-	for (int i = 0; i < v1.size(); i++) {
-
-		new_vector[i] = v1[i] + v2[i];
-
-	}
-
-	return new_vector;
-}
-
-
-vector<vector<double> > operator-(const vector<vector<double> > &v1, const vector<vector<double> > &v2)
-{
-	assert(v1.size() == v2.size());
-
-	vector<vector<double> > new_vector(v1.size());
-
-	for (int i = 0; i < v1.size(); i++) {
-
-		new_vector[i] = v1[i] - v2[i];
-
-	}
-
-	return new_vector;
-}
-
-
 
 
 //	Force function, takes in two vectors and returns the force the second
@@ -109,8 +31,12 @@ vector<double> force(vector<double> &r1, vector<double> &r2, float mass1, float 
 
 	double constant = G*mass1*mass2 / pow( pow((r2[0] - r1[0]),2) + pow((r2[1] - r1[1]), 2) + pow((r2[2] - r1[2]), 2) , 3/2 );
 
-	f = constant * (r2 - r1);
+	for (int i = 0; i < 3; i++){
 
+	f[i] = constant * (r2[i] - r1[i]);
+	
+	}
+	
 	return f;
 }
 
@@ -254,7 +180,7 @@ int main() {
 	init();
 
 	ofstream myFile;
-	myFile.open("test.csv");
+	myFile.open("test_sim_values.csv");
 
 
 	for (int l = 0; l < 8000; l++) {
