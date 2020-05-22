@@ -47,9 +47,6 @@ vector<double> force(vector<double> &r1, vector<double> &r2, float mass1, float 
 vector<vector<double> > net_force(vector<vector<double> > &all_objs) {
 
 	vector<vector<double> > f(n);
-
-	
-
 	
 	for (int j = 0; j < n; j++) {
 		
