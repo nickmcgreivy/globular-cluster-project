@@ -5,11 +5,10 @@
 using namespace std;
 
 
-// Declares universal time step "h" 
+// Declares universal time step "h" and universal time "t"
 
-double h = 0.05;
-
-
+double h = 0.005;
+double t = 0;
 
 
 //Overload the + , - , * operators and create a to_string function for <double> vectors
@@ -77,15 +76,17 @@ double magnitude(const vector<double> &v) {
 
 }
 
-// Makes it easier to print vectors for debugging 
+// Makes it easier to print vectors as comma separated values  
 string to_string(const vector<double> &v) {
 
 	int size = v.size(); 
 	string s = "";
 
-	for (int i = 0; i < size; i ++) {
+	s = s + to_string(v[0]);
 
-		s = s + to_string(v[i]) + " ";		
+	for (int i = 1; i < size; i ++) {
+
+		s = s + "," + to_string(v[i]);		
 
 	}
 
@@ -106,7 +107,6 @@ struct Particle {
 
 	Particle(double x,double y,double z, double vx, double vy, double vz, double mass_) {
 
-		cout << "CREATED A COPY" << endl;
 		position.push_back(x);
 		position.push_back(y);
 		position.push_back(z);
@@ -146,13 +146,15 @@ struct Particle {
 	
 	}
 
-	void print() {
+	string output_data() {
 
-		cout << "Position: " << endl;
-		cout << to_string(position) << endl;
+		string s = "";
 
-		cout << "Momentum: " << endl;
-		cout << to_string(get_mom()) << endl;
+		s = s + to_string(position) + ",";
+
+		s = s + to_string(get_mom());
+
+		return s;
 
 	}
 
@@ -162,15 +164,41 @@ struct System {
 
 	vector<Particle> sys;
 
+	System() {
+	}
+
 	void add_particle(Particle &p) {
 
 		sys.push_back(p);
 
 	}
 
-	sys.push_back());
+	Particle& operator[](int index) {
 
-}
+		return sys[index];
+
+	}
+
+	int size() {
+		return sys.size();
+	}
+
+	string output_data() {
+
+		string s = "";
+
+		for (int i = 0; i < sys.size(); i++) {
+
+			s = s + sys[i].output_data() + "  ,  ";
+
+
+		}
+
+		return s;
+
+	}
+
+};
 
 
 // Force functions can be made more general, however I assume it is a force due to particle interactions
@@ -195,7 +223,7 @@ vector<double> force(const Particle &p1, const Particle &p2) {
 
 // Returns a vector, holding vector<double>, representing the force on each particle in the system.
 
-vector<vector<double> > net_force(const vector<Particle> sys) { 
+vector<vector<double> > net_force(System sys) { 
 	
 	int size = sys.size();
 
@@ -227,7 +255,7 @@ vector<vector<double> > net_force(const vector<Particle> sys) {
 
 bool already_advanced = false;
 
-void leap_frog(vector<Particle> &sys) {
+void leap_frog(System &sys) {
 
 	int size = sys.size();
 
@@ -253,27 +281,36 @@ void leap_frog(vector<Particle> &sys) {
 			sys[i].change_mom( h * f[i] );
 		
 		}
+
+		t += h;
 	}
 }
 
-vector<double> sys;
 
 int main() {
-
-	setup_system();
 
 	ofstream myFile;
 	myFile.open("test_sim_values.csv");
 
-	for (int i = 0; i < 2000; i ++) {
+	System sys;
 
+	Particle* x;
+	for (int i = 0; i < 360; i = i + 20) {
 
+		float rads1 = i * (3.14 / 180);
+
+		x = new Particle(20*cos(rads1),20*sin(rads1),0,0,0,0,10);
+		sys.add_particle(*x);
 
 	}
 
+	for (int i = 0; i < 4000; i++) {
 
+		myFile << sys.output_data() + "time:" + to_string(t) << endl;
+		cout << "Simulated: " + to_string(i) << endl;
+		leap_frog(sys);
 
-
+	}
 
 	return 0;
 }
