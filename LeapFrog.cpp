@@ -2,12 +2,13 @@
 #include <vector>
 #include <math.h>
 #include <fstream>
+#include <random>
 using namespace std;
 
 
 // Declares universal time step "h" and universal time "t"
 
-double h = 0.005;
+double h = 0.05;
 double t = 0;
 
 
@@ -76,6 +77,7 @@ double magnitude(const vector<double> &v) {
 
 }
 
+
 // Makes it easier to print vectors as comma separated values  
 string to_string(const vector<double> &v) {
 
@@ -112,7 +114,6 @@ struct Particle {
 		position.push_back(z);
 
 
-
 		curr_momentum.push_back(mass_*vx);
 		curr_momentum.push_back(mass_*vy);
 		curr_momentum.push_back(mass_*vz);
@@ -146,19 +147,19 @@ struct Particle {
 	
 	}
 
-	string output_data() {
+	string get_pos() {
 
 		string s = "";
 
-		s = s + to_string(position) + ",";
-
-		s = s + to_string(get_mom());
+		s = s + to_string(position);
 
 		return s;
 
 	}
 
 };
+
+
 
 struct System {
 
@@ -183,14 +184,13 @@ struct System {
 		return sys.size();
 	}
 
-	string output_data() {
+	string get_data() {
 
 		string s = "";
 
 		for (int i = 0; i < sys.size(); i++) {
 
-			s = s + sys[i].output_data() + "  ,  ";
-
+			s = s + sys[i].get_pos() + " , " + to_string(sys[i].mass) + " , ";
 
 		}
 
@@ -199,6 +199,8 @@ struct System {
 	}
 
 };
+
+
 
 
 // Force functions can be made more general, however I assume it is a force due to particle interactions
@@ -220,6 +222,7 @@ vector<double> force(const Particle &p1, const Particle &p2) {
 	return f;
 
 }
+
 
 // Returns a vector, holding vector<double>, representing the force on each particle in the system.
 
@@ -249,6 +252,60 @@ vector<vector<double> > net_force(System sys) {
 	return net_f;
 
 }
+
+
+
+// Functions for computing potential energy of the system, need to rewrite depending on the force
+
+double potential_energy(const Particle &p1, const Particle &p2) {
+
+	return (-1 * G * p1.mass * p2.mass / magnitude((p1.position - p2.position)));
+
+}
+
+double total_potential(System &sys) {
+
+	int size = sys.size();
+
+	double total_potential = 0;
+
+	for (int i = 0; i < size; i ++) {
+
+		for (int j = 0; j < i; j ++) {
+			
+			total_potential += potential_energy(sys[i],sys[j]);
+	
+		}
+	}
+
+	return total_potential;
+}
+
+
+// Functions for computing kinetic energy of the system
+
+double kinetic_energy(Particle &p) {
+	
+	return pow(magnitude(p.get_mom()),2)/(2*p.mass);
+
+}
+
+double total_kinetic(System &sys) {
+
+	int size = sys.size();
+	double total_kinetic = 0;
+
+	for (int i = 0; i < size; i++) {
+
+		total_kinetic += kinetic_energy(sys[i]);
+	
+	}
+
+	return total_kinetic;
+
+}
+
+
 
 // The driver for the leap-frogging algorithm
 // For the first time step in leap-frogging, all velocities need to be advanced by h/2
@@ -287,31 +344,65 @@ void leap_frog(System &sys) {
 }
 
 
-int main() {
+// Output Energy / Position Data to csv file
 
+void output_energy(System sys, int num_iterations) {
+	
 	ofstream myFile;
-	myFile.open("test_sim_values.csv");
+	myFile.open("energy_values.csv");
 
-	System sys;
+	double KE;
+	double PE;
 
-	Particle* x;
-	for (int i = 0; i < 360; i = i + 20) {
+	t = 0;
 
-		float rads1 = i * (3.14 / 180);
+	for (int i = 0; i < num_iterations; i++) {
 
-		x = new Particle(20*cos(rads1),20*sin(rads1),0,0,0,0,10);
-		sys.add_particle(*x);
+		KE = total_kinetic(sys);
+		PE = total_potential(sys);
 
-	}
-
-	for (int i = 0; i < 4000; i++) {
-
-		myFile << sys.output_data() + "time:" + to_string(t) << endl;
+		myFile << "Potential Energy , " << PE << " , "
+			   << "Kinetic Energy , " << KE << " , "
+			   << "Total Energy , " << KE + PE << endl;
 		cout << "Simulated: " + to_string(i) << endl;
 		leap_frog(sys);
 
 	}
+}
 
+
+void output_position(System sys, int num_iterations) {
+
+	ofstream myFile;
+	myFile.open("position_and_mass_values.csv");
+
+	t = 0;
+
+	for (int i = 0; i < num_iterations; i++) {
+
+		myFile << sys.get_data() << "time , " << t << "," << endl;
+		cout << "Simulated: " + to_string(i) << endl;
+		
+		leap_frog(sys);
+
+	}
+}
+
+
+int main() {
+
+	System sys;
+
+	Particle p1(10,0,0,0,1.5,0,100);
+	Particle p2(-10,0,0,0,-1.5,0,100);
+
+	sys.add_particle(p1);
+	sys.add_particle(p2);
+
+
+	output_energy(sys, 5000);
+	output_position(sys, 5000);
+	
 	return 0;
 }
 
