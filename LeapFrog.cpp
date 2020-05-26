@@ -5,12 +5,7 @@
 #include <random>
 using namespace std;
 
-
-// Declares universal time step "h" and universal time "t"
-
-double h = 0.05;
 double t = 0;
-
 
 //Overload the + , - , * operators and create a to_string function for <double> vectors
 vector<double> operator+(const vector<double> &v1,const vector<double> &v2) {
@@ -103,8 +98,8 @@ string to_string(const vector<double> &v) {
 struct Particle {
 
 	vector<double> position;
-	vector<double> curr_momentum;
-	vector<double> past_momentum;
+	vector<double> momentum;
+
 	double mass;
 
 	Particle(double x,double y,double z, double vx, double vy, double vz, double mass_) {
@@ -114,13 +109,9 @@ struct Particle {
 		position.push_back(z);
 
 
-		curr_momentum.push_back(mass_*vx);
-		curr_momentum.push_back(mass_*vy);
-		curr_momentum.push_back(mass_*vz);
-
-		past_momentum.push_back(mass_*vx);
-		past_momentum.push_back(mass_*vy);
-		past_momentum.push_back(mass_*vz);
+		momentum.push_back(mass_*vx);
+		momentum.push_back(mass_*vy);
+		momentum.push_back(mass_*vz);
 
 		mass = mass_;
 
@@ -134,17 +125,8 @@ struct Particle {
 
 	void change_mom(const vector<double> &delta_mom) {
 		
-		past_momentum = curr_momentum;
-		curr_momentum = curr_momentum + delta_mom;
-	
-	}
+		momentum = momentum+delta_mom;
 
-	vector<double> get_mom() {
-
-		vector<double> mom;
-		mom = (.5) * ( past_momentum + curr_momentum );
-		return mom;
-	
 	}
 
 	string get_pos() {
@@ -164,13 +146,16 @@ struct Particle {
 struct System {
 
 	vector<Particle> sys;
+	double total_mass;
 
 	System() {
+		total_mass = 0;
 	}
 
 	void add_particle(Particle &p) {
 
 		sys.push_back(p);
+		total_mass += p.mass;
 
 	}
 
@@ -259,14 +244,14 @@ vector<vector<double> > net_force(System sys) {
 
 double potential_energy(const Particle &p1, const Particle &p2) {
 
-	return (-1 * G * p1.mass * p2.mass / magnitude((p1.position - p2.position)));
+	double distance = magnitude( (p1.position - p2.position) );
+	return ( -G * p1.mass * p2.mass / distance );
 
 }
 
 double total_potential(System &sys) {
 
 	int size = sys.size();
-
 	double total_potential = 0;
 
 	for (int i = 0; i < size; i ++) {
@@ -281,12 +266,11 @@ double total_potential(System &sys) {
 	return total_potential;
 }
 
-
 // Functions for computing kinetic energy of the system
 
 double kinetic_energy(Particle &p) {
 	
-	return pow(magnitude(p.get_mom()),2)/(2*p.mass);
+	return pow(magnitude(p.momentum),2)/(2*p.mass);
 
 }
 
@@ -306,55 +290,135 @@ double total_kinetic(System &sys) {
 }
 
 
+// The driver for the leap-frogging algorithm, rewritten so that force and momentum are in-sync at the end of the algorithm
 
-// The driver for the leap-frogging algorithm
-// For the first time step in leap-frogging, all velocities need to be advanced by h/2
+void leap_frog(System &sys, double dt) {
 
-bool already_advanced = false;
+	vector<vector<double> > f;
+	
+	f = net_force(sys);
+	
+	int size = sys.size();
 
-void leap_frog(System &sys) {
+	for (int i = 0; i < size; i ++) {
+
+		sys[i].change_mom( (dt/2) * f[i] );
+		sys[i].change_pos( (dt/sys[i].mass) * sys[i].momentum );
+
+	}
+
+	f = net_force(sys);
+
+	for (int i = 0; i < size; i ++) {
+
+		sys[i].change_mom( (dt/2) * f[i] );
+
+	}
+
+	t += dt;
+
+}
+
+
+
+// The driver for an adaptive time-stepping method that 
+
+void drift(System &sys, double dt) {
 
 	int size = sys.size();
 
-	vector<vector<double> > f;
-	f = net_force(sys);
+	vector<vector<double> > f = net_force(sys);
 
-	if( not already_advanced ) {
+	for(int i = 0; i < size; i ++) {
 
-		for (int i = 0; i < size; i++)
+		sys[i].change_mom( (dt / 2) * f[i] );
+	
+	}
+
+}
+
+void kick(System &sys, double dt) {
+
+	int size = sys.size();
+
+	for(int i = 0; i < size; i++) {
+
+		sys[i].change_pos( (dt/sys[i].mass) * sys[i].momentum );
+
+	}
+
+}
+
+double pi = 3.14159;
+double n = 1;
+
+double find_max_dt(System &sys) {
+
+	int size = sys.size();
+	double max_distance = 0;
+	double rho = 0;
+	
+	for (int i = 0; i < size; i ++) {
+
+		for (int j = 0; j < i; j ++) {
 			
-			sys[i].change_mom( (h/2) * f[i] );
+			double dist = magnitude(sys[i].position - sys[j].position);
+			
+			if (dist > max_distance) {
 
-		already_advanced = true;
+				max_distance = dist;
+
+			}
+		}
+	}
+
+	rho = ( ( (4/3) * pi * pow((max_distance/2),3) ) / sys.total_mass );
+	return ( n / sqrt(G * rho) );
+
+}
+
+void adaptive_step(System &sys, double dt) {
+
+	drift(sys, dt);
+	
+	double max_dt = find_max_dt(sys);
+	
+	cout << dt << " max: " << find_max_dt(sys) << " time: " << t << endl;
+	
+	if (dt >= max_dt) {
+
+		drift(sys, -dt);
+		
+		adaptive_step(sys, dt/2);
+		//kick(sys, dt);
+		adaptive_step(sys, dt/2);
 
 	}
 
 	else {
 
-		for (int i = 0; i < size; i++ ) {
+		kick(sys, dt);
+		drift(sys, dt);
+		t += dt;
 
-			sys[i].change_pos( (h / sys[i].mass) * sys[i].curr_momentum );
-
-			sys[i].change_mom( h * f[i] );
-		
-		}
-
-		t += h;
 	}
 }
 
 
+
 // Output Energy / Position Data to csv file
 
-void output_energy(System sys, int num_iterations) {
+void output_energy(System sys, int num_iterations, string name, double dt) {
 	
 	ofstream myFile;
-	myFile.open("energy_values.csv");
+	myFile.open(name+".csv");
 
 	double KE;
 	double PE;
 
 	t = 0;
+
+	double initial_energy = total_kinetic(sys) + total_potential(sys);
 
 	for (int i = 0; i < num_iterations; i++) {
 
@@ -363,46 +427,56 @@ void output_energy(System sys, int num_iterations) {
 
 		myFile << "Potential Energy , " << PE << " , "
 			   << "Kinetic Energy , " << KE << " , "
-			   << "Total Energy , " << KE + PE << endl;
-		cout << "Simulated: " + to_string(i) << endl;
-		leap_frog(sys);
+			   << "Total Energy , " << KE + PE
+			   << ", Delta Energy , " << initial_energy - (KE + PE) 
+			   << ", Time , " << t << endl;
+
+
+		//cout << "Simulated: " + to_string(i) << endl;
+		
+		//integration method
+		adaptive_step(sys, dt);
 
 	}
 }
 
 
-void output_position(System sys, int num_iterations) {
+void output_position(System sys, int num_iterations, string name, double dt) {
 
 	ofstream myFile;
-	myFile.open("position_and_mass_values.csv");
+	myFile.open(name+".csv");
 
 	t = 0;
 
 	for (int i = 0; i < num_iterations; i++) {
 
 		myFile << sys.get_data() << "time , " << t << "," << endl;
-		cout << "Simulated: " + to_string(i) << endl;
+		//cout << "Simulated: " + to_string(i) << endl;
 		
-		leap_frog(sys);
+		//integration method
+		adaptive_step(sys, dt);
 
 	}
 }
 
-
 int main() {
-
+	auto start = chrono::steady_clock::now();
 	System sys;
 
-	Particle p1(10,0,0,0,1.5,0,100);
-	Particle p2(-10,0,0,0,-1.5,0,100);
+	Particle p1(1,0,0,0,.5,0,1);
+	Particle p2(-1,0,0,0,-.5,0,1);
+
 
 	sys.add_particle(p1);
 	sys.add_particle(p2);
 
-
-	output_energy(sys, 5000);
-	output_position(sys, 5000);
+	output_position(sys, 200, "Data", 1);
+	output_energy(sys, 200, "Data/Energy_conservation/Energy", 1);
 	
+	auto end = chrono::steady_clock::now();
+
+	cout << chrono::duration <double, milli> (end-start).count() << endl;
+
 	return 0;
 }
 
