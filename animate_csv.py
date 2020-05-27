@@ -1,9 +1,10 @@
+
 import csv;
 
 x = []
 
 
-with open('data.csv') as csvfile1:
+with open('Data/Output/data.csv') as csvfile1:
   read_position = csv.reader(csvfile1, delimiter = ',')
 
   for row in read_position:
@@ -19,20 +20,20 @@ from matplotlib import animation, cm, pyplot as plt
 fig = plt.figure()
 ax1 = fig.add_subplot(111, projection='3d')
 
-bound = 500
+bound = 200
 i=0
-m = 20
+m = 15
 def animate(i):
   global bound
   ax1.clear()
 
   i = m*i
 
-  for k in range((len(x[i]) - 2)//4):
+  for k in range((len(x[i]) - 4)//4):
     points1 = ax1.scatter(float(x[i][4*k]),float(x[i][(4*k)+1]),float(x[i][(4*k)+2]),color="blue", s = np.sqrt((float(x[0][(4*k)+3]))))
     max_ = max([float(x[i][4*k]),float(x[i][(4*k)+1]),float(x[i][(4*k)+2])])
     if bound < max_:
-      pass#bound = max_
+      bound = max_
   
   ax1.set_xlim(-bound,bound)
   ax1.set_ylim(-bound,bound)
@@ -46,5 +47,5 @@ def animate(i):
 print(len(x))
 frames = len(x) // (m)
 ani = animation.FuncAnimation(fig, animate, interval=100, blit=False, frames = frames)
-ani.save('orbit.gif', fps=25)
+ani.save('Data/Animations/orbit.gif', fps=25)
 

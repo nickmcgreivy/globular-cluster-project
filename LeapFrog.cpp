@@ -382,7 +382,7 @@ void kick(System &sys, double dt) {
 }
 
 double pi = 3.14159;
-double n = 1;
+double n = 0.001;
 
 double find_max_dt(System &sys) {
 
@@ -518,9 +518,9 @@ int main() {
 	sys.add_particle(p5);
 	sys.add_particle(p6);
 
-	output_energy(sys, 300, "Data/Energy_conservation/EnergyLF", 0.5, "LF");
-	output_energy(sys, 300, "Data/Energy_conservation/EnergyAT", 0.5, "AT");
-	output_position(sys, 3000, "data", 1, "AT");
+	output_energy(sys, 150, "Data/Output/EnergyLF", 2, "LF");
+	output_energy(sys, 150, "Data/Output/EnergyAT", 2, "AT");
+	output_position(sys, 2000, "Data/Output/data", 1, "AT");
 
 	auto end = chrono::steady_clock::now();
 
