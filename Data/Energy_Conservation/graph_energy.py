@@ -1,20 +1,33 @@
 import csv
 from matplotlib import pyplot as plt
 
-energy, time = [],[]
+energy_LF, time_LF, energy_AT, time_AT = [],[], [], []
 
-with open('Data/Energy_Conservation/Energy.csv') as csvfile:
-  read_energy = csv.reader(csvfile, delimiter = ",")
+with open('Data/Energy_Conservation/EnergyLF.csv') as csvfile:
+  read_energy_LF = csv.reader(csvfile, delimiter = ",")
   
-  for row in read_energy:
-    energy.append(float(row[7]))
-    time.append(float(row[9]))
+  for row in read_energy_LF:
+    energy_LF.append(float(row[7]))
+    time_LF.append(float(row[9]))
+
+with open('Data/Energy_Conservation/EnergyAT.csv') as csvfile:
+  read_energy_AT = csv.reader(csvfile, delimiter = ",")
+  
+  for row in read_energy_AT:
+    energy_AT.append(float(row[7]))
+    time_AT.append(float(row[9]))
 
 fig = plt.figure()
 
 ax1 = fig.add_subplot(111)
 
-ax1.plot(time,energy)
+line1, = ax1.plot(time_LF,energy_LF,color="blue")
+line2, = ax1.plot(time_AT,energy_AT,color="red")
+	
+line1.set_label("Leap Frog")
+line2.set_label("Adaptive Stepping")
+
+ax1.legend()
 
 ax1.set_title("Leap Frog with Adaptive Time-Stepping Algorithm Energy Conservation")
 ax1.set_xlabel("Time")
