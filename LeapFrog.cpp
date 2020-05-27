@@ -290,6 +290,38 @@ double total_kinetic(System &sys) {
 }
 
 
+// Angular momentum L = p x r
+// Finds the angular momentum of the entire system
+
+vector<double> cross_product(vector<double> &v1, vector<double> &v2) {
+
+	vector<double> v3(3);
+
+	v3[0] = v1[1]*v2[2] - v1[2]*v2[1];
+	v3[1] = v1[2]*v2[0] - v1[0]*v2[2];
+	v3[2] = v1[0]*v2[1] - v1[1]*v2[0];
+
+	return v3;
+
+}
+
+vector<double> angular_momentum(System &sys) {
+
+	int size = sys.size();
+
+	vector<double> total_angular_momentum(3);
+
+	for (int i = 0; i < size; i ++) {
+
+		total_angular_momentum = total_angular_momentum + cross_product(sys[i].momentum, sys[i].position);
+
+	}
+
+	return total_angular_momentum;
+}
+
+
+
 // The driver for the leap-frogging algorithm, rewritten so that force and momentum are in-sync at the end of the algorithm
 
 void leap_frog(System &sys, double dt) {
@@ -372,7 +404,7 @@ double find_max_dt(System &sys) {
 		}
 	}
 
-	rho = ( ( (4/3) * pi * pow((max_distance/2),3) ) / sys.total_mass );
+	rho = ( sys.total_mass / ( (4/3) * pi * pow((max_distance/2),3) ) );
 	return ( n / sqrt(G * rho) );
 
 }
@@ -408,7 +440,7 @@ void adaptive_step(System &sys, double dt) {
 
 // Output Energy / Position Data to csv file
 
-void output_energy(System sys, int num_iterations, string name, double dt) {
+void output_energy(System sys, int num_iterations, string name, double dt, string method) {
 	
 	ofstream myFile;
 	myFile.open(name+".csv");
@@ -435,13 +467,18 @@ void output_energy(System sys, int num_iterations, string name, double dt) {
 		//cout << "Simulated: " + to_string(i) << endl;
 		
 		//integration method
-		adaptive_step(sys, dt);
+		if (method == "AT") {
+			adaptive_step(sys, dt);
+		}
+		if (method == "LF") {
+			leap_frog(sys,dt);
+		}
 
 	}
 }
 
 
-void output_position(System sys, int num_iterations, string name, double dt) {
+void output_position(System sys, int num_iterations, string name, double dt, string method) {
 
 	ofstream myFile;
 	myFile.open(name+".csv");
@@ -450,12 +487,16 @@ void output_position(System sys, int num_iterations, string name, double dt) {
 
 	for (int i = 0; i < num_iterations; i++) {
 
-		myFile << sys.get_data() << "time , " << t << "," << endl;
-		//cout << "Simulated: " + to_string(i) << endl;
+		myFile << sys.get_data() << "Angular Momentum , " << to_string(angular_momentum(sys)) <<  " , Time , " << t << "," << endl;
+		cout << "Simulated: " + to_string(i) << endl;
 		
 		//integration method
-		adaptive_step(sys, dt);
-
+		if (method == "AT") {
+			adaptive_step(sys, dt);
+		}
+		if (method == "LF") {
+			leap_frog(sys,dt);
+		}
 	}
 }
 
@@ -463,16 +504,24 @@ int main() {
 	auto start = chrono::steady_clock::now();
 	System sys;
 
-	Particle p1(1,0,0,0,.5,0,1);
-	Particle p2(-1,0,0,0,-.5,0,1);
-
+	Particle p1(400,0,0,0,0.5,0,300);
+	Particle p2(250,0,0,0,-1.1,0,10);
+	Particle p3(260,0,0,0,0,0,0.2);
+	Particle p4(-250,0,0,0,-0.5,0,300);
+	Particle p5(-400,0,0,0,1.1,0,10);
+	Particle p6(-410,0,0,0,0,0,0.2);
 
 	sys.add_particle(p1);
 	sys.add_particle(p2);
+	sys.add_particle(p3);
+	sys.add_particle(p4);
+	sys.add_particle(p5);
+	sys.add_particle(p6);
 
-	output_position(sys, 200, "Data", 1);
-	output_energy(sys, 200, "Data/Energy_conservation/Energy", 1);
-	
+	output_energy(sys, 300, "Data/Energy_conservation/EnergyLF", 0.5, "LF");
+	output_energy(sys, 300, "Data/Energy_conservation/EnergyAT", 0.5, "AT");
+	output_position(sys, 3000, "data", 1, "AT");
+
 	auto end = chrono::steady_clock::now();
 
 	cout << chrono::duration <double, milli> (end-start).count() << endl;
