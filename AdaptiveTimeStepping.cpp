@@ -102,6 +102,9 @@ struct Particle {
 
 	double mass;
 
+	// For use in the Adaptive Stepping Algorithm
+	bool have_time_step = false;
+
 	Particle(double x,double y,double z, double vx, double vy, double vz, double mass_) {
 
 		position.push_back(x);
@@ -240,6 +243,8 @@ vector<vector<double> > net_force(System sys) {
 
 
 
+
+
 // Functions for computing potential energy of the system, need to rewrite depending on the force
 
 double potential_energy(const Particle &p1, const Particle &p2) {
@@ -266,6 +271,8 @@ double total_potential(System &sys) {
 	return total_potential;
 }
 
+
+
 // Functions for computing kinetic energy of the system
 
 double kinetic_energy(Particle &p) {
@@ -288,6 +295,8 @@ double total_kinetic(System &sys) {
 	return total_kinetic;
 
 }
+
+
 
 
 // Angular momentum L = p x r
@@ -353,88 +362,106 @@ void leap_frog(System &sys, double dt) {
 
 
 
-// The driver for an adaptive time-stepping method that 
 
-void drift(System &sys, double dt) {
 
-	int size = sys.size();
+// The driver for my second attempt at an adaptive time-stepping method. This method allows two particles
+// to be simultaenously evolved along different time-steps. 
 
-	vector<vector<double> > f = net_force(sys);
 
-	for(int i = 0; i < size; i ++) {
-
-		sys[i].change_mom( (dt / 2) * f[i] );
-	
-	}
-
-}
-
-void kick(System &sys, double dt) {
+vector<double> net_force_on_i(System &sys, int index) {
 
 	int size = sys.size();
+	vector<double> net_f(3);
 
-	for(int i = 0; i < size; i++) {
+	for (int j = 0; j < size; j ++) {
 
-		sys[i].change_pos( (dt/sys[i].mass) * sys[i].momentum );
+		net_f = net_f + force(sys[index],sys[j]);
 
 	}
 
+	return net_f;
 }
 
-double pi = 3.14159;
-double n = 1;
 
-double find_max_dt(System &sys) {
+void kick(System &sys, int index, double dt) {
+
+	vector<double> f = net_force_on_i(sys, index);
+
+	sys[index].change_mom( (dt / 2) * f );
+
+}
+
+void drift(System &sys, int index, double dt) {
+
+	sys[i].change_pos( (dt/sys[i].mass) * sys[i].momentum );
+
+}
+
+
+vector<bool> select(System &sys, dt, bool &keep_dividing) {
 
 	int size = sys.size();
-	double max_distance = 0;
-	double rho = 0;
-	
+	vector<bool> correct_dt(size);
+
 	for (int i = 0; i < size; i ++) {
 
-		for (int j = 0; j < i; j ++) {
-			
-			double dist = magnitude(sys[i].position - sys[j].position);
-			
-			if (dist > max_distance) {
+		if ((net_force_on_i(sys,i)/sys[i].mass) < dt) {
 
-				max_distance = dist;
 
-			}
+
 		}
+
 	}
 
-	rho = ( sys.total_mass / ( (4/3) * pi * pow((max_distance/2),3) ) );
-	return ( n / sqrt(G * rho) );
 
 }
 
 void adaptive_step(System &sys, double dt) {
 
-	drift(sys, dt);
-	
-	double max_dt = find_max_dt(sys);
-	
-	cout << dt << " max: " << find_max_dt(sys) << " time: " << t << endl;
-	
-	if (dt >= max_dt) {
+	bool keep_dividing = false;
+	int size = sys.size();
 
-		drift(sys, -dt);
-		
-		adaptive_step(sys, dt/2);
-		//kick(sys, dt);
-		adaptive_step(sys, dt/2);
+	for (int i = 0; i < size; i ++) {
+
+		drift(sys[i],dt/2);
 
 	}
+	
+	vector<bool> correct_dt = select(sys,dt,keep_dividing);
 
+	if (not keep_dividing) {
+
+		kick(sys,dt);
+		drift(sys,dt/2);
+
+	}
+	
 	else {
 
-		kick(sys, dt);
-		drift(sys, dt);
-		t += dt;
+		for (int i = 0; i < size; i ++) {
+
+			drift(sys[i],-dt/2);
+
+		}
+
+		adaptive_step(sys, dt/2);
+
+		for (int i = 0; i < size; i ++) {
+
+			if (correct_dt[i]) {
+
+				kick(sys, i, dt);
+
+			}
+
+		}
+
+		adapative_step(sys, dt/2);
 
 	}
 }
+
+
 
 
 
@@ -518,9 +545,8 @@ int main() {
 	sys.add_particle(p5);
 	sys.add_particle(p6);
 
-	output_energy(sys, 300, "Data/Energy_conservation/EnergyLF", 0.5, "LF");
-	output_energy(sys, 300, "Data/Energy_conservation/EnergyAT", 0.5, "AT");
-	output_position(sys, 3000, "data", 1, "AT");
+	output_energy(sys, 300, "Data/Output/EnergyLF", 1, "AT");
+	output_position(sys, 10000, "Data/Output/Data", 1, "AT");
 
 	auto end = chrono::steady_clock::now();
 

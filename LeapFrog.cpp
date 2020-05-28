@@ -353,9 +353,11 @@ void leap_frog(System &sys, double dt) {
 
 
 
-// The driver for an adaptive time-stepping method that 
+// The driver for my first attempt at an adaptive time-stepping method
+// However, this is not true adaptive stepping as it requires the whole
+// system to be evolved simultaenously along the same time-step 
 
-void drift(System &sys, double dt) {
+void kick(System &sys, double dt) {
 
 	int size = sys.size();
 
@@ -369,7 +371,7 @@ void drift(System &sys, double dt) {
 
 }
 
-void kick(System &sys, double dt) {
+void drift(System &sys, double dt) {
 
 	int size = sys.size();
 
@@ -411,7 +413,7 @@ double find_max_dt(System &sys) {
 
 void adaptive_step(System &sys, double dt) {
 
-	drift(sys, dt);
+	kick(sys, dt);
 	
 	double max_dt = find_max_dt(sys);
 	
@@ -419,7 +421,7 @@ void adaptive_step(System &sys, double dt) {
 	
 	if (dt >= max_dt) {
 
-		drift(sys, -dt);
+		kick(sys, -dt);
 		
 		adaptive_step(sys, dt/2);
 		//kick(sys, dt);
@@ -429,8 +431,8 @@ void adaptive_step(System &sys, double dt) {
 
 	else {
 
-		kick(sys, dt);
 		drift(sys, dt);
+		kick(sys, dt);
 		t += dt;
 
 	}
@@ -520,7 +522,7 @@ int main() {
 
 	output_energy(sys, 150, "Data/Output/EnergyLF", 2, "LF");
 	output_energy(sys, 150, "Data/Output/EnergyAT", 2, "AT");
-	output_position(sys, 2000, "Data/Output/data", 1, "AT");
+	output_position(sys, 10000, "Data/Output/data", 1, "AT");
 
 	auto end = chrono::steady_clock::now();
 
