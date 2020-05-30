@@ -20,9 +20,9 @@ from matplotlib import animation, cm, pyplot as plt
 fig = plt.figure()
 ax1 = fig.add_subplot(111, projection='3d')
 
-bound = 400
+bound = 600
 i=0
-m = 25
+m = 13
 def animate(i):
   global bound
   ax1.clear()
@@ -30,10 +30,10 @@ def animate(i):
   i = m*i
 
   for k in range((len(x[i]) - 2)//4):
-    points1 = ax1.scatter(float(x[i][4*k]),float(x[i][(4*k)+1]),float(x[i][(4*k)+2]),color="blue", s = np.sqrt((float(x[0][(4*k)+3]))))
+    points1 = ax1.scatter(float(x[i][4*k]),float(x[i][(4*k)+1]),float(x[i][(4*k)+2]),color="blue", s = ((float(x[0][(4*k)+3]))/4))
     max_ = max([float(x[i][4*k]),float(x[i][(4*k)+1]),float(x[i][(4*k)+2])])
     if bound < max_:
-      bound = max_
+      pass#bound = max_
   
   ax1.set_xlim(-bound,bound)
   ax1.set_ylim(-bound,bound)

@@ -209,6 +209,8 @@ vector<double> force(const Particle &p1, const Particle &p2) {
 
 	f = ( G*p1.mass*p2.mass / ( pow( magnitude(p2.position - p1.position) , 3 ) ) )  *  (p2.position - p1.position);
 
+	
+
 	return f;
 
 }
@@ -400,10 +402,11 @@ void initialize_prev_force_on(System &sys) {
 
 }
 
-double Tolerance = 0.001;
+double Tolerance = 0.0001;
+ofstream myFile2;
 
 vector<bool> select(System &sys, double dt, double &tmin) {
-
+	
 	if (not already_initialized) {
 
 		initialize_prev_force_on(sys);
@@ -420,8 +423,8 @@ vector<bool> select(System &sys, double dt, double &tmin) {
 	for (int i = 0; i < size; i ++) {
 		
 		
-		ideal_dt = cbrt((6*sys[i].mass*Tolerance / sys[i].prev_force_on));
-		cout << "Particle " << i+1 << " ideal: " << ideal_dt << endl;
+		ideal_dt = cbrt((6*sys[i].mass*Tolerance / pow(sys[i].prev_force_on,2)));
+
 		if (ideal_dt < tmin) {
 
 			tmin = ideal_dt;
@@ -429,7 +432,7 @@ vector<bool> select(System &sys, double dt, double &tmin) {
 		}
 
 		if ((dt <= ideal_dt) and (not sys[i].already_has_timestep)) {
-
+				myFile2 << "Particle, " << "," << i+1 << ", timestep, " << dt << "," << endl;
 				correct_dt[i] = true;
 				sys[i].already_has_timestep = true;
 		
@@ -596,11 +599,11 @@ int main() {
 	System sys;
 
 	Particle p1(400,0,0,0,0.5,0,300);
-	Particle p2(250,0,0,0,-1.1,0,10);
-	Particle p3(260,0,0,0,0,0,0.2);
+	Particle p2(230,0,0,0,2,0,25);
+	Particle p3(245,0,0,0,0,0,0.5);
 	Particle p4(-250,0,0,0,-0.5,0,300);
-	Particle p5(-400,0,0,0,1.1,0,10);
-	Particle p6(-410,0,0,0,0,0,0.2);
+	Particle p5(-400,0,0,0,1.1,0,32);
+	Particle p6(-430,0,0,0,0,0,2);
 
 	sys.add_particle(p1);
 	sys.add_particle(p2);
@@ -609,20 +612,21 @@ int main() {
 	sys.add_particle(p5);
 	sys.add_particle(p6);
 
-
 	auto start1 = chrono::steady_clock::now();
 
-	output_energy(sys, 1000, "Data/Output/EnergyLF", 1, "LF");
+	output_energy(sys, 10000, "Data/Output/EnergyLF", 1, "AT");
 
 	auto end1 = chrono::steady_clock::now();
 
 	auto start2 = chrono::steady_clock::now();
-
-	output_energy(sys, 1000, "Data/Output/EnergyAT", 1, "AT");
+	
+	myFile2.open("histogram.csv");
+	already_initialized = false;
+	output_energy(sys, 10000, "Data/Output/EnergyAT", 1, "AT");
 
 	auto end2 = chrono::steady_clock::now();
 
-	//output_position(sys, 4000, "Data/Output/Data", 0.5, "AT");
+	output_position(sys, 10000, "Data/Output/Data", 1, "AT");
 
 	cout << "Leap Frog: " << chrono::duration <double, milli> (end1-start1).count() << endl;
 
