@@ -520,9 +520,9 @@ int main() {
 	sys.add_particle(p5);
 	sys.add_particle(p6);
 
-	output_energy(sys, 150, "Data/Output/EnergyLF", 2, "LF");
-	output_energy(sys, 150, "Data/Output/EnergyAT", 2, "AT");
-	output_position(sys, 10000, "Data/Output/data", 1, "AT");
+	output_energy(sys, 1000, "Data/Output/EnergyLF", 0.125, "LF");
+	//output_energy(sys, 150, "Data/Output/EnergyAT", 2, "AT");
+	//output_position(sys, 10000, "Data/Output/data", 1, "AT");
 
 	auto end = chrono::steady_clock::now();
 

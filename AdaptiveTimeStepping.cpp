@@ -102,8 +102,10 @@ struct Particle {
 
 	double mass;
 
-	// For use in the Adaptive Stepping Algorithm
-	bool have_time_step = false;
+	// For use in the Adaptive Stepping Algorithm's "Select" operation
+	double prev_force_on;
+	bool already_has_timestep = false;
+
 
 	Particle(double x,double y,double z, double vx, double vy, double vz, double mass_) {
 
@@ -214,6 +216,20 @@ vector<double> force(const Particle &p1, const Particle &p2) {
 
 // Returns a vector, holding vector<double>, representing the force on each particle in the system.
 
+vector<double> net_force_on_i(System &sys, int i) {
+
+	int size = sys.size();
+	vector<double> net_f(3);
+
+	for (int j = 0; j < size; j ++) {
+		if (j != i) {
+			net_f = net_f + force(sys[i],sys[j]);
+		}
+	}
+
+	return net_f;
+}
+
 vector<vector<double> > net_force(System sys) { 
 	
 	int size = sys.size();
@@ -222,18 +238,7 @@ vector<vector<double> > net_force(System sys) {
 	
 	for(int i = 0; i < size; i ++) {
 
-		vector<double> net_force_on_i(3);
-		
-		for(int j = 0; j < size; j ++) {
-
-			if (not (i == j)) {
-
-				net_force_on_i = net_force_on_i + force(sys[i], sys[j]);
-
-			}
-		}
-
-		net_f[i] = net_force_on_i;
+		net_f[i] = net_force_on_i(sys,i);
 
 	}
 
@@ -337,22 +342,22 @@ void leap_frog(System &sys, double dt) {
 
 	vector<vector<double> > f;
 	
-	f = net_force(sys);
-	
 	int size = sys.size();
 
 	for (int i = 0; i < size; i ++) {
 
-		sys[i].change_mom( (dt/2) * f[i] );
-		sys[i].change_pos( (dt/sys[i].mass) * sys[i].momentum );
+		sys[i].change_pos( ((dt/2)/sys[i].mass) * sys[i].momentum );
+
+
 
 	}
 
 	f = net_force(sys);
 
 	for (int i = 0; i < size; i ++) {
-
-		sys[i].change_mom( (dt/2) * f[i] );
+		
+		sys[i].change_mom( dt * f[i] );
+		sys[i].change_pos( ((dt/2)/sys[i].mass) * sys[i].momentum );
 
 	}
 
@@ -363,100 +368,151 @@ void leap_frog(System &sys, double dt) {
 
 
 
-
-// The driver for my second attempt at an adaptive time-stepping method. This method allows two particles
-// to be simultaenously evolved along different time-steps. 
-
-
-vector<double> net_force_on_i(System &sys, int index) {
-
-	int size = sys.size();
-	vector<double> net_f(3);
-
-	for (int j = 0; j < size; j ++) {
-
-		net_f = net_f + force(sys[index],sys[j]);
-
-	}
-
-	return net_f;
-}
+// The driver for my second attempt at an adaptive time-stepping method. This method allows two (or more) 
+// particles to be simultaenously evolved along different time-steps. 
 
 
-void kick(System &sys, int index, double dt) {
-
-	vector<double> f = net_force_on_i(sys, index);
-
-	sys[index].change_mom( (dt / 2) * f );
+void kick(System &sys, int i, double dt) {
+	
+	vector<double> f = net_force_on_i(sys, i);
+	sys[i].change_mom( dt * f );
+	sys[i].prev_force_on = magnitude(f);
 
 }
 
-void drift(System &sys, int index, double dt) {
-
+void drift(System &sys, int i, double dt) {
+	
 	sys[i].change_pos( (dt/sys[i].mass) * sys[i].momentum );
 
 }
 
 
-vector<bool> select(System &sys, dt, bool &keep_dividing) {
+bool already_initialized = false;
+void initialize_prev_force_on(System &sys) {
 
 	int size = sys.size();
-	vector<bool> correct_dt(size);
 
 	for (int i = 0; i < size; i ++) {
 
-		if ((net_force_on_i(sys,i)/sys[i].mass) < dt) {
-
-
-
-		}
+		sys[i].prev_force_on = magnitude(net_force_on_i(sys,i));
 
 	}
 
+}
+
+double Tolerance = 0.001;
+
+vector<bool> select(System &sys, double dt, double &tmin) {
+
+	if (not already_initialized) {
+
+		initialize_prev_force_on(sys);
+		already_initialized = true;
+
+	}
+
+	int size = sys.size();
+	vector<bool> correct_dt(size);
+	double ideal_dt;
+
+	tmin = dt;
+
+	for (int i = 0; i < size; i ++) {
+		
+		
+		ideal_dt = cbrt((6*sys[i].mass*Tolerance / sys[i].prev_force_on));
+		cout << "Particle " << i+1 << " ideal: " << ideal_dt << endl;
+		if (ideal_dt < tmin) {
+
+			tmin = ideal_dt;
+
+		}
+
+		if ((dt <= ideal_dt) and (not sys[i].already_has_timestep)) {
+
+				correct_dt[i] = true;
+				sys[i].already_has_timestep = true;
+		
+		}
+		
+	}
+	
+	return correct_dt;
 
 }
 
 void adaptive_step(System &sys, double dt) {
-
-	bool keep_dividing = false;
+	
+	double tmin = dt;
 	int size = sys.size();
 
+
+	//Drift all particles forward dt/2
 	for (int i = 0; i < size; i ++) {
 
-		drift(sys[i],dt/2);
+		drift(sys,i,dt/2);
 
 	}
 	
-	vector<bool> correct_dt = select(sys,dt,keep_dividing);
+	//The boolean at each index of this vector tells whether that index particle is on this time-step
+	vector<bool> correct_dt = select(sys,dt,tmin);
 
-	if (not keep_dividing) {
+	//The base case, when our time-step is sufficiently small for all particles
+	if (dt <= tmin) {
+		
+		for (int i = 0; i < size; i ++) {
+				
+				if (correct_dt[i]) {
 
-		kick(sys,dt);
-		drift(sys,dt/2);
+					kick(sys,i,dt);
+					sys[i].already_has_timestep = false;
+				
+				}
+			
+			}
 
+		for (int i = 0; i < size; i ++) {
+				
+			drift(sys,i,dt/2);
+			
+			
+		}
 	}
 	
+
 	else {
 
 		for (int i = 0; i < size; i ++) {
+			
+			drift(sys,i,-dt/2);
+		
+		}
 
-			drift(sys[i],-dt/2);
+		adaptive_step(sys, dt/2);
+		
+		for (int i = 0; i < size; i ++) {
+			
+			if (correct_dt[i]) {
+				
+				kick(sys, i, dt);
+
+
+			}
 
 		}
+
 
 		adaptive_step(sys, dt/2);
 
 		for (int i = 0; i < size; i ++) {
 
 			if (correct_dt[i]) {
-
-				kick(sys, i, dt);
+				//Need to reset whether a particle has already had a time-step
+				sys[i].already_has_timestep = false;
 
 			}
 
 		}
-
-		adapative_step(sys, dt/2);
 
 	}
 }
@@ -488,7 +544,8 @@ void output_energy(System sys, int num_iterations, string name, double dt, strin
 			   << "Kinetic Energy , " << KE << " , "
 			   << "Total Energy , " << KE + PE
 			   << ", Delta Energy , " << initial_energy - (KE + PE) 
-			   << ", Time , " << t << endl;
+			   << ", Time , " << t 
+			   << ", Angular Momentum , " << to_string(angular_momentum(sys)) <<  endl;
 
 
 		//cout << "Simulated: " + to_string(i) << endl;
@@ -496,9 +553,15 @@ void output_energy(System sys, int num_iterations, string name, double dt, strin
 		//integration method
 		if (method == "AT") {
 			adaptive_step(sys, dt);
+			t += dt;
+		
+
 		}
+		
 		if (method == "LF") {
+		
 			leap_frog(sys,dt);
+		
 		}
 
 	}
@@ -514,12 +577,14 @@ void output_position(System sys, int num_iterations, string name, double dt, str
 
 	for (int i = 0; i < num_iterations; i++) {
 
-		myFile << sys.get_data() << "Angular Momentum , " << to_string(angular_momentum(sys)) <<  " , Time , " << t << "," << endl;
-		cout << "Simulated: " + to_string(i) << endl;
+		myFile << sys.get_data() << " Time , " << t << "," << endl;
+		//cout << "Simulated: " + to_string(i) << endl;
 		
 		//integration method
 		if (method == "AT") {
 			adaptive_step(sys, dt);
+			t += dt;
+
 		}
 		if (method == "LF") {
 			leap_frog(sys,dt);
@@ -528,7 +593,6 @@ void output_position(System sys, int num_iterations, string name, double dt, str
 }
 
 int main() {
-	auto start = chrono::steady_clock::now();
 	System sys;
 
 	Particle p1(400,0,0,0,0.5,0,300);
@@ -545,12 +609,24 @@ int main() {
 	sys.add_particle(p5);
 	sys.add_particle(p6);
 
-	output_energy(sys, 300, "Data/Output/EnergyLF", 1, "AT");
-	output_position(sys, 10000, "Data/Output/Data", 1, "AT");
 
-	auto end = chrono::steady_clock::now();
+	auto start1 = chrono::steady_clock::now();
 
-	cout << chrono::duration <double, milli> (end-start).count() << endl;
+	output_energy(sys, 1000, "Data/Output/EnergyLF", 1, "LF");
+
+	auto end1 = chrono::steady_clock::now();
+
+	auto start2 = chrono::steady_clock::now();
+
+	output_energy(sys, 1000, "Data/Output/EnergyAT", 1, "AT");
+
+	auto end2 = chrono::steady_clock::now();
+
+	//output_position(sys, 4000, "Data/Output/Data", 0.5, "AT");
+
+	cout << "Leap Frog: " << chrono::duration <double, milli> (end1-start1).count() << endl;
+
+	cout << "Adapative Time: " << chrono::duration <double, milli> (end2-start2).count() << endl;
 
 	return 0;
 }

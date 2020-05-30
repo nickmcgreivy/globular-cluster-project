@@ -1,150 +1,1000 @@
-Potential Energy , -189.767 , Kinetic Energy , 87.1 , Total Energy , -102.667, Delta Energy , 0, Time , 0
-Potential Energy , -189.763 , Kinetic Energy , 87.0961 , Total Energy , -102.667, Delta Energy , -3.38715e-05, Time , 2
-Potential Energy , -189.751 , Kinetic Energy , 87.0848 , Total Energy , -102.667, Delta Energy , -0.000125796, Time , 4
-Potential Energy , -189.733 , Kinetic Energy , 87.0668 , Total Energy , -102.667, Delta Energy , -0.000252168, Time , 6
-Potential Energy , -189.709 , Kinetic Energy , 87.0429 , Total Energy , -102.666, Delta Energy , -0.000387068, Time , 8
-Potential Energy , -189.681 , Kinetic Energy , 87.0144 , Total Energy , -102.666, Delta Energy , -0.000511363, Time , 10
-Potential Energy , -189.648 , Kinetic Energy , 86.9819 , Total Energy , -102.666, Delta Energy , -0.000615384, Time , 12
-Potential Energy , -189.612 , Kinetic Energy , 86.9462 , Total Energy , -102.666, Delta Energy , -0.000696965, Time , 14
-Potential Energy , -189.574 , Kinetic Energy , 86.9077 , Total Energy , -102.666, Delta Energy , -0.000758188, Time , 16
-Potential Energy , -189.533 , Kinetic Energy , 86.8667 , Total Energy , -102.666, Delta Energy , -0.000802792, Time , 18
-Potential Energy , -189.489 , Kinetic Energy , 86.8233 , Total Energy , -102.666, Delta Energy , -0.000834702, Time , 20
-Potential Energy , -189.443 , Kinetic Energy , 86.7775 , Total Energy , -102.666, Delta Energy , -0.000857403, Time , 22
-Potential Energy , -189.395 , Kinetic Energy , 86.7293 , Total Energy , -102.666, Delta Energy , -0.000873788, Time , 24
-Potential Energy , -189.344 , Kinetic Energy , 86.6785 , Total Energy , -102.666, Delta Energy , -0.000886191, Time , 26
-Potential Energy , -189.291 , Kinetic Energy , 86.6251 , Total Energy , -102.666, Delta Energy , -0.000896463, Time , 28
-Potential Energy , -189.235 , Kinetic Energy , 86.569 , Total Energy , -102.666, Delta Energy , -0.000906035, Time , 30
-Potential Energy , -189.176 , Kinetic Energy , 86.5102 , Total Energy , -102.666, Delta Energy , -0.000915949, Time , 32
-Potential Energy , -189.114 , Kinetic Energy , 86.4485 , Total Energy , -102.666, Delta Energy , -0.000926882, Time , 34
-Potential Energy , -189.05 , Kinetic Energy , 86.384 , Total Energy , -102.666, Delta Energy , -0.00093917, Time , 36
-Potential Energy , -188.983 , Kinetic Energy , 86.3167 , Total Energy , -102.666, Delta Energy , -0.00095285, Time , 38
-Potential Energy , -188.913 , Kinetic Energy , 86.2467 , Total Energy , -102.666, Delta Energy , -0.00096773, Time , 40
-Potential Energy , -188.84 , Kinetic Energy , 86.1742 , Total Energy , -102.666, Delta Energy , -0.000983465, Time , 42
-Potential Energy , -188.765 , Kinetic Energy , 86.0991 , Total Energy , -102.666, Delta Energy , -0.000999638, Time , 44
-Potential Energy , -188.688 , Kinetic Energy , 86.0218 , Total Energy , -102.666, Delta Energy , -0.00101583, Time , 46
-Potential Energy , -188.608 , Kinetic Energy , 85.9422 , Total Energy , -102.666, Delta Energy , -0.00103165, Time , 48
-Potential Energy , -188.526 , Kinetic Energy , 85.8607 , Total Energy , -102.666, Delta Energy , -0.00104678, Time , 50
-Potential Energy , -188.443 , Kinetic Energy , 85.7774 , Total Energy , -102.666, Delta Energy , -0.00106095, Time , 52
-Potential Energy , -188.358 , Kinetic Energy , 85.6925 , Total Energy , -102.666, Delta Energy , -0.00107395, Time , 54
-Potential Energy , -188.272 , Kinetic Energy , 85.6061 , Total Energy , -102.666, Delta Energy , -0.00108555, Time , 56
-Potential Energy , -188.184 , Kinetic Energy , 85.5184 , Total Energy , -102.666, Delta Energy , -0.0010955, Time , 58
-Potential Energy , -188.095 , Kinetic Energy , 85.4296 , Total Energy , -102.666, Delta Energy , -0.00110348, Time , 60
-Potential Energy , -188.006 , Kinetic Energy , 85.3399 , Total Energy , -102.666, Delta Energy , -0.00110898, Time , 62
-Potential Energy , -187.915 , Kinetic Energy , 85.2494 , Total Energy , -102.666, Delta Energy , -0.0011113, Time , 64
-Potential Energy , -187.824 , Kinetic Energy , 85.1582 , Total Energy , -102.666, Delta Energy , -0.00110939, Time , 66
-Potential Energy , -187.732 , Kinetic Energy , 85.0665 , Total Energy , -102.666, Delta Energy , -0.00110179, Time , 68
-Potential Energy , -187.64 , Kinetic Energy , 84.9745 , Total Energy , -102.666, Delta Energy , -0.00108645, Time , 70
-Potential Energy , -187.548 , Kinetic Energy , 84.882 , Total Energy , -102.666, Delta Energy , -0.00106079, Time , 72
-Potential Energy , -187.455 , Kinetic Energy , 84.7893 , Total Energy , -102.666, Delta Energy , -0.00102177, Time , 74
-Potential Energy , -187.362 , Kinetic Energy , 84.6961 , Total Energy , -102.666, Delta Energy , -0.000966487, Time , 76
-Potential Energy , -187.268 , Kinetic Energy , 84.6022 , Total Energy , -102.666, Delta Energy , -0.000893506, Time , 78
-Potential Energy , -187.173 , Kinetic Energy , 84.5073 , Total Energy , -102.666, Delta Energy , -0.0008049, Time , 80
-Potential Energy , -187.077 , Kinetic Energy , 84.411 , Total Energy , -102.666, Delta Energy , -0.000708514, Time , 82
-Potential Energy , -186.979 , Kinetic Energy , 84.3126 , Total Energy , -102.666, Delta Energy , -0.000618561, Time , 84
-Potential Energy , -186.878 , Kinetic Energy , 84.2118 , Total Energy , -102.666, Delta Energy , -0.000552455, Time , 86
-Potential Energy , -186.774 , Kinetic Energy , 84.1081 , Total Energy , -102.666, Delta Energy , -0.000524125, Time , 88
-Potential Energy , -186.668 , Kinetic Energy , 84.0014 , Total Energy , -102.666, Delta Energy , -0.000538045, Time , 90
-Potential Energy , -186.558 , Kinetic Energy , 83.8919 , Total Energy , -102.666, Delta Energy , -0.00058871, Time , 92
-Potential Energy , -186.446 , Kinetic Energy , 83.7799 , Total Energy , -102.666, Delta Energy , -0.000665238, Time , 94
-Potential Energy , -186.332 , Kinetic Energy , 83.6658 , Total Energy , -102.666, Delta Energy , -0.000756473, Time , 96
-Potential Energy , -186.216 , Kinetic Energy , 83.5502 , Total Energy , -102.666, Delta Energy , -0.000853394, Time , 98
-Potential Energy , -186.099 , Kinetic Energy , 83.4335 , Total Energy , -102.666, Delta Energy , -0.00094928, Time , 100
-Potential Energy , -185.982 , Kinetic Energy , 83.3163 , Total Energy , -102.666, Delta Energy , -0.00103935, Time , 102
-Potential Energy , -185.865 , Kinetic Energy , 83.199 , Total Energy , -102.666, Delta Energy , -0.0011206, Time , 104
-Potential Energy , -185.748 , Kinetic Energy , 83.082 , Total Energy , -102.666, Delta Energy , -0.00119165, Time , 106
-Potential Energy , -185.631 , Kinetic Energy , 82.9655 , Total Energy , -102.666, Delta Energy , -0.00125241, Time , 108
-Potential Energy , -185.515 , Kinetic Energy , 82.85 , Total Energy , -102.665, Delta Energy , -0.00130365, Time , 110
-Potential Energy , -185.401 , Kinetic Energy , 82.7356 , Total Energy , -102.665, Delta Energy , -0.00134652, Time , 112
-Potential Energy , -185.288 , Kinetic Energy , 82.6224 , Total Energy , -102.665, Delta Energy , -0.00138226, Time , 114
-Potential Energy , -185.176 , Kinetic Energy , 82.5108 , Total Energy , -102.665, Delta Energy , -0.00141204, Time , 116
-Potential Energy , -185.066 , Kinetic Energy , 82.4006 , Total Energy , -102.665, Delta Energy , -0.00143683, Time , 118
-Potential Energy , -184.957 , Kinetic Energy , 82.2921 , Total Energy , -102.665, Delta Energy , -0.00145747, Time , 120
-Potential Energy , -184.851 , Kinetic Energy , 82.1853 , Total Energy , -102.665, Delta Energy , -0.0014746, Time , 122
-Potential Energy , -184.746 , Kinetic Energy , 82.0803 , Total Energy , -102.665, Delta Energy , -0.00148876, Time , 124
-Potential Energy , -184.642 , Kinetic Energy , 81.9771 , Total Energy , -102.665, Delta Energy , -0.00150036, Time , 126
-Potential Energy , -184.541 , Kinetic Energy , 81.8758 , Total Energy , -102.665, Delta Energy , -0.00150972, Time , 128
-Potential Energy , -184.442 , Kinetic Energy , 81.7763 , Total Energy , -102.665, Delta Energy , -0.00151711, Time , 130
-Potential Energy , -184.344 , Kinetic Energy , 81.6788 , Total Energy , -102.665, Delta Energy , -0.00152269, Time , 132
-Potential Energy , -184.248 , Kinetic Energy , 81.5831 , Total Energy , -102.665, Delta Energy , -0.00152659, Time , 134
-Potential Energy , -184.155 , Kinetic Energy , 81.4894 , Total Energy , -102.665, Delta Energy , -0.00152888, Time , 136
-Potential Energy , -184.063 , Kinetic Energy , 81.3977 , Total Energy , -102.665, Delta Energy , -0.00152958, Time , 138
-Potential Energy , -183.973 , Kinetic Energy , 81.3078 , Total Energy , -102.665, Delta Energy , -0.00152865, Time , 140
-Potential Energy , -183.885 , Kinetic Energy , 81.22 , Total Energy , -102.665, Delta Energy , -0.00152597, Time , 142
-Potential Energy , -183.799 , Kinetic Energy , 81.1341 , Total Energy , -102.665, Delta Energy , -0.00152135, Time , 144
-Potential Energy , -183.715 , Kinetic Energy , 81.0502 , Total Energy , -102.665, Delta Energy , -0.00151446, Time , 146
-Potential Energy , -183.634 , Kinetic Energy , 80.9683 , Total Energy , -102.665, Delta Energy , -0.00150481, Time , 148
-Potential Energy , -183.554 , Kinetic Energy , 80.8884 , Total Energy , -102.665, Delta Energy , -0.00149163, Time , 150
-Potential Energy , -183.476 , Kinetic Energy , 80.8105 , Total Energy , -102.665, Delta Energy , -0.00147379, Time , 152
-Potential Energy , -183.4 , Kinetic Energy , 80.7346 , Total Energy , -102.665, Delta Energy , -0.00144964, Time , 154
-Potential Energy , -183.326 , Kinetic Energy , 80.6607 , Total Energy , -102.665, Delta Energy , -0.00141687, Time , 156
-Potential Energy , -183.254 , Kinetic Energy , 80.5887 , Total Energy , -102.665, Delta Energy , -0.00137251, Time , 158
-Potential Energy , -183.184 , Kinetic Energy , 80.5185 , Total Energy , -102.665, Delta Energy , -0.00131321, Time , 160
-Potential Energy , -183.116 , Kinetic Energy , 80.4499 , Total Energy , -102.666, Delta Energy , -0.00123623, Time , 162
-Potential Energy , -183.048 , Kinetic Energy , 80.3826 , Total Energy , -102.666, Delta Energy , -0.00114153, Time , 164
-Potential Energy , -182.982 , Kinetic Energy , 80.316 , Total Energy , -102.666, Delta Energy , -0.00103499, Time , 166
-Potential Energy , -182.915 , Kinetic Energy , 80.2496 , Total Energy , -102.666, Delta Energy , -0.000931072, Time , 168
-Potential Energy , -182.849 , Kinetic Energy , 80.1829 , Total Energy , -102.666, Delta Energy , -0.000851629, Time , 170
-Potential Energy , -182.781 , Kinetic Energy , 80.1153 , Total Energy , -102.666, Delta Energy , -0.000817905, Time , 172
-Potential Energy , -182.713 , Kinetic Energy , 80.0466 , Total Energy , -102.666, Delta Energy , -0.000839143, Time , 174
-Potential Energy , -182.643 , Kinetic Energy , 79.977 , Total Energy , -102.666, Delta Energy , -0.000907084, Time , 176
-Potential Energy , -182.573 , Kinetic Energy , 79.9069 , Total Energy , -102.666, Delta Energy , -0.00100173, Time , 178
-Potential Energy , -182.502 , Kinetic Energy , 79.8368 , Total Energy , -102.666, Delta Energy , -0.00110263, Time , 180
-Potential Energy , -182.433 , Kinetic Energy , 79.7671 , Total Energy , -102.666, Delta Energy , -0.00119641, Time , 182
-Potential Energy , -182.364 , Kinetic Energy , 79.6983 , Total Energy , -102.666, Delta Energy , -0.00127769, Time , 184
-Potential Energy , -182.296 , Kinetic Energy , 79.6308 , Total Energy , -102.665, Delta Energy , -0.00134632, Time , 186
-Potential Energy , -182.23 , Kinetic Energy , 79.5647 , Total Energy , -102.665, Delta Energy , -0.00140426, Time , 188
-Potential Energy , -182.166 , Kinetic Energy , 79.5004 , Total Energy , -102.665, Delta Energy , -0.00145371, Time , 190
-Potential Energy , -182.103 , Kinetic Energy , 79.438 , Total Energy , -102.665, Delta Energy , -0.00149632, Time , 192
-Potential Energy , -182.043 , Kinetic Energy , 79.3775 , Total Energy , -102.665, Delta Energy , -0.00153315, Time , 194
-Potential Energy , -181.984 , Kinetic Energy , 79.3192 , Total Energy , -102.665, Delta Energy , -0.00156482, Time , 196
-Potential Energy , -181.928 , Kinetic Energy , 79.2631 , Total Energy , -102.665, Delta Energy , -0.00159177, Time , 198
-Potential Energy , -181.875 , Kinetic Energy , 79.2093 , Total Energy , -102.665, Delta Energy , -0.00161436, Time , 200
-Potential Energy , -181.823 , Kinetic Energy , 79.1579 , Total Energy , -102.665, Delta Energy , -0.00163298, Time , 202
-Potential Energy , -181.774 , Kinetic Energy , 79.1089 , Total Energy , -102.665, Delta Energy , -0.00164803, Time , 204
-Potential Energy , -181.728 , Kinetic Energy , 79.0624 , Total Energy , -102.665, Delta Energy , -0.0016599, Time , 206
-Potential Energy , -181.683 , Kinetic Energy , 79.0183 , Total Energy , -102.665, Delta Energy , -0.00166897, Time , 208
-Potential Energy , -181.642 , Kinetic Energy , 78.9766 , Total Energy , -102.665, Delta Energy , -0.00167561, Time , 210
-Potential Energy , -181.603 , Kinetic Energy , 78.9375 , Total Energy , -102.665, Delta Energy , -0.00168008, Time , 212
-Potential Energy , -181.566 , Kinetic Energy , 78.9008 , Total Energy , -102.665, Delta Energy , -0.00168263, Time , 214
-Potential Energy , -181.532 , Kinetic Energy , 78.8665 , Total Energy , -102.665, Delta Energy , -0.0016834, Time , 216
-Potential Energy , -181.5 , Kinetic Energy , 78.8345 , Total Energy , -102.665, Delta Energy , -0.00168249, Time , 218
-Potential Energy , -181.47 , Kinetic Energy , 78.805 , Total Energy , -102.665, Delta Energy , -0.00167991, Time , 220
-Potential Energy , -181.443 , Kinetic Energy , 78.7778 , Total Energy , -102.665, Delta Energy , -0.00167559, Time , 222
-Potential Energy , -181.418 , Kinetic Energy , 78.753 , Total Energy , -102.665, Delta Energy , -0.00166939, Time , 224
-Potential Energy , -181.396 , Kinetic Energy , 78.7304 , Total Energy , -102.665, Delta Energy , -0.00166107, Time , 226
-Potential Energy , -181.375 , Kinetic Energy , 78.7101 , Total Energy , -102.665, Delta Energy , -0.00165028, Time , 228
-Potential Energy , -181.357 , Kinetic Energy , 78.6919 , Total Energy , -102.665, Delta Energy , -0.00163654, Time , 230
-Potential Energy , -181.341 , Kinetic Energy , 78.676 , Total Energy , -102.665, Delta Energy , -0.0016192, Time , 232
-Potential Energy , -181.327 , Kinetic Energy , 78.6622 , Total Energy , -102.665, Delta Energy , -0.00159743, Time , 234
-Potential Energy , -181.316 , Kinetic Energy , 78.6505 , Total Energy , -102.665, Delta Energy , -0.00157009, Time , 236
-Potential Energy , -181.306 , Kinetic Energy , 78.6407 , Total Energy , -102.665, Delta Energy , -0.00153575, Time , 238
-Potential Energy , -181.298 , Kinetic Energy , 78.6329 , Total Energy , -102.665, Delta Energy , -0.00149254, Time , 240
-Potential Energy , -181.292 , Kinetic Energy , 78.6268 , Total Energy , -102.665, Delta Energy , -0.00143827, Time , 242
-Potential Energy , -181.288 , Kinetic Energy , 78.6222 , Total Energy , -102.665, Delta Energy , -0.0013706, Time , 244
-Potential Energy , -181.284 , Kinetic Energy , 78.619 , Total Energy , -102.666, Delta Energy , -0.00128793, Time , 246
-Potential Energy , -181.282 , Kinetic Energy , 78.6165 , Total Energy , -102.666, Delta Energy , -0.00119104, Time , 248
-Potential Energy , -181.28 , Kinetic Energy , 78.6144 , Total Energy , -102.666, Delta Energy , -0.00108576, Time , 250
-Potential Energy , -181.278 , Kinetic Energy , 78.6121 , Total Energy , -102.666, Delta Energy , -0.000985386, Time , 252
-Potential Energy , -181.275 , Kinetic Energy , 78.6088 , Total Energy , -102.666, Delta Energy , -0.000910023, Time , 254
-Potential Energy , -181.27 , Kinetic Energy , 78.6042 , Total Energy , -102.666, Delta Energy , -0.000879932, Time , 256
-Potential Energy , -181.264 , Kinetic Energy , 78.598 , Total Energy , -102.666, Delta Energy , -0.000904954, Time , 258
-Potential Energy , -181.256 , Kinetic Energy , 78.5903 , Total Energy , -102.666, Delta Energy , -0.000978107, Time , 260
-Potential Energy , -181.247 , Kinetic Energy , 78.5816 , Total Energy , -102.666, Delta Energy , -0.00107962, Time , 262
-Potential Energy , -181.238 , Kinetic Energy , 78.5724 , Total Energy , -102.666, Delta Energy , -0.00118764, Time , 264
-Potential Energy , -181.229 , Kinetic Energy , 78.5633 , Total Energy , -102.666, Delta Energy , -0.00128661, Time , 266
-Potential Energy , -181.22 , Kinetic Energy , 78.5549 , Total Energy , -102.665, Delta Energy , -0.0013694, Time , 268
-Potential Energy , -181.213 , Kinetic Energy , 78.5475 , Total Energy , -102.665, Delta Energy , -0.00143504, Time , 270
-Potential Energy , -181.207 , Kinetic Energy , 78.5414 , Total Energy , -102.665, Delta Energy , -0.0014857, Time , 272
-Potential Energy , -181.202 , Kinetic Energy , 78.5369 , Total Energy , -102.665, Delta Energy , -0.0015245, Time , 274
-Potential Energy , -181.199 , Kinetic Energy , 78.5338 , Total Energy , -102.665, Delta Energy , -0.00155437, Time , 276
-Potential Energy , -181.198 , Kinetic Energy , 78.5323 , Total Energy , -102.665, Delta Energy , -0.00157768, Time , 278
-Potential Energy , -181.198 , Kinetic Energy , 78.5324 , Total Energy , -102.665, Delta Energy , -0.00159617, Time , 280
-Potential Energy , -181.199 , Kinetic Energy , 78.534 , Total Energy , -102.665, Delta Energy , -0.00161107, Time , 282
-Potential Energy , -181.202 , Kinetic Energy , 78.537 , Total Energy , -102.665, Delta Energy , -0.0016232, Time , 284
-Potential Energy , -181.207 , Kinetic Energy , 78.5415 , Total Energy , -102.665, Delta Energy , -0.0016331, Time , 286
-Potential Energy , -181.213 , Kinetic Energy , 78.5474 , Total Energy , -102.665, Delta Energy , -0.00164112, Time , 288
-Potential Energy , -181.22 , Kinetic Energy , 78.5547 , Total Energy , -102.665, Delta Energy , -0.00164748, Time , 290
-Potential Energy , -181.228 , Kinetic Energy , 78.5633 , Total Energy , -102.665, Delta Energy , -0.00165234, Time , 292
-Potential Energy , -181.238 , Kinetic Energy , 78.5732 , Total Energy , -102.665, Delta Energy , -0.00165578, Time , 294
-Potential Energy , -181.249 , Kinetic Energy , 78.5843 , Total Energy , -102.665, Delta Energy , -0.00165788, Time , 296
-Potential Energy , -181.262 , Kinetic Energy , 78.5967 , Total Energy , -102.665, Delta Energy , -0.00165868, Time , 298
+Potential Energy , -189.767 , Kinetic Energy , 87.1 , Total Energy , -102.667, Delta Energy , 0, Time , 0, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.766 , Kinetic Energy , 87.099 , Total Energy , -102.667, Delta Energy , 1.13012e-07, Time , 1, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.763 , Kinetic Energy , 87.0962 , Total Energy , -102.667, Delta Energy , 4.21246e-07, Time , 2, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.758 , Kinetic Energy , 87.0915 , Total Energy , -102.667, Delta Energy , 8.3849e-07, Time , 3, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.752 , Kinetic Energy , 87.085 , Total Energy , -102.667, Delta Energy , 1.2399e-06, Time , 4, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.744 , Kinetic Energy , 87.0769 , Total Energy , -102.667, Delta Energy , 1.48475e-06, Time , 5, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.734 , Kinetic Energy , 87.0672 , Total Energy , -102.667, Delta Energy , 1.43935e-06, Time , 6, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.723 , Kinetic Energy , 87.056 , Total Energy , -102.667, Delta Energy , 9.95373e-07, Time , 7, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.71 , Kinetic Energy , 87.0436 , Total Energy , -102.667, Delta Energy , 8.07481e-08, Time , 8, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.697 , Kinetic Energy , 87.03 , Total Energy , -102.667, Delta Energy , -1.33714e-06, Time , 9, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.682 , Kinetic Energy , 87.0153 , Total Energy , -102.667, Delta Energy , -3.25459e-06, Time , 10, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.666 , Kinetic Energy , 86.9996 , Total Energy , -102.667, Delta Energy , -5.63866e-06, Time , 11, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.65 , Kinetic Energy , 86.9831 , Total Energy , -102.667, Delta Energy , -8.43597e-06, Time , 12, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.633 , Kinetic Energy , 86.9658 , Total Energy , -102.667, Delta Energy , -1.15812e-05, Time , 13, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.614 , Kinetic Energy , 86.9477 , Total Energy , -102.667, Delta Energy , -1.50044e-05, Time , 14, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.596 , Kinetic Energy , 86.9289 , Total Energy , -102.667, Delta Energy , -1.86364e-05, Time , 15, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.576 , Kinetic Energy , 86.9095 , Total Energy , -102.667, Delta Energy , -2.24125e-05, Time , 16, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.556 , Kinetic Energy , 86.8894 , Total Energy , -102.667, Delta Energy , -2.62744e-05, Time , 17, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.535 , Kinetic Energy , 86.8687 , Total Energy , -102.667, Delta Energy , -3.01709e-05, Time , 18, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.514 , Kinetic Energy , 86.8474 , Total Energy , -102.667, Delta Energy , -3.40581e-05, Time , 19, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.492 , Kinetic Energy , 86.8255 , Total Energy , -102.667, Delta Energy , -3.78985e-05, Time , 20, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.47 , Kinetic Energy , 86.803 , Total Energy , -102.667, Delta Energy , -4.16603e-05, Time , 21, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.447 , Kinetic Energy , 86.7799 , Total Energy , -102.667, Delta Energy , -4.53163e-05, Time , 22, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.423 , Kinetic Energy , 86.7562 , Total Energy , -102.667, Delta Energy , -4.88435e-05, Time , 23, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.399 , Kinetic Energy , 86.7319 , Total Energy , -102.667, Delta Energy , -5.22218e-05, Time , 24, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.374 , Kinetic Energy , 86.7069 , Total Energy , -102.667, Delta Energy , -5.54335e-05, Time , 25, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.348 , Kinetic Energy , 86.6813 , Total Energy , -102.667, Delta Energy , -5.84633e-05, Time , 26, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.322 , Kinetic Energy , 86.655 , Total Energy , -102.667, Delta Energy , -6.1298e-05, Time , 27, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.295 , Kinetic Energy , 86.628 , Total Energy , -102.667, Delta Energy , -6.39262e-05, Time , 28, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.267 , Kinetic Energy , 86.6004 , Total Energy , -102.667, Delta Energy , -6.63385e-05, Time , 29, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.239 , Kinetic Energy , 86.5721 , Total Energy , -102.667, Delta Energy , -6.85278e-05, Time , 30, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.21 , Kinetic Energy , 86.543 , Total Energy , -102.667, Delta Energy , -7.04891e-05, Time , 31, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.18 , Kinetic Energy , 86.5133 , Total Energy , -102.667, Delta Energy , -7.22201e-05, Time , 32, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.15 , Kinetic Energy , 86.4828 , Total Energy , -102.667, Delta Energy , -7.37208e-05, Time , 33, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.118 , Kinetic Energy , 86.4517 , Total Energy , -102.667, Delta Energy , -7.49941e-05, Time , 34, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.087 , Kinetic Energy , 86.4198 , Total Energy , -102.667, Delta Energy , -7.6045e-05, Time , 35, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.054 , Kinetic Energy , 86.3872 , Total Energy , -102.667, Delta Energy , -7.68812e-05, Time , 36, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.021 , Kinetic Energy , 86.354 , Total Energy , -102.667, Delta Energy , -7.75121e-05, Time , 37, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.987 , Kinetic Energy , 86.32 , Total Energy , -102.667, Delta Energy , -7.79489e-05, Time , 38, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.952 , Kinetic Energy , 86.2854 , Total Energy , -102.667, Delta Energy , -7.82043e-05, Time , 39, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.917 , Kinetic Energy , 86.2501 , Total Energy , -102.667, Delta Energy , -7.82914e-05, Time , 40, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.881 , Kinetic Energy , 86.2141 , Total Energy , -102.667, Delta Energy , -7.8224e-05, Time , 41, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.844 , Kinetic Energy , 86.1775 , Total Energy , -102.667, Delta Energy , -7.80158e-05, Time , 42, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.807 , Kinetic Energy , 86.1403 , Total Energy , -102.667, Delta Energy , -7.76797e-05, Time , 43, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.769 , Kinetic Energy , 86.1025 , Total Energy , -102.667, Delta Energy , -7.72283e-05, Time , 44, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.731 , Kinetic Energy , 86.0641 , Total Energy , -102.667, Delta Energy , -7.66726e-05, Time , 45, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.692 , Kinetic Energy , 86.0252 , Total Energy , -102.667, Delta Energy , -7.60225e-05, Time , 46, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.652 , Kinetic Energy , 85.9857 , Total Energy , -102.667, Delta Energy , -7.52864e-05, Time , 47, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.612 , Kinetic Energy , 85.9457 , Total Energy , -102.667, Delta Energy , -7.4471e-05, Time , 48, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.572 , Kinetic Energy , 85.9053 , Total Energy , -102.667, Delta Energy , -7.35817e-05, Time , 49, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.531 , Kinetic Energy , 85.8643 , Total Energy , -102.667, Delta Energy , -7.26218e-05, Time , 50, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.49 , Kinetic Energy , 85.8229 , Total Energy , -102.667, Delta Energy , -7.15936e-05, Time , 51, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.448 , Kinetic Energy , 85.7811 , Total Energy , -102.667, Delta Energy , -7.04976e-05, Time , 52, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.406 , Kinetic Energy , 85.7389 , Total Energy , -102.667, Delta Energy , -6.93329e-05, Time , 53, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.363 , Kinetic Energy , 85.6963 , Total Energy , -102.667, Delta Energy , -6.80976e-05, Time , 54, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.32 , Kinetic Energy , 85.6534 , Total Energy , -102.667, Delta Energy , -6.67885e-05, Time , 55, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.277 , Kinetic Energy , 85.6101 , Total Energy , -102.667, Delta Energy , -6.54014e-05, Time , 56, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.233 , Kinetic Energy , 85.5665 , Total Energy , -102.667, Delta Energy , -6.39313e-05, Time , 57, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.189 , Kinetic Energy , 85.5226 , Total Energy , -102.667, Delta Energy , -6.23722e-05, Time , 58, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.145 , Kinetic Energy , 85.4784 , Total Energy , -102.667, Delta Energy , -6.07177e-05, Time , 59, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.101 , Kinetic Energy , 85.434 , Total Energy , -102.667, Delta Energy , -5.89607e-05, Time , 60, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.056 , Kinetic Energy , 85.3894 , Total Energy , -102.667, Delta Energy , -5.7094e-05, Time , 61, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.011 , Kinetic Energy , 85.3446 , Total Energy , -102.667, Delta Energy , -5.51098e-05, Time , 62, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.966 , Kinetic Energy , 85.2995 , Total Energy , -102.667, Delta Energy , -5.30008e-05, Time , 63, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.921 , Kinetic Energy , 85.2543 , Total Energy , -102.667, Delta Energy , -5.07597e-05, Time , 64, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.876 , Kinetic Energy , 85.2089 , Total Energy , -102.667, Delta Energy , -4.83798e-05, Time , 65, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.83 , Kinetic Energy , 85.1634 , Total Energy , -102.667, Delta Energy , -4.58554e-05, Time , 66, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.785 , Kinetic Energy , 85.1178 , Total Energy , -102.667, Delta Energy , -4.31823e-05, Time , 67, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.739 , Kinetic Energy , 85.072 , Total Energy , -102.667, Delta Energy , -4.03579e-05, Time , 68, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.693 , Kinetic Energy , 85.0262 , Total Energy , -102.667, Delta Energy , -3.73826e-05, Time , 69, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.647 , Kinetic Energy , 84.9802 , Total Energy , -102.667, Delta Energy , -3.42595e-05, Time , 70, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.601 , Kinetic Energy , 84.9342 , Total Energy , -102.667, Delta Energy , -3.09958e-05, Time , 71, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.555 , Kinetic Energy , 84.888 , Total Energy , -102.667, Delta Energy , -2.76029e-05, Time , 72, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.509 , Kinetic Energy , 84.8417 , Total Energy , -102.667, Delta Energy , -2.40972e-05, Time , 73, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.462 , Kinetic Energy , 84.7954 , Total Energy , -102.667, Delta Energy , -2.04999e-05, Time , 74, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.416 , Kinetic Energy , 84.7488 , Total Energy , -102.667, Delta Energy , -1.68374e-05, Time , 75, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.369 , Kinetic Energy , 84.7021 , Total Energy , -102.667, Delta Energy , -1.314e-05, Time , 76, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.322 , Kinetic Energy , 84.6552 , Total Energy , -102.667, Delta Energy , -9.44168e-06, Time , 77, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.275 , Kinetic Energy , 84.608 , Total Energy , -102.667, Delta Energy , -5.77803e-06, Time , 78, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.227 , Kinetic Energy , 84.5605 , Total Energy , -102.667, Delta Energy , -2.18543e-06, Time , 79, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.179 , Kinetic Energy , 84.5127 , Total Energy , -102.667, Delta Energy , 1.30008e-06, Time , 80, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.131 , Kinetic Energy , 84.4644 , Total Energy , -102.667, Delta Energy , 4.64253e-06, Time , 81, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.082 , Kinetic Energy , 84.4157 , Total Energy , -102.667, Delta Energy , 7.80456e-06, Time , 82, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.033 , Kinetic Energy , 84.3664 , Total Energy , -102.667, Delta Energy , 1.07445e-05, Time , 83, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.983 , Kinetic Energy , 84.3164 , Total Energy , -102.667, Delta Energy , 1.34127e-05, Time , 84, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.933 , Kinetic Energy , 84.2659 , Total Energy , -102.667, Delta Energy , 1.57492e-05, Time , 85, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.881 , Kinetic Energy , 84.2146 , Total Energy , -102.667, Delta Energy , 1.76829e-05, Time , 86, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.829 , Kinetic Energy , 84.1626 , Total Energy , -102.667, Delta Energy , 1.91353e-05, Time , 87, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.777 , Kinetic Energy , 84.1099 , Total Energy , -102.667, Delta Energy , 2.00282e-05, Time , 88, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.723 , Kinetic Energy , 84.0564 , Total Energy , -102.667, Delta Energy , 2.02941e-05, Time , 89, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.669 , Kinetic Energy , 84.0022 , Total Energy , -102.667, Delta Energy , 1.98873e-05, Time , 90, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.614 , Kinetic Energy , 83.9474 , Total Energy , -102.667, Delta Energy , 1.8792e-05, Time , 91, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.559 , Kinetic Energy , 83.8919 , Total Energy , -102.667, Delta Energy , 1.70263e-05, Time , 92, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.503 , Kinetic Energy , 83.8359 , Total Energy , -102.667, Delta Energy , 1.46407e-05, Time , 93, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.446 , Kinetic Energy , 83.7793 , Total Energy , -102.667, Delta Energy , 1.17114e-05, Time , 94, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.389 , Kinetic Energy , 83.7222 , Total Energy , -102.667, Delta Energy , 8.33183e-06, Time , 95, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.332 , Kinetic Energy , 83.6648 , Total Energy , -102.667, Delta Energy , 4.60208e-06, Time , 96, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.274 , Kinetic Energy , 83.6069 , Total Energy , -102.667, Delta Energy , 6.21022e-07, Time , 97, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.216 , Kinetic Energy , 83.5488 , Total Energy , -102.667, Delta Energy , -3.52015e-06, Time , 98, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.157 , Kinetic Energy , 83.4905 , Total Energy , -102.667, Delta Energy , -7.74148e-06, Time , 99, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.099 , Kinetic Energy , 83.432 , Total Energy , -102.667, Delta Energy , -1.19755e-05, Time , 100, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.04 , Kinetic Energy , 83.3734 , Total Energy , -102.667, Delta Energy , -1.61673e-05, Time , 101, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.982 , Kinetic Energy , 83.3148 , Total Energy , -102.667, Delta Energy , -2.02728e-05, Time , 102, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.923 , Kinetic Energy , 83.2562 , Total Energy , -102.667, Delta Energy , -2.42579e-05, Time , 103, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.864 , Kinetic Energy , 83.1976 , Total Energy , -102.667, Delta Energy , -2.80968e-05, Time , 104, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.806 , Kinetic Energy , 83.1391 , Total Energy , -102.667, Delta Energy , -3.17707e-05, Time , 105, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.748 , Kinetic Energy , 83.0808 , Total Energy , -102.667, Delta Energy , -3.5267e-05, Time , 106, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.689 , Kinetic Energy , 83.0226 , Total Energy , -102.667, Delta Energy , -3.8578e-05, Time , 107, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.631 , Kinetic Energy , 82.9646 , Total Energy , -102.667, Delta Energy , -4.17005e-05, Time , 108, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.574 , Kinetic Energy , 82.9069 , Total Energy , -102.667, Delta Energy , -4.46351e-05, Time , 109, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.516 , Kinetic Energy , 82.8495 , Total Energy , -102.667, Delta Energy , -4.73851e-05, Time , 110, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.459 , Kinetic Energy , 82.7923 , Total Energy , -102.667, Delta Energy , -4.99563e-05, Time , 111, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.402 , Kinetic Energy , 82.7354 , Total Energy , -102.667, Delta Energy , -5.23563e-05, Time , 112, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.346 , Kinetic Energy , 82.6789 , Total Energy , -102.667, Delta Energy , -5.45935e-05, Time , 113, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.29 , Kinetic Energy , 82.6228 , Total Energy , -102.667, Delta Energy , -5.66772e-05, Time , 114, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.234 , Kinetic Energy , 82.567 , Total Energy , -102.667, Delta Energy , -5.86168e-05, Time , 115, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.178 , Kinetic Energy , 82.5116 , Total Energy , -102.667, Delta Energy , -6.04215e-05, Time , 116, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.123 , Kinetic Energy , 82.4566 , Total Energy , -102.667, Delta Energy , -6.21002e-05, Time , 117, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.069 , Kinetic Energy , 82.4019 , Total Energy , -102.667, Delta Energy , -6.36612e-05, Time , 118, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.014 , Kinetic Energy , 82.3477 , Total Energy , -102.667, Delta Energy , -6.51118e-05, Time , 119, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.961 , Kinetic Energy , 82.294 , Total Energy , -102.667, Delta Energy , -6.64588e-05, Time , 120, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.907 , Kinetic Energy , 82.2406 , Total Energy , -102.667, Delta Energy , -6.77079e-05, Time , 121, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.854 , Kinetic Energy , 82.1877 , Total Energy , -102.667, Delta Energy , -6.88642e-05, Time , 122, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.802 , Kinetic Energy , 82.1353 , Total Energy , -102.667, Delta Energy , -6.99318e-05, Time , 123, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.75 , Kinetic Energy , 82.0833 , Total Energy , -102.667, Delta Energy , -7.09139e-05, Time , 124, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.698 , Kinetic Energy , 82.0317 , Total Energy , -102.667, Delta Energy , -7.18131e-05, Time , 125, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.647 , Kinetic Energy , 81.9807 , Total Energy , -102.667, Delta Energy , -7.26312e-05, Time , 126, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.597 , Kinetic Energy , 81.93 , Total Energy , -102.667, Delta Energy , -7.33693e-05, Time , 127, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.547 , Kinetic Energy , 81.8799 , Total Energy , -102.667, Delta Energy , -7.4028e-05, Time , 128, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.497 , Kinetic Energy , 81.8302 , Total Energy , -102.667, Delta Energy , -7.4607e-05, Time , 129, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.448 , Kinetic Energy , 81.781 , Total Energy , -102.667, Delta Energy , -7.51055e-05, Time , 130, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.399 , Kinetic Energy , 81.7322 , Total Energy , -102.667, Delta Energy , -7.55224e-05, Time , 131, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.351 , Kinetic Energy , 81.684 , Total Energy , -102.667, Delta Energy , -7.58555e-05, Time , 132, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.303 , Kinetic Energy , 81.6362 , Total Energy , -102.667, Delta Energy , -7.61024e-05, Time , 133, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.256 , Kinetic Energy , 81.5888 , Total Energy , -102.667, Delta Energy , -7.62601e-05, Time , 134, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.209 , Kinetic Energy , 81.542 , Total Energy , -102.667, Delta Energy , -7.63248e-05, Time , 135, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.162 , Kinetic Energy , 81.4956 , Total Energy , -102.667, Delta Energy , -7.62922e-05, Time , 136, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.116 , Kinetic Energy , 81.4497 , Total Energy , -102.667, Delta Energy , -7.61574e-05, Time , 137, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.071 , Kinetic Energy , 81.4043 , Total Energy , -102.667, Delta Energy , -7.59148e-05, Time , 138, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.026 , Kinetic Energy , 81.3594 , Total Energy , -102.667, Delta Energy , -7.5558e-05, Time , 139, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.982 , Kinetic Energy , 81.3149 , Total Energy , -102.667, Delta Energy , -7.508e-05, Time , 140, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.938 , Kinetic Energy , 81.271 , Total Energy , -102.667, Delta Energy , -7.4473e-05, Time , 141, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.894 , Kinetic Energy , 81.2275 , Total Energy , -102.667, Delta Energy , -7.37286e-05, Time , 142, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.851 , Kinetic Energy , 81.1845 , Total Energy , -102.667, Delta Energy , -7.28374e-05, Time , 143, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.809 , Kinetic Energy , 81.142 , Total Energy , -102.667, Delta Energy , -7.17895e-05, Time , 144, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.767 , Kinetic Energy , 81.1 , Total Energy , -102.667, Delta Energy , -7.05742e-05, Time , 145, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.725 , Kinetic Energy , 81.0584 , Total Energy , -102.667, Delta Energy , -6.91803e-05, Time , 146, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.684 , Kinetic Energy , 81.0174 , Total Energy , -102.667, Delta Energy , -6.7596e-05, Time , 147, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.644 , Kinetic Energy , 80.9768 , Total Energy , -102.667, Delta Energy , -6.58094e-05, Time , 148, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.603 , Kinetic Energy , 80.9367 , Total Energy , -102.667, Delta Energy , -6.38086e-05, Time , 149, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.564 , Kinetic Energy , 80.8972 , Total Energy , -102.667, Delta Energy , -6.15822e-05, Time , 150, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.525 , Kinetic Energy , 80.8581 , Total Energy , -102.667, Delta Energy , -5.91197e-05, Time , 151, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.486 , Kinetic Energy , 80.8194 , Total Energy , -102.667, Delta Energy , -5.64126e-05, Time , 152, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.448 , Kinetic Energy , 80.7813 , Total Energy , -102.667, Delta Energy , -5.3455e-05, Time , 153, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.41 , Kinetic Energy , 80.7437 , Total Energy , -102.667, Delta Energy , -5.02447e-05, Time , 154, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.373 , Kinetic Energy , 80.7065 , Total Energy , -102.667, Delta Energy , -4.67848e-05, Time , 155, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.337 , Kinetic Energy , 80.6698 , Total Energy , -102.667, Delta Energy , -4.30853e-05, Time , 156, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.3 , Kinetic Energy , 80.6335 , Total Energy , -102.667, Delta Energy , -3.91645e-05, Time , 157, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.264 , Kinetic Energy , 80.5977 , Total Energy , -102.667, Delta Energy , -3.50512e-05, Time , 158, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.229 , Kinetic Energy , 80.5622 , Total Energy , -102.667, Delta Energy , -3.07857e-05, Time , 159, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.194 , Kinetic Energy , 80.5272 , Total Energy , -102.667, Delta Energy , -2.64212e-05, Time , 160, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.159 , Kinetic Energy , 80.4924 , Total Energy , -102.667, Delta Energy , -2.20241e-05, Time , 161, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.125 , Kinetic Energy , 80.458 , Total Energy , -102.667, Delta Energy , -1.76729e-05, Time , 162, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.091 , Kinetic Energy , 80.4238 , Total Energy , -102.667, Delta Energy , -1.34564e-05, Time , 163, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.057 , Kinetic Energy , 80.3897 , Total Energy , -102.667, Delta Energy , -9.46936e-06, Time , 164, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.023 , Kinetic Energy , 80.3558 , Total Energy , -102.667, Delta Energy , -5.8087e-06, Time , 165, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.989 , Kinetic Energy , 80.3219 , Total Energy , -102.667, Delta Energy , -2.56775e-06, Time , 166, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.955 , Kinetic Energy , 80.288 , Total Energy , -102.667, Delta Energy , 1.68167e-07, Time , 167, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.921 , Kinetic Energy , 80.254 , Total Energy , -102.667, Delta Energy , 2.32535e-06, Time , 168, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.887 , Kinetic Energy , 80.2199 , Total Energy , -102.667, Delta Energy , 3.84367e-06, Time , 169, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.852 , Kinetic Energy , 80.1856 , Total Energy , -102.667, Delta Energy , 4.67739e-06, Time , 170, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.818 , Kinetic Energy , 80.1511 , Total Energy , -102.667, Delta Energy , 4.79557e-06, Time , 171, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.783 , Kinetic Energy , 80.1164 , Total Energy , -102.667, Delta Energy , 4.18322e-06, Time , 172, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.748 , Kinetic Energy , 80.0814 , Total Energy , -102.667, Delta Energy , 2.84334e-06, Time , 173, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.713 , Kinetic Energy , 80.0463 , Total Energy , -102.667, Delta Energy , 7.99666e-07, Time , 174, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.678 , Kinetic Energy , 80.0111 , Total Energy , -102.667, Delta Energy , -1.9014e-06, Time , 175, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.643 , Kinetic Energy , 79.9757 , Total Energy , -102.667, Delta Energy , -5.19078e-06, Time , 176, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.607 , Kinetic Energy , 79.9403 , Total Energy , -102.667, Delta Energy , -8.97958e-06, Time , 177, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.572 , Kinetic Energy , 79.905 , Total Energy , -102.667, Delta Energy , -1.31646e-05, Time , 178, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.536 , Kinetic Energy , 79.8697 , Total Energy , -102.667, Delta Energy , -1.76356e-05, Time , 179, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.501 , Kinetic Energy , 79.8345 , Total Energy , -102.667, Delta Energy , -2.22827e-05, Time , 180, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.466 , Kinetic Energy , 79.7995 , Total Energy , -102.667, Delta Energy , -2.70036e-05, Time , 181, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.431 , Kinetic Energy , 79.7647 , Total Energy , -102.667, Delta Energy , -3.17081e-05, Time , 182, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.397 , Kinetic Energy , 79.7302 , Total Energy , -102.667, Delta Energy , -3.63216e-05, Time , 183, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.363 , Kinetic Energy , 79.696 , Total Energy , -102.667, Delta Energy , -4.07859e-05, Time , 184, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.329 , Kinetic Energy , 79.6621 , Total Energy , -102.667, Delta Energy , -4.50593e-05, Time , 185, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.295 , Kinetic Energy , 79.6286 , Total Energy , -102.667, Delta Energy , -4.91147e-05, Time , 186, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.262 , Kinetic Energy , 79.5955 , Total Energy , -102.667, Delta Energy , -5.29378e-05, Time , 187, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.23 , Kinetic Energy , 79.5628 , Total Energy , -102.667, Delta Energy , -5.65246e-05, Time , 188, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.197 , Kinetic Energy , 79.5305 , Total Energy , -102.667, Delta Energy , -5.9879e-05, Time , 189, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.165 , Kinetic Energy , 79.4987 , Total Energy , -102.667, Delta Energy , -6.30106e-05, Time , 190, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.134 , Kinetic Energy , 79.4674 , Total Energy , -102.667, Delta Energy , -6.59326e-05, Time , 191, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.103 , Kinetic Energy , 79.4365 , Total Energy , -102.667, Delta Energy , -6.86604e-05, Time , 192, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.073 , Kinetic Energy , 79.4062 , Total Energy , -102.667, Delta Energy , -7.121e-05, Time , 193, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.043 , Kinetic Energy , 79.3765 , Total Energy , -102.667, Delta Energy , -7.35971e-05, Time , 194, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.014 , Kinetic Energy , 79.3473 , Total Energy , -102.667, Delta Energy , -7.58367e-05, Time , 195, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.985 , Kinetic Energy , 79.3186 , Total Energy , -102.667, Delta Energy , -7.7942e-05, Time , 196, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.957 , Kinetic Energy , 79.2905 , Total Energy , -102.667, Delta Energy , -7.9925e-05, Time , 197, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.93 , Kinetic Energy , 79.263 , Total Energy , -102.667, Delta Energy , -8.17957e-05, Time , 198, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.903 , Kinetic Energy , 79.2362 , Total Energy , -102.667, Delta Energy , -8.35625e-05, Time , 199, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.877 , Kinetic Energy , 79.2099 , Total Energy , -102.667, Delta Energy , -8.52323e-05, Time , 200, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.851 , Kinetic Energy , 79.1842 , Total Energy , -102.667, Delta Energy , -8.68105e-05, Time , 201, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.826 , Kinetic Energy , 79.1592 , Total Energy , -102.667, Delta Energy , -8.83012e-05, Time , 202, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.801 , Kinetic Energy , 79.1347 , Total Energy , -102.667, Delta Energy , -8.97077e-05, Time , 203, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.778 , Kinetic Energy , 79.1109 , Total Energy , -102.667, Delta Energy , -9.1032e-05, Time , 204, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.754 , Kinetic Energy , 79.0877 , Total Energy , -102.667, Delta Energy , -9.22758e-05, Time , 205, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.732 , Kinetic Energy , 79.0652 , Total Energy , -102.667, Delta Energy , -9.34398e-05, Time , 206, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.71 , Kinetic Energy , 79.0432 , Total Energy , -102.667, Delta Energy , -9.45242e-05, Time , 207, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.689 , Kinetic Energy , 79.0219 , Total Energy , -102.667, Delta Energy , -9.5529e-05, Time , 208, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.668 , Kinetic Energy , 79.0012 , Total Energy , -102.667, Delta Energy , -9.64537e-05, Time , 209, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.648 , Kinetic Energy , 78.9811 , Total Energy , -102.667, Delta Energy , -9.72973e-05, Time , 210, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.628 , Kinetic Energy , 78.9617 , Total Energy , -102.667, Delta Energy , -9.80587e-05, Time , 211, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.61 , Kinetic Energy , 78.9428 , Total Energy , -102.667, Delta Energy , -9.87363e-05, Time , 212, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.591 , Kinetic Energy , 78.9246 , Total Energy , -102.667, Delta Energy , -9.93284e-05, Time , 213, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.574 , Kinetic Energy , 78.907 , Total Energy , -102.667, Delta Energy , -9.98329e-05, Time , 214, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.557 , Kinetic Energy , 78.8899 , Total Energy , -102.667, Delta Energy , -0.000100247, Time , 215, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.54 , Kinetic Energy , 78.8735 , Total Energy , -102.667, Delta Energy , -0.000100569, Time , 216, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.524 , Kinetic Energy , 78.8577 , Total Energy , -102.667, Delta Energy , -0.000100794, Time , 217, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.509 , Kinetic Energy , 78.8424 , Total Energy , -102.667, Delta Energy , -0.00010092, Time , 218, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.494 , Kinetic Energy , 78.8278 , Total Energy , -102.667, Delta Energy , -0.000100942, Time , 219, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.48 , Kinetic Energy , 78.8137 , Total Energy , -102.667, Delta Energy , -0.000100856, Time , 220, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.467 , Kinetic Energy , 78.8002 , Total Energy , -102.667, Delta Energy , -0.000100657, Time , 221, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.454 , Kinetic Energy , 78.7872 , Total Energy , -102.667, Delta Energy , -0.00010034, Time , 222, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.442 , Kinetic Energy , 78.7749 , Total Energy , -102.667, Delta Energy , -9.9897e-05, Time , 223, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.43 , Kinetic Energy , 78.7631 , Total Energy , -102.667, Delta Energy , -9.93229e-05, Time , 224, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.418 , Kinetic Energy , 78.7518 , Total Energy , -102.667, Delta Energy , -9.86097e-05, Time , 225, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.408 , Kinetic Energy , 78.7411 , Total Energy , -102.667, Delta Energy , -9.77496e-05, Time , 226, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.398 , Kinetic Energy , 78.7309 , Total Energy , -102.667, Delta Energy , -9.67337e-05, Time , 227, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.388 , Kinetic Energy , 78.7213 , Total Energy , -102.667, Delta Energy , -9.5553e-05, Time , 228, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.379 , Kinetic Energy , 78.7122 , Total Energy , -102.667, Delta Energy , -9.41977e-05, Time , 229, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.37 , Kinetic Energy , 78.7037 , Total Energy , -102.667, Delta Energy , -9.26576e-05, Time , 230, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.362 , Kinetic Energy , 78.6956 , Total Energy , -102.667, Delta Energy , -9.09226e-05, Time , 231, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.355 , Kinetic Energy , 78.6881 , Total Energy , -102.667, Delta Energy , -8.89827e-05, Time , 232, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.348 , Kinetic Energy , 78.6811 , Total Energy , -102.667, Delta Energy , -8.68283e-05, Time , 233, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.341 , Kinetic Energy , 78.6745 , Total Energy , -102.667, Delta Energy , -8.44512e-05, Time , 234, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.335 , Kinetic Energy , 78.6685 , Total Energy , -102.667, Delta Energy , -8.18449e-05, Time , 235, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.33 , Kinetic Energy , 78.6629 , Total Energy , -102.667, Delta Energy , -7.90061e-05, Time , 236, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.325 , Kinetic Energy , 78.6578 , Total Energy , -102.667, Delta Energy , -7.59353e-05, Time , 237, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.32 , Kinetic Energy , 78.6531 , Total Energy , -102.667, Delta Energy , -7.26389e-05, Time , 238, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.316 , Kinetic Energy , 78.6489 , Total Energy , -102.667, Delta Energy , -6.91302e-05, Time , 239, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.312 , Kinetic Energy , 78.645 , Total Energy , -102.667, Delta Energy , -6.54318e-05, Time , 240, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.308 , Kinetic Energy , 78.6416 , Total Energy , -102.667, Delta Energy , -6.15772e-05, Time , 241, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.305 , Kinetic Energy , 78.6385 , Total Energy , -102.667, Delta Energy , -5.76125e-05, Time , 242, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.302 , Kinetic Energy , 78.6357 , Total Energy , -102.667, Delta Energy , -5.35973e-05, Time , 243, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.3 , Kinetic Energy , 78.6331 , Total Energy , -102.667, Delta Energy , -4.96051e-05, Time , 244, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.298 , Kinetic Energy , 78.6308 , Total Energy , -102.667, Delta Energy , -4.57221e-05, Time , 245, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.295 , Kinetic Energy , 78.6287 , Total Energy , -102.667, Delta Energy , -4.20434e-05, Time , 246, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.293 , Kinetic Energy , 78.6267 , Total Energy , -102.667, Delta Energy , -3.86688e-05, Time , 247, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.291 , Kinetic Energy , 78.6247 , Total Energy , -102.667, Delta Energy , -3.56947e-05, Time , 248, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.289 , Kinetic Energy , 78.6227 , Total Energy , -102.667, Delta Energy , -3.32065e-05, Time , 249, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.287 , Kinetic Energy , 78.6207 , Total Energy , -102.667, Delta Energy , -3.12701e-05, Time , 250, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.285 , Kinetic Energy , 78.6184 , Total Energy , -102.667, Delta Energy , -2.99261e-05, Time , 251, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.283 , Kinetic Energy , 78.616 , Total Energy , -102.667, Delta Energy , -2.91867e-05, Time , 252, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.28 , Kinetic Energy , 78.6132 , Total Energy , -102.667, Delta Energy , -2.90385e-05, Time , 253, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.277 , Kinetic Energy , 78.6102 , Total Energy , -102.667, Delta Energy , -2.94483e-05, Time , 254, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.274 , Kinetic Energy , 78.6068 , Total Energy , -102.667, Delta Energy , -3.03719e-05, Time , 255, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.27 , Kinetic Energy , 78.6031 , Total Energy , -102.667, Delta Energy , -3.17627e-05, Time , 256, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.266 , Kinetic Energy , 78.5991 , Total Energy , -102.667, Delta Energy , -3.3578e-05, Time , 257, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.262 , Kinetic Energy , 78.5948 , Total Energy , -102.667, Delta Energy , -3.57813e-05, Time , 258, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.257 , Kinetic Energy , 78.5903 , Total Energy , -102.667, Delta Energy , -3.83407e-05, Time , 259, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.252 , Kinetic Energy , 78.5857 , Total Energy , -102.667, Delta Energy , -4.12256e-05, Time , 260, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.248 , Kinetic Energy , 78.5809 , Total Energy , -102.667, Delta Energy , -4.44034e-05, Time , 261, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.243 , Kinetic Energy , 78.5761 , Total Energy , -102.667, Delta Energy , -4.78372e-05, Time , 262, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.238 , Kinetic Energy , 78.5713 , Total Energy , -102.667, Delta Energy , -5.14844e-05, Time , 263, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.233 , Kinetic Energy , 78.5667 , Total Energy , -102.667, Delta Energy , -5.52987e-05, Time , 264, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.229 , Kinetic Energy , 78.5622 , Total Energy , -102.667, Delta Energy , -5.92317e-05, Time , 265, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.225 , Kinetic Energy , 78.5579 , Total Energy , -102.667, Delta Energy , -6.32353e-05, Time , 266, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.221 , Kinetic Energy , 78.5538 , Total Energy , -102.667, Delta Energy , -6.72639e-05, Time , 267, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.217 , Kinetic Energy , 78.5501 , Total Energy , -102.667, Delta Energy , -7.12759e-05, Time , 268, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.213 , Kinetic Energy , 78.5466 , Total Energy , -102.667, Delta Energy , -7.52351e-05, Time , 269, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.21 , Kinetic Energy , 78.5435 , Total Energy , -102.667, Delta Energy , -7.91106e-05, Time , 270, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.207 , Kinetic Energy , 78.5408 , Total Energy , -102.667, Delta Energy , -8.28772e-05, Time , 271, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.205 , Kinetic Energy , 78.5384 , Total Energy , -102.667, Delta Energy , -8.65148e-05, Time , 272, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.203 , Kinetic Energy , 78.5363 , Total Energy , -102.667, Delta Energy , -9.00083e-05, Time , 273, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.201 , Kinetic Energy , 78.5347 , Total Energy , -102.667, Delta Energy , -9.33467e-05, Time , 274, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.2 , Kinetic Energy , 78.5334 , Total Energy , -102.667, Delta Energy , -9.65228e-05, Time , 275, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.199 , Kinetic Energy , 78.5325 , Total Energy , -102.667, Delta Energy , -9.95326e-05, Time , 276, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.199 , Kinetic Energy , 78.532 , Total Energy , -102.667, Delta Energy , -0.000102375, Time , 277, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.199 , Kinetic Energy , 78.5319 , Total Energy , -102.667, Delta Energy , -0.00010505, Time , 278, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.199 , Kinetic Energy , 78.5321 , Total Energy , -102.667, Delta Energy , -0.00010756, Time , 279, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.199 , Kinetic Energy , 78.5328 , Total Energy , -102.667, Delta Energy , -0.000109911, Time , 280, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.2 , Kinetic Energy , 78.5337 , Total Energy , -102.667, Delta Energy , -0.000112106, Time , 281, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.202 , Kinetic Energy , 78.5351 , Total Energy , -102.667, Delta Energy , -0.000114151, Time , 282, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.203 , Kinetic Energy , 78.5368 , Total Energy , -102.667, Delta Energy , -0.000116052, Time , 283, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.206 , Kinetic Energy , 78.5389 , Total Energy , -102.667, Delta Energy , -0.000117816, Time , 284, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.208 , Kinetic Energy , 78.5413 , Total Energy , -102.667, Delta Energy , -0.000119448, Time , 285, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.211 , Kinetic Energy , 78.5441 , Total Energy , -102.667, Delta Energy , -0.000120956, Time , 286, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.214 , Kinetic Energy , 78.5473 , Total Energy , -102.667, Delta Energy , -0.000122344, Time , 287, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.217 , Kinetic Energy , 78.5507 , Total Energy , -102.667, Delta Energy , -0.000123617, Time , 288, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.221 , Kinetic Energy , 78.5546 , Total Energy , -102.667, Delta Energy , -0.000124781, Time , 289, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.225 , Kinetic Energy , 78.5587 , Total Energy , -102.667, Delta Energy , -0.00012584, Time , 290, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.23 , Kinetic Energy , 78.5632 , Total Energy , -102.667, Delta Energy , -0.000126797, Time , 291, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.235 , Kinetic Energy , 78.5681 , Total Energy , -102.667, Delta Energy , -0.000127655, Time , 292, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.24 , Kinetic Energy , 78.5732 , Total Energy , -102.667, Delta Energy , -0.000128417, Time , 293, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.245 , Kinetic Energy , 78.5787 , Total Energy , -102.667, Delta Energy , -0.000129083, Time , 294, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.251 , Kinetic Energy , 78.5845 , Total Energy , -102.667, Delta Energy , -0.000129654, Time , 295, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.257 , Kinetic Energy , 78.5906 , Total Energy , -102.667, Delta Energy , -0.000130132, Time , 296, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.264 , Kinetic Energy , 78.5971 , Total Energy , -102.667, Delta Energy , -0.000130515, Time , 297, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.27 , Kinetic Energy , 78.6038 , Total Energy , -102.667, Delta Energy , -0.000130803, Time , 298, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.278 , Kinetic Energy , 78.6109 , Total Energy , -102.667, Delta Energy , -0.000130994, Time , 299, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.285 , Kinetic Energy , 78.6182 , Total Energy , -102.667, Delta Energy , -0.000131086, Time , 300, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.293 , Kinetic Energy , 78.6259 , Total Energy , -102.667, Delta Energy , -0.000131076, Time , 301, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.301 , Kinetic Energy , 78.6339 , Total Energy , -102.667, Delta Energy , -0.000130961, Time , 302, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.309 , Kinetic Energy , 78.6421 , Total Energy , -102.667, Delta Energy , -0.000130737, Time , 303, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.317 , Kinetic Energy , 78.6506 , Total Energy , -102.667, Delta Energy , -0.000130401, Time , 304, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.326 , Kinetic Energy , 78.6595 , Total Energy , -102.667, Delta Energy , -0.000129947, Time , 305, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.335 , Kinetic Energy , 78.6686 , Total Energy , -102.667, Delta Energy , -0.00012937, Time , 306, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.345 , Kinetic Energy , 78.678 , Total Energy , -102.667, Delta Energy , -0.000128665, Time , 307, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.354 , Kinetic Energy , 78.6876 , Total Energy , -102.667, Delta Energy , -0.000127825, Time , 308, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.364 , Kinetic Energy , 78.6976 , Total Energy , -102.667, Delta Energy , -0.000126846, Time , 309, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.374 , Kinetic Energy , 78.7078 , Total Energy , -102.667, Delta Energy , -0.000125719, Time , 310, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.385 , Kinetic Energy , 78.7182 , Total Energy , -102.667, Delta Energy , -0.000124439, Time , 311, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.396 , Kinetic Energy , 78.7289 , Total Energy , -102.667, Delta Energy , -0.000122999, Time , 312, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.407 , Kinetic Energy , 78.7399 , Total Energy , -102.667, Delta Energy , -0.000121394, Time , 313, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.418 , Kinetic Energy , 78.7512 , Total Energy , -102.667, Delta Energy , -0.000119616, Time , 314, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.429 , Kinetic Energy , 78.7627 , Total Energy , -102.667, Delta Energy , -0.000117662, Time , 315, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.441 , Kinetic Energy , 78.7744 , Total Energy , -102.667, Delta Energy , -0.000115526, Time , 316, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.453 , Kinetic Energy , 78.7863 , Total Energy , -102.667, Delta Energy , -0.000113207, Time , 317, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.465 , Kinetic Energy , 78.7985 , Total Energy , -102.667, Delta Energy , -0.000110705, Time , 318, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.478 , Kinetic Energy , 78.8109 , Total Energy , -102.667, Delta Energy , -0.000108021, Time , 319, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.49 , Kinetic Energy , 78.8235 , Total Energy , -102.667, Delta Energy , -0.000105161, Time , 320, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.503 , Kinetic Energy , 78.8363 , Total Energy , -102.667, Delta Energy , -0.000102135, Time , 321, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.516 , Kinetic Energy , 78.8493 , Total Energy , -102.667, Delta Energy , -9.89593e-05, Time , 322, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.529 , Kinetic Energy , 78.8624 , Total Energy , -102.667, Delta Energy , -9.56551e-05, Time , 323, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.542 , Kinetic Energy , 78.8756 , Total Energy , -102.667, Delta Energy , -9.22515e-05, Time , 324, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.556 , Kinetic Energy , 78.8889 , Total Energy , -102.667, Delta Energy , -8.87857e-05, Time , 325, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.569 , Kinetic Energy , 78.9023 , Total Energy , -102.667, Delta Energy , -8.53037e-05, Time , 326, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.582 , Kinetic Energy , 78.9157 , Total Energy , -102.667, Delta Energy , -8.18602e-05, Time , 327, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.596 , Kinetic Energy , 78.9291 , Total Energy , -102.667, Delta Energy , -7.85176e-05, Time , 328, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.609 , Kinetic Energy , 78.9425 , Total Energy , -102.667, Delta Energy , -7.53443e-05, Time , 329, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.622 , Kinetic Energy , 78.9557 , Total Energy , -102.667, Delta Energy , -7.24114e-05, Time , 330, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.635 , Kinetic Energy , 78.9686 , Total Energy , -102.667, Delta Energy , -6.97876e-05, Time , 331, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.648 , Kinetic Energy , 78.9814 , Total Energy , -102.667, Delta Energy , -6.75338e-05, Time , 332, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.661 , Kinetic Energy , 78.9938 , Total Energy , -102.667, Delta Energy , -6.56969e-05, Time , 333, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.672 , Kinetic Energy , 79.0058 , Total Energy , -102.667, Delta Energy , -6.43039e-05, Time , 334, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.684 , Kinetic Energy , 79.0173 , Total Energy , -102.667, Delta Energy , -6.3359e-05, Time , 335, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.695 , Kinetic Energy , 79.0282 , Total Energy , -102.667, Delta Energy , -6.28437e-05, Time , 336, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.705 , Kinetic Energy , 79.0386 , Total Energy , -102.667, Delta Energy , -6.2721e-05, Time , 337, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.715 , Kinetic Energy , 79.0483 , Total Energy , -102.667, Delta Energy , -6.29441e-05, Time , 338, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.724 , Kinetic Energy , 79.0574 , Total Energy , -102.667, Delta Energy , -6.34656e-05, Time , 339, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.733 , Kinetic Energy , 79.0658 , Total Energy , -102.667, Delta Energy , -6.42481e-05, Time , 340, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.74 , Kinetic Energy , 79.0735 , Total Energy , -102.667, Delta Energy , -6.52699e-05, Time , 341, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.747 , Kinetic Energy , 79.0807 , Total Energy , -102.667, Delta Energy , -6.65265e-05, Time , 342, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.754 , Kinetic Energy , 79.0872 , Total Energy , -102.667, Delta Energy , -6.80273e-05, Time , 343, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.76 , Kinetic Energy , 79.0933 , Total Energy , -102.667, Delta Energy , -6.97885e-05, Time , 344, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.766 , Kinetic Energy , 79.0989 , Total Energy , -102.667, Delta Energy , -7.18255e-05, Time , 345, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.771 , Kinetic Energy , 79.1041 , Total Energy , -102.667, Delta Energy , -7.41458e-05, Time , 346, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.776 , Kinetic Energy , 79.1091 , Total Energy , -102.667, Delta Energy , -7.67446e-05, Time , 347, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.781 , Kinetic Energy , 79.1138 , Total Energy , -102.667, Delta Energy , -7.96043e-05, Time , 348, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.785 , Kinetic Energy , 79.1185 , Total Energy , -102.667, Delta Energy , -8.26951e-05, Time , 349, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.79 , Kinetic Energy , 79.123 , Total Energy , -102.667, Delta Energy , -8.59779e-05, Time , 350, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.794 , Kinetic Energy , 79.1275 , Total Energy , -102.667, Delta Energy , -8.94086e-05, Time , 351, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.799 , Kinetic Energy , 79.132 , Total Energy , -102.667, Delta Energy , -9.29406e-05, Time , 352, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.803 , Kinetic Energy , 79.1365 , Total Energy , -102.667, Delta Energy , -9.65284e-05, Time , 353, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.808 , Kinetic Energy , 79.1412 , Total Energy , -102.667, Delta Energy , -0.00010013, Time , 354, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.813 , Kinetic Energy , 79.1459 , Total Energy , -102.667, Delta Energy , -0.000103706, Time , 355, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.817 , Kinetic Energy , 79.1508 , Total Energy , -102.667, Delta Energy , -0.000107224, Time , 356, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.822 , Kinetic Energy , 79.1558 , Total Energy , -102.667, Delta Energy , -0.000110656, Time , 357, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.828 , Kinetic Energy , 79.1609 , Total Energy , -102.667, Delta Energy , -0.00011398, Time , 358, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.833 , Kinetic Energy , 79.1661 , Total Energy , -102.667, Delta Energy , -0.000117177, Time , 359, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.838 , Kinetic Energy , 79.1716 , Total Energy , -102.667, Delta Energy , -0.000120232, Time , 360, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.844 , Kinetic Energy , 79.1771 , Total Energy , -102.667, Delta Energy , -0.000123137, Time , 361, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.849 , Kinetic Energy , 79.1828 , Total Energy , -102.667, Delta Energy , -0.000125882, Time , 362, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.855 , Kinetic Energy , 79.1886 , Total Energy , -102.667, Delta Energy , -0.000128464, Time , 363, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.861 , Kinetic Energy , 79.1946 , Total Energy , -102.667, Delta Energy , -0.000130881, Time , 364, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.867 , Kinetic Energy , 79.2007 , Total Energy , -102.667, Delta Energy , -0.00013313, Time , 365, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.874 , Kinetic Energy , 79.2069 , Total Energy , -102.667, Delta Energy , -0.000135213, Time , 366, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.88 , Kinetic Energy , 79.2132 , Total Energy , -102.667, Delta Energy , -0.000137131, Time , 367, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.886 , Kinetic Energy , 79.2196 , Total Energy , -102.667, Delta Energy , -0.000138888, Time , 368, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.893 , Kinetic Energy , 79.2261 , Total Energy , -102.667, Delta Energy , -0.000140485, Time , 369, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.899 , Kinetic Energy , 79.2328 , Total Energy , -102.667, Delta Energy , -0.000141928, Time , 370, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.906 , Kinetic Energy , 79.2395 , Total Energy , -102.667, Delta Energy , -0.000143219, Time , 371, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.913 , Kinetic Energy , 79.2463 , Total Energy , -102.667, Delta Energy , -0.000144364, Time , 372, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.92 , Kinetic Energy , 79.2533 , Total Energy , -102.667, Delta Energy , -0.000145367, Time , 373, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.927 , Kinetic Energy , 79.2603 , Total Energy , -102.667, Delta Energy , -0.00014623, Time , 374, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.934 , Kinetic Energy , 79.2674 , Total Energy , -102.667, Delta Energy , -0.00014696, Time , 375, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.941 , Kinetic Energy , 79.2745 , Total Energy , -102.667, Delta Energy , -0.000147559, Time , 376, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.948 , Kinetic Energy , 79.2818 , Total Energy , -102.667, Delta Energy , -0.000148032, Time , 377, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.956 , Kinetic Energy , 79.2892 , Total Energy , -102.667, Delta Energy , -0.00014838, Time , 378, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.963 , Kinetic Energy , 79.2966 , Total Energy , -102.667, Delta Energy , -0.000148607, Time , 379, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.971 , Kinetic Energy , 79.3042 , Total Energy , -102.667, Delta Energy , -0.000148716, Time , 380, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.978 , Kinetic Energy , 79.3118 , Total Energy , -102.667, Delta Energy , -0.000148708, Time , 381, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.986 , Kinetic Energy , 79.3196 , Total Energy , -102.667, Delta Energy , -0.000148584, Time , 382, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -181.994 , Kinetic Energy , 79.3274 , Total Energy , -102.667, Delta Energy , -0.000148345, Time , 383, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.002 , Kinetic Energy , 79.3354 , Total Energy , -102.667, Delta Energy , -0.000147991, Time , 384, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.01 , Kinetic Energy , 79.3434 , Total Energy , -102.667, Delta Energy , -0.000147522, Time , 385, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.018 , Kinetic Energy , 79.3516 , Total Energy , -102.667, Delta Energy , -0.000146937, Time , 386, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.027 , Kinetic Energy , 79.3599 , Total Energy , -102.667, Delta Energy , -0.000146235, Time , 387, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.035 , Kinetic Energy , 79.3683 , Total Energy , -102.667, Delta Energy , -0.000145413, Time , 388, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.044 , Kinetic Energy , 79.3769 , Total Energy , -102.667, Delta Energy , -0.000144469, Time , 389, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.052 , Kinetic Energy , 79.3856 , Total Energy , -102.667, Delta Energy , -0.0001434, Time , 390, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.061 , Kinetic Energy , 79.3945 , Total Energy , -102.667, Delta Energy , -0.000142203, Time , 391, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.07 , Kinetic Energy , 79.4035 , Total Energy , -102.667, Delta Energy , -0.000140873, Time , 392, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.079 , Kinetic Energy , 79.4127 , Total Energy , -102.667, Delta Energy , -0.000139407, Time , 393, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.089 , Kinetic Energy , 79.422 , Total Energy , -102.667, Delta Energy , -0.000137801, Time , 394, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.098 , Kinetic Energy , 79.4315 , Total Energy , -102.667, Delta Energy , -0.000136049, Time , 395, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.108 , Kinetic Energy , 79.4412 , Total Energy , -102.667, Delta Energy , -0.000134148, Time , 396, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.118 , Kinetic Energy , 79.4511 , Total Energy , -102.667, Delta Energy , -0.000132093, Time , 397, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.128 , Kinetic Energy , 79.4612 , Total Energy , -102.667, Delta Energy , -0.000129881, Time , 398, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.138 , Kinetic Energy , 79.4715 , Total Energy , -102.667, Delta Energy , -0.000127509, Time , 399, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.149 , Kinetic Energy , 79.482 , Total Energy , -102.667, Delta Energy , -0.000124975, Time , 400, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.159 , Kinetic Energy , 79.4928 , Total Energy , -102.667, Delta Energy , -0.000122279, Time , 401, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.17 , Kinetic Energy , 79.5037 , Total Energy , -102.667, Delta Energy , -0.000119424, Time , 402, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.182 , Kinetic Energy , 79.5149 , Total Energy , -102.667, Delta Energy , -0.000116413, Time , 403, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.193 , Kinetic Energy , 79.5263 , Total Energy , -102.667, Delta Energy , -0.000113254, Time , 404, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.205 , Kinetic Energy , 79.5379 , Total Energy , -102.667, Delta Energy , -0.000109959, Time , 405, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.216 , Kinetic Energy , 79.5497 , Total Energy , -102.667, Delta Energy , -0.000106545, Time , 406, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.228 , Kinetic Energy , 79.5617 , Total Energy , -102.667, Delta Energy , -0.000103032, Time , 407, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.241 , Kinetic Energy , 79.574 , Total Energy , -102.667, Delta Energy , -9.94473e-05, Time , 408, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.253 , Kinetic Energy , 79.5863 , Total Energy , -102.667, Delta Energy , -9.58254e-05, Time , 409, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.266 , Kinetic Energy , 79.5988 , Total Energy , -102.667, Delta Energy , -9.22055e-05, Time , 410, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.278 , Kinetic Energy , 79.6115 , Total Energy , -102.667, Delta Energy , -8.86329e-05, Time , 411, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.291 , Kinetic Energy , 79.6242 , Total Energy , -102.667, Delta Energy , -8.51575e-05, Time , 412, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.304 , Kinetic Energy , 79.6369 , Total Energy , -102.667, Delta Energy , -8.18317e-05, Time , 413, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.316 , Kinetic Energy , 79.6495 , Total Energy , -102.667, Delta Energy , -7.87078e-05, Time , 414, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.329 , Kinetic Energy , 79.6621 , Total Energy , -102.667, Delta Energy , -7.58344e-05, Time , 415, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.341 , Kinetic Energy , 79.6745 , Total Energy , -102.667, Delta Energy , -7.3252e-05, Time , 416, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.353 , Kinetic Energy , 79.6867 , Total Energy , -102.667, Delta Energy , -7.09897e-05, Time , 417, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.365 , Kinetic Energy , 79.6986 , Total Energy , -102.667, Delta Energy , -6.90615e-05, Time , 418, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.377 , Kinetic Energy , 79.71 , Total Energy , -102.667, Delta Energy , -6.74652e-05, Time , 419, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.388 , Kinetic Energy , 79.721 , Total Energy , -102.667, Delta Energy , -6.61835e-05, Time , 420, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.398 , Kinetic Energy , 79.7315 , Total Energy , -102.667, Delta Energy , -6.51882e-05, Time , 421, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.408 , Kinetic Energy , 79.7415 , Total Energy , -102.667, Delta Energy , -6.44473e-05, Time , 422, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.417 , Kinetic Energy , 79.7508 , Total Energy , -102.667, Delta Energy , -6.39328e-05, Time , 423, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.426 , Kinetic Energy , 79.7594 , Total Energy , -102.667, Delta Energy , -6.36282e-05, Time , 424, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.434 , Kinetic Energy , 79.7675 , Total Energy , -102.667, Delta Energy , -6.35338e-05, Time , 425, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.442 , Kinetic Energy , 79.775 , Total Energy , -102.667, Delta Energy , -6.36673e-05, Time , 426, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.449 , Kinetic Energy , 79.7819 , Total Energy , -102.667, Delta Energy , -6.40604e-05, Time , 427, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.455 , Kinetic Energy , 79.7883 , Total Energy , -102.667, Delta Energy , -6.47515e-05, Time , 428, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.461 , Kinetic Energy , 79.7942 , Total Energy , -102.667, Delta Energy , -6.57775e-05, Time , 429, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.467 , Kinetic Energy , 79.7999 , Total Energy , -102.667, Delta Energy , -6.71657e-05, Time , 430, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.472 , Kinetic Energy , 79.8052 , Total Energy , -102.667, Delta Energy , -6.8928e-05, Time , 431, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.477 , Kinetic Energy , 79.8104 , Total Energy , -102.667, Delta Energy , -7.10585e-05, Time , 432, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.482 , Kinetic Energy , 79.8154 , Total Energy , -102.667, Delta Energy , -7.3534e-05, Time , 433, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.487 , Kinetic Energy , 79.8205 , Total Energy , -102.667, Delta Energy , -7.63164e-05, Time , 434, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.492 , Kinetic Energy , 79.8255 , Total Energy , -102.667, Delta Energy , -7.93574e-05, Time , 435, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.497 , Kinetic Energy , 79.8307 , Total Energy , -102.667, Delta Energy , -8.26024e-05, Time , 436, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.503 , Kinetic Energy , 79.836 , Total Energy , -102.667, Delta Energy , -8.5995e-05, Time , 437, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.508 , Kinetic Energy , 79.8416 , Total Energy , -102.667, Delta Energy , -8.94805e-05, Time , 438, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.514 , Kinetic Energy , 79.8473 , Total Energy , -102.667, Delta Energy , -9.3008e-05, Time , 439, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.52 , Kinetic Energy , 79.8533 , Total Energy , -102.667, Delta Energy , -9.65322e-05, Time , 440, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.526 , Kinetic Energy , 79.8596 , Total Energy , -102.667, Delta Energy , -0.000100014, Time , 441, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.533 , Kinetic Energy , 79.8662 , Total Energy , -102.667, Delta Energy , -0.000103421, Time , 442, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.54 , Kinetic Energy , 79.8731 , Total Energy , -102.667, Delta Energy , -0.000106727, Time , 443, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.547 , Kinetic Energy , 79.8803 , Total Energy , -102.667, Delta Energy , -0.000109911, Time , 444, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.555 , Kinetic Energy , 79.8878 , Total Energy , -102.667, Delta Energy , -0.000112958, Time , 445, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.562 , Kinetic Energy , 79.8957 , Total Energy , -102.667, Delta Energy , -0.000115856, Time , 446, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.571 , Kinetic Energy , 79.9039 , Total Energy , -102.667, Delta Energy , -0.000118597, Time , 447, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.579 , Kinetic Energy , 79.9124 , Total Energy , -102.667, Delta Energy , -0.000121177, Time , 448, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.588 , Kinetic Energy , 79.9213 , Total Energy , -102.667, Delta Energy , -0.000123594, Time , 449, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.597 , Kinetic Energy , 79.9305 , Total Energy , -102.667, Delta Energy , -0.000125845, Time , 450, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.607 , Kinetic Energy , 79.9399 , Total Energy , -102.667, Delta Energy , -0.000127933, Time , 451, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.616 , Kinetic Energy , 79.9497 , Total Energy , -102.667, Delta Energy , -0.000129859, Time , 452, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.627 , Kinetic Energy , 79.9599 , Total Energy , -102.667, Delta Energy , -0.000131624, Time , 453, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.637 , Kinetic Energy , 79.9703 , Total Energy , -102.667, Delta Energy , -0.000133233, Time , 454, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.648 , Kinetic Energy , 79.981 , Total Energy , -102.667, Delta Energy , -0.000134688, Time , 455, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.659 , Kinetic Energy , 79.992 , Total Energy , -102.667, Delta Energy , -0.000135993, Time , 456, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.67 , Kinetic Energy , 80.0033 , Total Energy , -102.667, Delta Energy , -0.000137152, Time , 457, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.682 , Kinetic Energy , 80.0149 , Total Energy , -102.667, Delta Energy , -0.000138167, Time , 458, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.693 , Kinetic Energy , 80.0267 , Total Energy , -102.667, Delta Energy , -0.000139043, Time , 459, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.706 , Kinetic Energy , 80.0389 , Total Energy , -102.667, Delta Energy , -0.000139782, Time , 460, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.718 , Kinetic Energy , 80.0514 , Total Energy , -102.667, Delta Energy , -0.000140388, Time , 461, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.731 , Kinetic Energy , 80.0641 , Total Energy , -102.667, Delta Energy , -0.000140864, Time , 462, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.744 , Kinetic Energy , 80.0771 , Total Energy , -102.667, Delta Energy , -0.000141212, Time , 463, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.757 , Kinetic Energy , 80.0904 , Total Energy , -102.667, Delta Energy , -0.000141434, Time , 464, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.771 , Kinetic Energy , 80.104 , Total Energy , -102.667, Delta Energy , -0.000141534, Time , 465, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.785 , Kinetic Energy , 80.1179 , Total Energy , -102.667, Delta Energy , -0.000141511, Time , 466, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.799 , Kinetic Energy , 80.1321 , Total Energy , -102.667, Delta Energy , -0.000141369, Time , 467, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.813 , Kinetic Energy , 80.1466 , Total Energy , -102.667, Delta Energy , -0.000141108, Time , 468, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.828 , Kinetic Energy , 80.1613 , Total Energy , -102.667, Delta Energy , -0.000140728, Time , 469, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.843 , Kinetic Energy , 80.1764 , Total Energy , -102.667, Delta Energy , -0.00014023, Time , 470, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.858 , Kinetic Energy , 80.1918 , Total Energy , -102.667, Delta Energy , -0.000139613, Time , 471, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.874 , Kinetic Energy , 80.2076 , Total Energy , -102.667, Delta Energy , -0.000138878, Time , 472, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.89 , Kinetic Energy , 80.2236 , Total Energy , -102.667, Delta Energy , -0.000138022, Time , 473, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.907 , Kinetic Energy , 80.24 , Total Energy , -102.667, Delta Energy , -0.000137044, Time , 474, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.923 , Kinetic Energy , 80.2567 , Total Energy , -102.667, Delta Energy , -0.000135942, Time , 475, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.94 , Kinetic Energy , 80.2738 , Total Energy , -102.667, Delta Energy , -0.000134714, Time , 476, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.958 , Kinetic Energy , 80.2912 , Total Energy , -102.667, Delta Energy , -0.000133356, Time , 477, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.976 , Kinetic Energy , 80.309 , Total Energy , -102.667, Delta Energy , -0.000131865, Time , 478, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -182.994 , Kinetic Energy , 80.3272 , Total Energy , -102.667, Delta Energy , -0.000130237, Time , 479, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.012 , Kinetic Energy , 80.3458 , Total Energy , -102.667, Delta Energy , -0.000128469, Time , 480, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.031 , Kinetic Energy , 80.3647 , Total Energy , -102.667, Delta Energy , -0.000126557, Time , 481, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.051 , Kinetic Energy , 80.3841 , Total Energy , -102.667, Delta Energy , -0.000124495, Time , 482, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.071 , Kinetic Energy , 80.4039 , Total Energy , -102.667, Delta Energy , -0.000122281, Time , 483, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.091 , Kinetic Energy , 80.4241 , Total Energy , -102.667, Delta Energy , -0.000119911, Time , 484, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.111 , Kinetic Energy , 80.4447 , Total Energy , -102.667, Delta Energy , -0.000117382, Time , 485, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.132 , Kinetic Energy , 80.4657 , Total Energy , -102.667, Delta Energy , -0.000114694, Time , 486, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.154 , Kinetic Energy , 80.4872 , Total Energy , -102.667, Delta Energy , -0.000111846, Time , 487, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.176 , Kinetic Energy , 80.5092 , Total Energy , -102.667, Delta Energy , -0.000108841, Time , 488, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.198 , Kinetic Energy , 80.5316 , Total Energy , -102.667, Delta Energy , -0.000105684, Time , 489, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.221 , Kinetic Energy , 80.5544 , Total Energy , -102.667, Delta Energy , -0.000102384, Time , 490, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.244 , Kinetic Energy , 80.5776 , Total Energy , -102.667, Delta Energy , -9.89544e-05, Time , 491, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.268 , Kinetic Energy , 80.6013 , Total Energy , -102.667, Delta Energy , -9.54135e-05, Time , 492, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.292 , Kinetic Energy , 80.6254 , Total Energy , -102.667, Delta Energy , -9.17849e-05, Time , 493, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.317 , Kinetic Energy , 80.6499 , Total Energy , -102.667, Delta Energy , -8.80985e-05, Time , 494, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.341 , Kinetic Energy , 80.6748 , Total Energy , -102.667, Delta Energy , -8.43906e-05, Time , 495, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.367 , Kinetic Energy , 80.7 , Total Energy , -102.667, Delta Energy , -8.07034e-05, Time , 496, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.392 , Kinetic Energy , 80.7254 , Total Energy , -102.667, Delta Energy , -7.7084e-05, Time , 497, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.418 , Kinetic Energy , 80.7512 , Total Energy , -102.667, Delta Energy , -7.35825e-05, Time , 498, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.444 , Kinetic Energy , 80.7771 , Total Energy , -102.667, Delta Energy , -7.02498e-05, Time , 499, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.47 , Kinetic Energy , 80.8032 , Total Energy , -102.667, Delta Energy , -6.71339e-05, Time , 500, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.496 , Kinetic Energy , 80.8293 , Total Energy , -102.667, Delta Energy , -6.42762e-05, Time , 501, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.522 , Kinetic Energy , 80.8554 , Total Energy , -102.667, Delta Energy , -6.1708e-05, Time , 502, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.548 , Kinetic Energy , 80.8813 , Total Energy , -102.667, Delta Energy , -5.94473e-05, Time , 503, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.574 , Kinetic Energy , 80.9071 , Total Energy , -102.667, Delta Energy , -5.74984e-05, Time , 504, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.599 , Kinetic Energy , 80.9325 , Total Energy , -102.667, Delta Energy , -5.58532e-05, Time , 505, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.624 , Kinetic Energy , 80.9576 , Total Energy , -102.667, Delta Energy , -5.44952e-05, Time , 506, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.649 , Kinetic Energy , 80.9823 , Total Energy , -102.667, Delta Energy , -5.34057e-05, Time , 507, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.673 , Kinetic Energy , 81.0065 , Total Energy , -102.667, Delta Energy , -5.25708e-05, Time , 508, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.697 , Kinetic Energy , 81.0302 , Total Energy , -102.667, Delta Energy , -5.19879e-05, Time , 509, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.72 , Kinetic Energy , 81.0534 , Total Energy , -102.667, Delta Energy , -5.16683e-05, Time , 510, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.743 , Kinetic Energy , 81.076 , Total Energy , -102.667, Delta Energy , -5.16374e-05, Time , 511, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.765 , Kinetic Energy , 81.0982 , Total Energy , -102.667, Delta Energy , -5.19303e-05, Time , 512, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.787 , Kinetic Energy , 81.12 , Total Energy , -102.667, Delta Energy , -5.25853e-05, Time , 513, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.808 , Kinetic Energy , 81.1414 , Total Energy , -102.667, Delta Energy , -5.36357e-05, Time , 514, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.829 , Kinetic Energy , 81.1624 , Total Energy , -102.667, Delta Energy , -5.51033e-05, Time , 515, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.85 , Kinetic Energy , 81.1833 , Total Energy , -102.667, Delta Energy , -5.69939e-05, Time , 516, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.871 , Kinetic Energy , 81.2041 , Total Energy , -102.667, Delta Energy , -5.92949e-05, Time , 517, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.891 , Kinetic Energy , 81.2248 , Total Energy , -102.667, Delta Energy , -6.19765e-05, Time , 518, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.912 , Kinetic Energy , 81.2455 , Total Energy , -102.667, Delta Energy , -6.49946e-05, Time , 519, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.933 , Kinetic Energy , 81.2663 , Total Energy , -102.667, Delta Energy , -6.82947e-05, Time , 520, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.954 , Kinetic Energy , 81.2873 , Total Energy , -102.667, Delta Energy , -7.18167e-05, Time , 521, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.975 , Kinetic Energy , 81.3085 , Total Energy , -102.667, Delta Energy , -7.54987e-05, Time , 522, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -183.997 , Kinetic Energy , 81.33 , Total Energy , -102.667, Delta Energy , -7.92805e-05, Time , 523, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.019 , Kinetic Energy , 81.3518 , Total Energy , -102.667, Delta Energy , -8.31065e-05, Time , 524, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.041 , Kinetic Energy , 81.3739 , Total Energy , -102.667, Delta Energy , -8.69273e-05, Time , 525, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.063 , Kinetic Energy , 81.3965 , Total Energy , -102.667, Delta Energy , -9.07002e-05, Time , 526, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.086 , Kinetic Energy , 81.4194 , Total Energy , -102.667, Delta Energy , -9.439e-05, Time , 527, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.109 , Kinetic Energy , 81.4427 , Total Energy , -102.667, Delta Energy , -9.79683e-05, Time , 528, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.133 , Kinetic Energy , 81.4664 , Total Energy , -102.667, Delta Energy , -0.000101413, Time , 529, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.157 , Kinetic Energy , 81.4906 , Total Energy , -102.667, Delta Energy , -0.000104709, Time , 530, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.182 , Kinetic Energy , 81.5152 , Total Energy , -102.667, Delta Energy , -0.000107844, Time , 531, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.207 , Kinetic Energy , 81.5403 , Total Energy , -102.667, Delta Energy , -0.000110811, Time , 532, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.232 , Kinetic Energy , 81.5658 , Total Energy , -102.667, Delta Energy , -0.000113607, Time , 533, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.258 , Kinetic Energy , 81.5917 , Total Energy , -102.667, Delta Energy , -0.00011623, Time , 534, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.285 , Kinetic Energy , 81.618 , Total Energy , -102.667, Delta Energy , -0.000118682, Time , 535, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.311 , Kinetic Energy , 81.6448 , Total Energy , -102.667, Delta Energy , -0.000120964, Time , 536, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.339 , Kinetic Energy , 81.6719 , Total Energy , -102.667, Delta Energy , -0.000123079, Time , 537, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.366 , Kinetic Energy , 81.6995 , Total Energy , -102.667, Delta Energy , -0.000125032, Time , 538, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.394 , Kinetic Energy , 81.7275 , Total Energy , -102.667, Delta Energy , -0.000126828, Time , 539, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.423 , Kinetic Energy , 81.7559 , Total Energy , -102.667, Delta Energy , -0.00012847, Time , 540, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.451 , Kinetic Energy , 81.7847 , Total Energy , -102.667, Delta Energy , -0.000129964, Time , 541, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.481 , Kinetic Energy , 81.8139 , Total Energy , -102.667, Delta Energy , -0.000131312, Time , 542, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.51 , Kinetic Energy , 81.8434 , Total Energy , -102.667, Delta Energy , -0.000132521, Time , 543, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.54 , Kinetic Energy , 81.8734 , Total Energy , -102.667, Delta Energy , -0.000133593, Time , 544, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.57 , Kinetic Energy , 81.9037 , Total Energy , -102.667, Delta Energy , -0.000134531, Time , 545, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.601 , Kinetic Energy , 81.9343 , Total Energy , -102.667, Delta Energy , -0.00013534, Time , 546, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.632 , Kinetic Energy , 81.9654 , Total Energy , -102.667, Delta Energy , -0.00013602, Time , 547, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.663 , Kinetic Energy , 81.9968 , Total Energy , -102.667, Delta Energy , -0.000136575, Time , 548, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.695 , Kinetic Energy , 82.0285 , Total Energy , -102.667, Delta Energy , -0.000137006, Time , 549, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.727 , Kinetic Energy , 82.0607 , Total Energy , -102.667, Delta Energy , -0.000137315, Time , 550, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.76 , Kinetic Energy , 82.0931 , Total Energy , -102.667, Delta Energy , -0.000137501, Time , 551, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.793 , Kinetic Energy , 82.126 , Total Energy , -102.667, Delta Energy , -0.000137566, Time , 552, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.826 , Kinetic Energy , 82.1591 , Total Energy , -102.667, Delta Energy , -0.00013751, Time , 553, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.859 , Kinetic Energy , 82.1927 , Total Energy , -102.667, Delta Energy , -0.000137333, Time , 554, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.893 , Kinetic Energy , 82.2266 , Total Energy , -102.667, Delta Energy , -0.000137034, Time , 555, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.927 , Kinetic Energy , 82.2608 , Total Energy , -102.667, Delta Energy , -0.000136611, Time , 556, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.962 , Kinetic Energy , 82.2954 , Total Energy , -102.667, Delta Energy , -0.000136064, Time , 557, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -184.997 , Kinetic Energy , 82.3304 , Total Energy , -102.667, Delta Energy , -0.00013539, Time , 558, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.032 , Kinetic Energy , 82.3658 , Total Energy , -102.667, Delta Energy , -0.000134588, Time , 559, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.068 , Kinetic Energy , 82.4015 , Total Energy , -102.667, Delta Energy , -0.000133655, Time , 560, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.104 , Kinetic Energy , 82.4376 , Total Energy , -102.667, Delta Energy , -0.000132589, Time , 561, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.141 , Kinetic Energy , 82.4741 , Total Energy , -102.667, Delta Energy , -0.000131385, Time , 562, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.178 , Kinetic Energy , 82.511 , Total Energy , -102.667, Delta Energy , -0.000130041, Time , 563, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.215 , Kinetic Energy , 82.5482 , Total Energy , -102.667, Delta Energy , -0.000128553, Time , 564, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.253 , Kinetic Energy , 82.5859 , Total Energy , -102.667, Delta Energy , -0.000126917, Time , 565, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.291 , Kinetic Energy , 82.624 , Total Energy , -102.667, Delta Energy , -0.000125128, Time , 566, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.329 , Kinetic Energy , 82.6625 , Total Energy , -102.667, Delta Energy , -0.000123182, Time , 567, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.368 , Kinetic Energy , 82.7014 , Total Energy , -102.667, Delta Energy , -0.000121076, Time , 568, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.407 , Kinetic Energy , 82.7408 , Total Energy , -102.667, Delta Energy , -0.000118805, Time , 569, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.447 , Kinetic Energy , 82.7806 , Total Energy , -102.667, Delta Energy , -0.000116366, Time , 570, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.488 , Kinetic Energy , 82.8209 , Total Energy , -102.667, Delta Energy , -0.000113756, Time , 571, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.528 , Kinetic Energy , 82.8616 , Total Energy , -102.667, Delta Energy , -0.000110975, Time , 572, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.569 , Kinetic Energy , 82.9027 , Total Energy , -102.667, Delta Energy , -0.000108022, Time , 573, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.611 , Kinetic Energy , 82.9443 , Total Energy , -102.667, Delta Energy , -0.000104901, Time , 574, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.653 , Kinetic Energy , 82.9864 , Total Energy , -102.667, Delta Energy , -0.000101617, Time , 575, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.696 , Kinetic Energy , 83.0289 , Total Energy , -102.667, Delta Energy , -9.81791e-05, Time , 576, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.739 , Kinetic Energy , 83.0719 , Total Energy , -102.667, Delta Energy , -9.46021e-05, Time , 577, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.782 , Kinetic Energy , 83.1152 , Total Energy , -102.667, Delta Energy , -9.09045e-05, Time , 578, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.826 , Kinetic Energy , 83.159 , Total Energy , -102.667, Delta Energy , -8.71111e-05, Time , 579, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.87 , Kinetic Energy , 83.2032 , Total Energy , -102.667, Delta Energy , -8.32528e-05, Time , 580, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.914 , Kinetic Energy , 83.2478 , Total Energy , -102.667, Delta Energy , -7.93664e-05, Time , 581, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -185.959 , Kinetic Energy , 83.2926 , Total Energy , -102.667, Delta Energy , -7.54942e-05, Time , 582, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.004 , Kinetic Energy , 83.3378 , Total Energy , -102.667, Delta Energy , -7.1683e-05, Time , 583, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.05 , Kinetic Energy , 83.3831 , Total Energy , -102.667, Delta Energy , -6.79817e-05, Time , 584, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.095 , Kinetic Energy , 83.4286 , Total Energy , -102.667, Delta Energy , -6.44392e-05, Time , 585, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.141 , Kinetic Energy , 83.4743 , Total Energy , -102.667, Delta Energy , -6.11016e-05, Time , 586, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.187 , Kinetic Energy , 83.5199 , Total Energy , -102.667, Delta Energy , -5.80093e-05, Time , 587, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.232 , Kinetic Energy , 83.5654 , Total Energy , -102.667, Delta Energy , -5.51955e-05, Time , 588, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.278 , Kinetic Energy , 83.6108 , Total Energy , -102.667, Delta Energy , -5.26857e-05, Time , 589, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.323 , Kinetic Energy , 83.656 , Total Energy , -102.667, Delta Energy , -5.04984e-05, Time , 590, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.368 , Kinetic Energy , 83.7009 , Total Energy , -102.667, Delta Energy , -4.86482e-05, Time , 591, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.412 , Kinetic Energy , 83.7453 , Total Energy , -102.667, Delta Energy , -4.71486e-05, Time , 592, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.456 , Kinetic Energy , 83.7894 , Total Energy , -102.667, Delta Energy , -4.6015e-05, Time , 593, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.5 , Kinetic Energy , 83.833 , Total Energy , -102.667, Delta Energy , -4.5266e-05, Time , 594, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.543 , Kinetic Energy , 83.8761 , Total Energy , -102.667, Delta Energy , -4.4922e-05, Time , 595, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.586 , Kinetic Energy , 83.9188 , Total Energy , -102.667, Delta Energy , -4.50029e-05, Time , 596, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.628 , Kinetic Energy , 83.961 , Total Energy , -102.667, Delta Energy , -4.55236e-05, Time , 597, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.669 , Kinetic Energy , 84.0027 , Total Energy , -102.667, Delta Energy , -4.64906e-05, Time , 598, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.711 , Kinetic Energy , 84.0441 , Total Energy , -102.667, Delta Energy , -4.78991e-05, Time , 599, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.752 , Kinetic Energy , 84.0851 , Total Energy , -102.667, Delta Energy , -4.97322e-05, Time , 600, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.793 , Kinetic Energy , 84.1259 , Total Energy , -102.667, Delta Energy , -5.19617e-05, Time , 601, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.833 , Kinetic Energy , 84.1665 , Total Energy , -102.667, Delta Energy , -5.45502e-05, Time , 602, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.874 , Kinetic Energy , 84.2069 , Total Energy , -102.667, Delta Energy , -5.74532e-05, Time , 603, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.914 , Kinetic Energy , 84.2473 , Total Energy , -102.667, Delta Energy , -6.06218e-05, Time , 604, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.954 , Kinetic Energy , 84.2876 , Total Energy , -102.667, Delta Energy , -6.40049e-05, Time , 605, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -186.995 , Kinetic Energy , 84.3281 , Total Energy , -102.667, Delta Energy , -6.75513e-05, Time , 606, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.035 , Kinetic Energy , 84.3687 , Total Energy , -102.667, Delta Energy , -7.12108e-05, Time , 607, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.076 , Kinetic Energy , 84.4094 , Total Energy , -102.667, Delta Energy , -7.49357e-05, Time , 608, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.117 , Kinetic Energy , 84.4504 , Total Energy , -102.667, Delta Energy , -7.86817e-05, Time , 609, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.158 , Kinetic Energy , 84.4917 , Total Energy , -102.667, Delta Energy , -8.24091e-05, Time , 610, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.2 , Kinetic Energy , 84.5333 , Total Energy , -102.667, Delta Energy , -8.60827e-05, Time , 611, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.242 , Kinetic Energy , 84.5752 , Total Energy , -102.667, Delta Energy , -8.96723e-05, Time , 612, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.284 , Kinetic Energy , 84.6174 , Total Energy , -102.667, Delta Energy , -9.3153e-05, Time , 613, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.327 , Kinetic Energy , 84.6601 , Total Energy , -102.667, Delta Energy , -9.65047e-05, Time , 614, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.37 , Kinetic Energy , 84.7031 , Total Energy , -102.667, Delta Energy , -9.97122e-05, Time , 615, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.413 , Kinetic Energy , 84.7466 , Total Energy , -102.667, Delta Energy , -0.000102764, Time , 616, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.457 , Kinetic Energy , 84.7904 , Total Energy , -102.667, Delta Energy , -0.000105653, Time , 617, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.501 , Kinetic Energy , 84.8347 , Total Energy , -102.667, Delta Energy , -0.000108376, Time , 618, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.546 , Kinetic Energy , 84.8794 , Total Energy , -102.667, Delta Energy , -0.000110929, Time , 619, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.591 , Kinetic Energy , 84.9246 , Total Energy , -102.667, Delta Energy , -0.000113315, Time , 620, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.637 , Kinetic Energy , 84.9701 , Total Energy , -102.667, Delta Energy , -0.000115535, Time , 621, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.683 , Kinetic Energy , 85.0161 , Total Energy , -102.667, Delta Energy , -0.000117592, Time , 622, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.729 , Kinetic Energy , 85.0625 , Total Energy , -102.667, Delta Energy , -0.000119491, Time , 623, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.776 , Kinetic Energy , 85.1093 , Total Energy , -102.667, Delta Energy , -0.000121236, Time , 624, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.823 , Kinetic Energy , 85.1565 , Total Energy , -102.667, Delta Energy , -0.000122834, Time , 625, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.871 , Kinetic Energy , 85.2042 , Total Energy , -102.667, Delta Energy , -0.000124288, Time , 626, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.919 , Kinetic Energy , 85.2522 , Total Energy , -102.667, Delta Energy , -0.000125604, Time , 627, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -187.967 , Kinetic Energy , 85.3007 , Total Energy , -102.667, Delta Energy , -0.000126787, Time , 628, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.016 , Kinetic Energy , 85.3495 , Total Energy , -102.667, Delta Energy , -0.000127842, Time , 629, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.065 , Kinetic Energy , 85.3988 , Total Energy , -102.667, Delta Energy , -0.000128771, Time , 630, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.115 , Kinetic Energy , 85.4484 , Total Energy , -102.667, Delta Energy , -0.00012958, Time , 631, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.165 , Kinetic Energy , 85.4984 , Total Energy , -102.667, Delta Energy , -0.00013027, Time , 632, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.215 , Kinetic Energy , 85.5488 , Total Energy , -102.667, Delta Energy , -0.000130845, Time , 633, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.266 , Kinetic Energy , 85.5996 , Total Energy , -102.667, Delta Energy , -0.000131306, Time , 634, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.317 , Kinetic Energy , 85.6508 , Total Energy , -102.667, Delta Energy , -0.000131655, Time , 635, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.369 , Kinetic Energy , 85.7023 , Total Energy , -102.667, Delta Energy , -0.000131891, Time , 636, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.421 , Kinetic Energy , 85.7542 , Total Energy , -102.667, Delta Energy , -0.000132016, Time , 637, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.473 , Kinetic Energy , 85.8065 , Total Energy , -102.667, Delta Energy , -0.000132029, Time , 638, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.526 , Kinetic Energy , 85.8591 , Total Energy , -102.667, Delta Energy , -0.000131929, Time , 639, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.579 , Kinetic Energy , 85.9121 , Total Energy , -102.667, Delta Energy , -0.000131713, Time , 640, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.632 , Kinetic Energy , 85.9655 , Total Energy , -102.667, Delta Energy , -0.000131381, Time , 641, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.686 , Kinetic Energy , 86.0193 , Total Energy , -102.667, Delta Energy , -0.000130928, Time , 642, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.74 , Kinetic Energy , 86.0734 , Total Energy , -102.667, Delta Energy , -0.000130353, Time , 643, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.795 , Kinetic Energy , 86.1279 , Total Energy , -102.667, Delta Energy , -0.00012965, Time , 644, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.849 , Kinetic Energy , 86.1828 , Total Energy , -102.667, Delta Energy , -0.000128817, Time , 645, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.905 , Kinetic Energy , 86.238 , Total Energy , -102.667, Delta Energy , -0.000127849, Time , 646, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -188.96 , Kinetic Energy , 86.2936 , Total Energy , -102.667, Delta Energy , -0.00012674, Time , 647, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.016 , Kinetic Energy , 86.3496 , Total Energy , -102.667, Delta Energy , -0.000125486, Time , 648, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.073 , Kinetic Energy , 86.406 , Total Energy , -102.667, Delta Energy , -0.000124082, Time , 649, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.129 , Kinetic Energy , 86.4628 , Total Energy , -102.667, Delta Energy , -0.00012252, Time , 650, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.187 , Kinetic Energy , 86.5199 , Total Energy , -102.667, Delta Energy , -0.000120796, Time , 651, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.244 , Kinetic Energy , 86.5775 , Total Energy , -102.667, Delta Energy , -0.000118904, Time , 652, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.302 , Kinetic Energy , 86.6354 , Total Energy , -102.667, Delta Energy , -0.000116839, Time , 653, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.36 , Kinetic Energy , 86.6938 , Total Energy , -102.667, Delta Energy , -0.000114595, Time , 654, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.419 , Kinetic Energy , 86.7526 , Total Energy , -102.667, Delta Energy , -0.000112167, Time , 655, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.478 , Kinetic Energy , 86.8117 , Total Energy , -102.667, Delta Energy , -0.000109552, Time , 656, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.538 , Kinetic Energy , 86.8713 , Total Energy , -102.667, Delta Energy , -0.000106747, Time , 657, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.598 , Kinetic Energy , 86.9314 , Total Energy , -102.667, Delta Energy , -0.000103753, Time , 658, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.658 , Kinetic Energy , 86.9918 , Total Energy , -102.667, Delta Energy , -0.00010057, Time , 659, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.719 , Kinetic Energy , 87.0526 , Total Energy , -102.667, Delta Energy , -9.72034e-05, Time , 660, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.781 , Kinetic Energy , 87.1139 , Total Energy , -102.667, Delta Energy , -9.36625e-05, Time , 661, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.842 , Kinetic Energy , 87.1755 , Total Energy , -102.667, Delta Energy , -8.99604e-05, Time , 662, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.904 , Kinetic Energy , 87.2375 , Total Energy , -102.667, Delta Energy , -8.6116e-05, Time , 663, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -189.967 , Kinetic Energy , 87.2999 , Total Energy , -102.667, Delta Energy , -8.2154e-05, Time , 664, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -190.029 , Kinetic Energy , 87.3626 , Total Energy , -102.667, Delta Energy , -7.81057e-05, Time , 665, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -190.092 , Kinetic Energy , 87.4256 , Total Energy , -102.667, Delta Energy , -7.40089e-05, Time , 666, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -190.156 , Kinetic Energy , 87.4889 , Total Energy , -102.667, Delta Energy , -6.99068e-05, Time , 667, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -190.219 , Kinetic Energy , 87.5524 , Total Energy , -102.667, Delta Energy , -6.58474e-05, Time , 668, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -190.283 , Kinetic Energy , 87.616 , Total Energy , -102.667, Delta Energy , -6.18813e-05, Time , 669, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -190.347 , Kinetic Energy , 87.6798 , Total Energy , -102.667, Delta Energy , -5.80596e-05, Time , 670, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -190.41 , Kinetic Energy , 87.7435 , Total Energy , -102.667, Delta Energy , -5.44315e-05, Time , 671, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -190.474 , Kinetic Energy , 87.8073 , Total Energy , -102.667, Delta Energy , -5.1043e-05, Time , 672, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -190.538 , Kinetic Energy , 87.8709 , Total Energy , -102.667, Delta Energy , -4.79363e-05, Time , 673, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -190.601 , Kinetic Energy , 87.9343 , Total Energy , -102.667, Delta Energy , -4.51508e-05, Time , 674, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -190.664 , Kinetic Energy , 87.9975 , Total Energy , -102.667, Delta Energy , -4.27251e-05, Time , 675, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -190.727 , Kinetic Energy , 88.0603 , Total Energy , -102.667, Delta Energy , -4.06989e-05, Time , 676, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -190.79 , Kinetic Energy , 88.1229 , Total Energy , -102.667, Delta Energy , -3.91145e-05, Time , 677, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -190.852 , Kinetic Energy , 88.1851 , Total Energy , -102.667, Delta Energy , -3.80153e-05, Time , 678, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -190.914 , Kinetic Energy , 88.2469 , Total Energy , -102.667, Delta Energy , -3.74416e-05, Time , 679, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -190.975 , Kinetic Energy , 88.3083 , Total Energy , -102.667, Delta Energy , -3.7425e-05, Time , 680, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -191.036 , Kinetic Energy , 88.3694 , Total Energy , -102.667, Delta Energy , -3.79815e-05, Time , 681, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -191.097 , Kinetic Energy , 88.4302 , Total Energy , -102.667, Delta Energy , -3.91064e-05, Time , 682, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -191.157 , Kinetic Energy , 88.4907 , Total Energy , -102.667, Delta Energy , -4.07722e-05, Time , 683, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -191.218 , Kinetic Energy , 88.5509 , Total Energy , -102.667, Delta Energy , -4.29299e-05, Time , 684, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -191.278 , Kinetic Energy , 88.6109 , Total Energy , -102.667, Delta Energy , -4.5513e-05, Time , 685, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -191.338 , Kinetic Energy , 88.6708 , Total Energy , -102.667, Delta Energy , -4.84446e-05, Time , 686, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -191.397 , Kinetic Energy , 88.7305 , Total Energy , -102.667, Delta Energy , -5.16436e-05, Time , 687, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -191.457 , Kinetic Energy , 88.7902 , Total Energy , -102.667, Delta Energy , -5.50317e-05, Time , 688, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -191.517 , Kinetic Energy , 88.8499 , Total Energy , -102.667, Delta Energy , -5.85374e-05, Time , 689, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -191.576 , Kinetic Energy , 88.9095 , Total Energy , -102.667, Delta Energy , -6.20996e-05, Time , 690, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -191.636 , Kinetic Energy , 88.9692 , Total Energy , -102.667, Delta Energy , -6.56678e-05, Time , 691, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -191.696 , Kinetic Energy , 89.0291 , Total Energy , -102.667, Delta Energy , -6.92025e-05, Time , 692, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -191.756 , Kinetic Energy , 89.089 , Total Energy , -102.667, Delta Energy , -7.26734e-05, Time , 693, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -191.816 , Kinetic Energy , 89.1492 , Total Energy , -102.667, Delta Energy , -7.60581e-05, Time , 694, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -191.876 , Kinetic Energy , 89.2095 , Total Energy , -102.667, Delta Energy , -7.93399e-05, Time , 695, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -191.937 , Kinetic Energy , 89.2701 , Total Energy , -102.667, Delta Energy , -8.25067e-05, Time , 696, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -191.998 , Kinetic Energy , 89.331 , Total Energy , -102.667, Delta Energy , -8.55494e-05, Time , 697, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -192.059 , Kinetic Energy , 89.3921 , Total Energy , -102.667, Delta Energy , -8.84614e-05, Time , 698, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -192.12 , Kinetic Energy , 89.4536 , Total Energy , -102.667, Delta Energy , -9.12374e-05, Time , 699, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -192.182 , Kinetic Energy , 89.5154 , Total Energy , -102.667, Delta Energy , -9.38739e-05, Time , 700, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -192.244 , Kinetic Energy , 89.5776 , Total Energy , -102.667, Delta Energy , -9.63681e-05, Time , 701, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -192.307 , Kinetic Energy , 89.6402 , Total Energy , -102.667, Delta Energy , -9.87184e-05, Time , 702, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -192.37 , Kinetic Energy , 89.7031 , Total Energy , -102.667, Delta Energy , -0.000100924, Time , 703, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -192.433 , Kinetic Energy , 89.7664 , Total Energy , -102.667, Delta Energy , -0.000102986, Time , 704, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -192.497 , Kinetic Energy , 89.8302 , Total Energy , -102.667, Delta Energy , -0.000104904, Time , 705, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -192.561 , Kinetic Energy , 89.8943 , Total Energy , -102.667, Delta Energy , -0.00010668, Time , 706, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -192.626 , Kinetic Energy , 89.9589 , Total Energy , -102.667, Delta Energy , -0.000108318, Time , 707, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -192.691 , Kinetic Energy , 90.0239 , Total Energy , -102.667, Delta Energy , -0.000109819, Time , 708, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -192.756 , Kinetic Energy , 90.0893 , Total Energy , -102.667, Delta Energy , -0.000111187, Time , 709, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -192.822 , Kinetic Energy , 90.1552 , Total Energy , -102.667, Delta Energy , -0.000112426, Time , 710, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -192.888 , Kinetic Energy , 90.2215 , Total Energy , -102.667, Delta Energy , -0.000113539, Time , 711, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -192.955 , Kinetic Energy , 90.2882 , Total Energy , -102.667, Delta Energy , -0.00011453, Time , 712, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -193.022 , Kinetic Energy , 90.3553 , Total Energy , -102.667, Delta Energy , -0.000115404, Time , 713, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -193.09 , Kinetic Energy , 90.4229 , Total Energy , -102.667, Delta Energy , -0.000116163, Time , 714, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -193.158 , Kinetic Energy , 90.4909 , Total Energy , -102.667, Delta Energy , -0.000116812, Time , 715, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -193.226 , Kinetic Energy , 90.5594 , Total Energy , -102.667, Delta Energy , -0.000117353, Time , 716, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -193.295 , Kinetic Energy , 90.6283 , Total Energy , -102.667, Delta Energy , -0.000117789, Time , 717, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -193.364 , Kinetic Energy , 90.6976 , Total Energy , -102.667, Delta Energy , -0.000118124, Time , 718, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -193.434 , Kinetic Energy , 90.7674 , Total Energy , -102.667, Delta Energy , -0.000118358, Time , 719, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -193.504 , Kinetic Energy , 90.8376 , Total Energy , -102.667, Delta Energy , -0.000118494, Time , 720, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -193.575 , Kinetic Energy , 90.9082 , Total Energy , -102.667, Delta Energy , -0.000118533, Time , 721, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -193.646 , Kinetic Energy , 90.9792 , Total Energy , -102.667, Delta Energy , -0.000118475, Time , 722, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -193.717 , Kinetic Energy , 91.0507 , Total Energy , -102.667, Delta Energy , -0.00011832, Time , 723, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -193.789 , Kinetic Energy , 91.1226 , Total Energy , -102.667, Delta Energy , -0.000118068, Time , 724, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -193.862 , Kinetic Energy , 91.195 , Total Energy , -102.667, Delta Energy , -0.000117717, Time , 725, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -193.934 , Kinetic Energy , 91.2677 , Total Energy , -102.667, Delta Energy , -0.000117266, Time , 726, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -194.008 , Kinetic Energy , 91.3409 , Total Energy , -102.667, Delta Energy , -0.000116711, Time , 727, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -194.081 , Kinetic Energy , 91.4145 , Total Energy , -102.667, Delta Energy , -0.00011605, Time , 728, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -194.155 , Kinetic Energy , 91.4885 , Total Energy , -102.667, Delta Energy , -0.000115278, Time , 729, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -194.23 , Kinetic Energy , 91.563 , Total Energy , -102.667, Delta Energy , -0.000114391, Time , 730, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -194.305 , Kinetic Energy , 91.6379 , Total Energy , -102.667, Delta Energy , -0.000113381, Time , 731, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -194.38 , Kinetic Energy , 91.7132 , Total Energy , -102.667, Delta Energy , -0.000112244, Time , 732, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -194.456 , Kinetic Energy , 91.7889 , Total Energy , -102.667, Delta Energy , -0.000110971, Time , 733, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -194.532 , Kinetic Energy , 91.865 , Total Energy , -102.667, Delta Energy , -0.000109555, Time , 734, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -194.608 , Kinetic Energy , 91.9416 , Total Energy , -102.667, Delta Energy , -0.000107986, Time , 735, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -194.685 , Kinetic Energy , 92.0185 , Total Energy , -102.667, Delta Energy , -0.000106256, Time , 736, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -194.763 , Kinetic Energy , 92.0959 , Total Energy , -102.667, Delta Energy , -0.000104354, Time , 737, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -194.84 , Kinetic Energy , 92.1737 , Total Energy , -102.667, Delta Energy , -0.000102269, Time , 738, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -194.919 , Kinetic Energy , 92.2519 , Total Energy , -102.667, Delta Energy , -9.99931e-05, Time , 739, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -194.997 , Kinetic Energy , 92.3305 , Total Energy , -102.667, Delta Energy , -9.75146e-05, Time , 740, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -195.076 , Kinetic Energy , 92.4095 , Total Energy , -102.667, Delta Energy , -9.48249e-05, Time , 741, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -195.156 , Kinetic Energy , 92.4889 , Total Energy , -102.667, Delta Energy , -9.19163e-05, Time , 742, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -195.235 , Kinetic Energy , 92.5686 , Total Energy , -102.667, Delta Energy , -8.87833e-05, Time , 743, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -195.315 , Kinetic Energy , 92.6488 , Total Energy , -102.667, Delta Energy , -8.54235e-05, Time , 744, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -195.396 , Kinetic Energy , 92.7292 , Total Energy , -102.667, Delta Energy , -8.18389e-05, Time , 745, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -195.477 , Kinetic Energy , 92.8101 , Total Energy , -102.667, Delta Energy , -7.80369e-05, Time , 746, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -195.558 , Kinetic Energy , 92.8912 , Total Energy , -102.667, Delta Energy , -7.4032e-05, Time , 747, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -195.639 , Kinetic Energy , 92.9726 , Total Energy , -102.667, Delta Energy , -6.98469e-05, Time , 748, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -195.721 , Kinetic Energy , 93.0543 , Total Energy , -102.667, Delta Energy , -6.5514e-05, Time , 749, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -195.803 , Kinetic Energy , 93.1363 , Total Energy , -102.667, Delta Energy , -6.10758e-05, Time , 750, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -195.885 , Kinetic Energy , 93.2184 , Total Energy , -102.667, Delta Energy , -5.65855e-05, Time , 751, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -195.967 , Kinetic Energy , 93.3006 , Total Energy , -102.667, Delta Energy , -5.21059e-05, Time , 752, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -196.05 , Kinetic Energy , 93.3829 , Total Energy , -102.667, Delta Energy , -4.7708e-05, Time , 753, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -196.132 , Kinetic Energy , 93.4653 , Total Energy , -102.667, Delta Energy , -4.3468e-05, Time , 754, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -196.214 , Kinetic Energy , 93.5476 , Total Energy , -102.667, Delta Energy , -3.94639e-05, Time , 755, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -196.297 , Kinetic Energy , 93.6298 , Total Energy , -102.667, Delta Energy , -3.57721e-05, Time , 756, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -196.379 , Kinetic Energy , 93.7119 , Total Energy , -102.667, Delta Energy , -3.24642e-05, Time , 757, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -196.461 , Kinetic Energy , 93.7937 , Total Energy , -102.667, Delta Energy , -2.96043e-05, Time , 758, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -196.542 , Kinetic Energy , 93.8753 , Total Energy , -102.667, Delta Energy , -2.72484e-05, Time , 759, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -196.623 , Kinetic Energy , 93.9567 , Total Energy , -102.667, Delta Energy , -2.54428e-05, Time , 760, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -196.704 , Kinetic Energy , 94.0377 , Total Energy , -102.667, Delta Energy , -2.42241e-05, Time , 761, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -196.785 , Kinetic Energy , 94.1184 , Total Energy , -102.667, Delta Energy , -2.36173e-05, Time , 762, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -196.866 , Kinetic Energy , 94.1988 , Total Energy , -102.667, Delta Energy , -2.36339e-05, Time , 763, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -196.946 , Kinetic Energy , 94.279 , Total Energy , -102.667, Delta Energy , -2.42693e-05, Time , 764, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -197.026 , Kinetic Energy , 94.3589 , Total Energy , -102.667, Delta Energy , -2.55005e-05, Time , 765, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -197.105 , Kinetic Energy , 94.4386 , Total Energy , -102.667, Delta Energy , -2.72856e-05, Time , 766, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -197.185 , Kinetic Energy , 94.5182 , Total Energy , -102.667, Delta Energy , -2.95655e-05, Time , 767, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -197.264 , Kinetic Energy , 94.5977 , Total Energy , -102.667, Delta Energy , -3.22672e-05, Time , 768, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -197.344 , Kinetic Energy , 94.6771 , Total Energy , -102.667, Delta Energy , -3.53085e-05, Time , 769, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -197.423 , Kinetic Energy , 94.7565 , Total Energy , -102.667, Delta Energy , -3.86039e-05, Time , 770, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -197.503 , Kinetic Energy , 94.8359 , Total Energy , -102.667, Delta Energy , -4.20693e-05, Time , 771, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -197.582 , Kinetic Energy , 94.9153 , Total Energy , -102.667, Delta Energy , -4.56267e-05, Time , 772, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -197.662 , Kinetic Energy , 94.9949 , Total Energy , -102.667, Delta Energy , -4.92066e-05, Time , 773, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -197.741 , Kinetic Energy , 95.0746 , Total Energy , -102.667, Delta Energy , -5.27505e-05, Time , 774, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -197.821 , Kinetic Energy , 95.1544 , Total Energy , -102.667, Delta Energy , -5.6211e-05, Time , 775, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -197.901 , Kinetic Energy , 95.2343 , Total Energy , -102.667, Delta Energy , -5.95514e-05, Time , 776, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -197.981 , Kinetic Energy , 95.3145 , Total Energy , -102.667, Delta Energy , -6.27455e-05, Time , 777, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -198.062 , Kinetic Energy , 95.3948 , Total Energy , -102.667, Delta Energy , -6.57755e-05, Time , 778, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -198.142 , Kinetic Energy , 95.4753 , Total Energy , -102.667, Delta Energy , -6.86311e-05, Time , 779, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -198.223 , Kinetic Energy , 95.5561 , Total Energy , -102.667, Delta Energy , -7.13076e-05, Time , 780, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -198.304 , Kinetic Energy , 95.6371 , Total Energy , -102.667, Delta Energy , -7.3805e-05, Time , 781, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -198.385 , Kinetic Energy , 95.7184 , Total Energy , -102.667, Delta Energy , -7.61262e-05, Time , 782, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -198.467 , Kinetic Energy , 95.7999 , Total Energy , -102.667, Delta Energy , -7.82763e-05, Time , 783, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -198.548 , Kinetic Energy , 95.8818 , Total Energy , -102.667, Delta Energy , -8.02616e-05, Time , 784, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -198.631 , Kinetic Energy , 95.9639 , Total Energy , -102.667, Delta Energy , -8.20891e-05, Time , 785, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -198.713 , Kinetic Energy , 96.0463 , Total Energy , -102.667, Delta Energy , -8.37657e-05, Time , 786, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -198.796 , Kinetic Energy , 96.1291 , Total Energy , -102.667, Delta Energy , -8.52985e-05, Time , 787, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -198.879 , Kinetic Energy , 96.2123 , Total Energy , -102.667, Delta Energy , -8.6694e-05, Time , 788, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -198.962 , Kinetic Energy , 96.2958 , Total Energy , -102.667, Delta Energy , -8.79581e-05, Time , 789, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -199.046 , Kinetic Energy , 96.3796 , Total Energy , -102.667, Delta Energy , -8.90965e-05, Time , 790, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -199.131 , Kinetic Energy , 96.4638 , Total Energy , -102.667, Delta Energy , -9.01143e-05, Time , 791, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -199.215 , Kinetic Energy , 96.5485 , Total Energy , -102.667, Delta Energy , -9.10163e-05, Time , 792, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -199.3 , Kinetic Energy , 96.6335 , Total Energy , -102.667, Delta Energy , -9.18067e-05, Time , 793, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -199.386 , Kinetic Energy , 96.7189 , Total Energy , -102.667, Delta Energy , -9.24896e-05, Time , 794, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -199.471 , Kinetic Energy , 96.8047 , Total Energy , -102.667, Delta Energy , -9.30686e-05, Time , 795, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -199.558 , Kinetic Energy , 96.8909 , Total Energy , -102.667, Delta Energy , -9.35474e-05, Time , 796, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -199.644 , Kinetic Energy , 96.9776 , Total Energy , -102.667, Delta Energy , -9.39292e-05, Time , 797, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -199.731 , Kinetic Energy , 97.0646 , Total Energy , -102.667, Delta Energy , -9.42172e-05, Time , 798, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -199.819 , Kinetic Energy , 97.1521 , Total Energy , -102.667, Delta Energy , -9.44142e-05, Time , 799, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -199.907 , Kinetic Energy , 97.24 , Total Energy , -102.667, Delta Energy , -9.45232e-05, Time , 800, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -199.995 , Kinetic Energy , 97.3284 , Total Energy , -102.667, Delta Energy , -9.45466e-05, Time , 801, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -200.084 , Kinetic Energy , 97.4172 , Total Energy , -102.667, Delta Energy , -9.4487e-05, Time , 802, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -200.173 , Kinetic Energy , 97.5064 , Total Energy , -102.667, Delta Energy , -9.43465e-05, Time , 803, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -200.263 , Kinetic Energy , 97.596 , Total Energy , -102.667, Delta Energy , -9.41271e-05, Time , 804, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -200.353 , Kinetic Energy , 97.6861 , Total Energy , -102.667, Delta Energy , -9.38305e-05, Time , 805, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -200.443 , Kinetic Energy , 97.7767 , Total Energy , -102.667, Delta Energy , -9.34581e-05, Time , 806, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -200.534 , Kinetic Energy , 97.8676 , Total Energy , -102.667, Delta Energy , -9.30109e-05, Time , 807, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -200.626 , Kinetic Energy , 97.959 , Total Energy , -102.667, Delta Energy , -9.24892e-05, Time , 808, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -200.718 , Kinetic Energy , 98.0508 , Total Energy , -102.667, Delta Energy , -9.18931e-05, Time , 809, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -200.81 , Kinetic Energy , 98.1431 , Total Energy , -102.667, Delta Energy , -9.12218e-05, Time , 810, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -200.902 , Kinetic Energy , 98.2357 , Total Energy , -102.667, Delta Energy , -9.04737e-05, Time , 811, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -200.996 , Kinetic Energy , 98.3288 , Total Energy , -102.667, Delta Energy , -8.96462e-05, Time , 812, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -201.089 , Kinetic Energy , 98.4223 , Total Energy , -102.667, Delta Energy , -8.87357e-05, Time , 813, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -201.183 , Kinetic Energy , 98.5162 , Total Energy , -102.667, Delta Energy , -8.77374e-05, Time , 814, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -201.277 , Kinetic Energy , 98.6105 , Total Energy , -102.667, Delta Energy , -8.66446e-05, Time , 815, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -201.372 , Kinetic Energy , 98.7052 , Total Energy , -102.667, Delta Energy , -8.54495e-05, Time , 816, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -201.467 , Kinetic Energy , 98.8003 , Total Energy , -102.667, Delta Energy , -8.41419e-05, Time , 817, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -201.562 , Kinetic Energy , 98.8957 , Total Energy , -102.667, Delta Energy , -8.27099e-05, Time , 818, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -201.658 , Kinetic Energy , 98.9915 , Total Energy , -102.667, Delta Energy , -8.11396e-05, Time , 819, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -201.754 , Kinetic Energy , 99.0876 , Total Energy , -102.667, Delta Energy , -7.94148e-05, Time , 820, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -201.851 , Kinetic Energy , 99.1841 , Total Energy , -102.667, Delta Energy , -7.75176e-05, Time , 821, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -201.948 , Kinetic Energy , 99.2808 , Total Energy , -102.667, Delta Energy , -7.54281e-05, Time , 822, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -202.045 , Kinetic Energy , 99.3779 , Total Energy , -102.667, Delta Energy , -7.31259e-05, Time , 823, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -202.142 , Kinetic Energy , 99.4753 , Total Energy , -102.667, Delta Energy , -7.05898e-05, Time , 824, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -202.24 , Kinetic Energy , 99.5729 , Total Energy , -102.667, Delta Energy , -6.78e-05, Time , 825, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -202.337 , Kinetic Energy , 99.6707 , Total Energy , -102.667, Delta Energy , -6.47389e-05, Time , 826, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -202.436 , Kinetic Energy , 99.7688 , Total Energy , -102.667, Delta Energy , -6.13934e-05, Time , 827, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -202.534 , Kinetic Energy , 99.867 , Total Energy , -102.667, Delta Energy , -5.77573e-05, Time , 828, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -202.632 , Kinetic Energy , 99.9655 , Total Energy , -102.667, Delta Energy , -5.38334e-05, Time , 829, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -202.731 , Kinetic Energy , 100.064 , Total Energy , -102.667, Delta Energy , -4.96366e-05, Time , 830, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -202.83 , Kinetic Energy , 100.163 , Total Energy , -102.667, Delta Energy , -4.51963e-05, Time , 831, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -202.928 , Kinetic Energy , 100.262 , Total Energy , -102.667, Delta Energy , -4.05586e-05, Time , 832, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -203.027 , Kinetic Energy , 100.36 , Total Energy , -102.667, Delta Energy , -3.57875e-05, Time , 833, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -203.126 , Kinetic Energy , 100.459 , Total Energy , -102.667, Delta Energy , -3.09644e-05, Time , 834, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -203.225 , Kinetic Energy , 100.558 , Total Energy , -102.667, Delta Energy , -2.61871e-05, Time , 835, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -203.324 , Kinetic Energy , 100.657 , Total Energy , -102.667, Delta Energy , -2.1565e-05, Time , 836, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -203.423 , Kinetic Energy , 100.756 , Total Energy , -102.667, Delta Energy , -1.72138e-05, Time , 837, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -203.521 , Kinetic Energy , 100.854 , Total Energy , -102.667, Delta Energy , -1.32472e-05, Time , 838, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -203.62 , Kinetic Energy , 100.953 , Total Energy , -102.667, Delta Energy , -9.76792e-06, Time , 839, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -203.718 , Kinetic Energy , 101.051 , Total Energy , -102.667, Delta Energy , -6.85917e-06, Time , 840, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -203.816 , Kinetic Energy , 101.149 , Total Energy , -102.667, Delta Energy , -4.57724e-06, Time , 841, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -203.914 , Kinetic Energy , 101.247 , Total Energy , -102.667, Delta Energy , -2.94725e-06, Time , 842, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -204.011 , Kinetic Energy , 101.344 , Total Energy , -102.667, Delta Energy , -1.96284e-06, Time , 843, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -204.108 , Kinetic Energy , 101.441 , Total Energy , -102.667, Delta Energy , -1.58992e-06, Time , 844, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -204.204 , Kinetic Energy , 101.538 , Total Energy , -102.667, Delta Energy , -1.77363e-06, Time , 845, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -204.3 , Kinetic Energy , 101.634 , Total Energy , -102.667, Delta Energy , -2.44688e-06, Time , 846, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -204.396 , Kinetic Energy , 101.729 , Total Energy , -102.667, Delta Energy , -3.53872e-06, Time , 847, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -204.492 , Kinetic Energy , 101.825 , Total Energy , -102.667, Delta Energy , -4.9808e-06, Time , 848, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -204.587 , Kinetic Energy , 101.92 , Total Energy , -102.667, Delta Energy , -6.71125e-06, Time , 849, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -204.681 , Kinetic Energy , 102.014 , Total Energy , -102.667, Delta Energy , -8.676e-06, Time , 850, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -204.776 , Kinetic Energy , 102.109 , Total Energy , -102.667, Delta Energy , -1.08282e-05, Time , 851, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -204.87 , Kinetic Energy , 102.203 , Total Energy , -102.667, Delta Energy , -1.31265e-05, Time , 852, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -204.964 , Kinetic Energy , 102.297 , Total Energy , -102.667, Delta Energy , -1.55339e-05, Time , 853, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -205.058 , Kinetic Energy , 102.391 , Total Energy , -102.667, Delta Energy , -1.80161e-05, Time , 854, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -205.152 , Kinetic Energy , 102.485 , Total Energy , -102.667, Delta Energy , -2.05409e-05, Time , 855, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -205.245 , Kinetic Energy , 102.579 , Total Energy , -102.667, Delta Energy , -2.30784e-05, Time , 856, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -205.339 , Kinetic Energy , 102.672 , Total Energy , -102.667, Delta Energy , -2.5601e-05, Time , 857, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -205.433 , Kinetic Energy , 102.766 , Total Energy , -102.667, Delta Energy , -2.80838e-05, Time , 858, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -205.526 , Kinetic Energy , 102.86 , Total Energy , -102.667, Delta Energy , -3.05048e-05, Time , 859, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -205.62 , Kinetic Energy , 102.953 , Total Energy , -102.667, Delta Energy , -3.28454e-05, Time , 860, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -205.714 , Kinetic Energy , 103.047 , Total Energy , -102.667, Delta Energy , -3.50902e-05, Time , 861, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -205.808 , Kinetic Energy , 103.141 , Total Energy , -102.667, Delta Energy , -3.7227e-05, Time , 862, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -205.902 , Kinetic Energy , 103.235 , Total Energy , -102.667, Delta Energy , -3.92465e-05, Time , 863, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -205.996 , Kinetic Energy , 103.329 , Total Energy , -102.667, Delta Energy , -4.11426e-05, Time , 864, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -206.09 , Kinetic Energy , 103.423 , Total Energy , -102.667, Delta Energy , -4.29112e-05, Time , 865, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -206.185 , Kinetic Energy , 103.518 , Total Energy , -102.667, Delta Energy , -4.45508e-05, Time , 866, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -206.279 , Kinetic Energy , 103.612 , Total Energy , -102.667, Delta Energy , -4.60616e-05, Time , 867, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -206.374 , Kinetic Energy , 103.707 , Total Energy , -102.667, Delta Energy , -4.74458e-05, Time , 868, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -206.468 , Kinetic Energy , 103.801 , Total Energy , -102.667, Delta Energy , -4.87064e-05, Time , 869, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -206.563 , Kinetic Energy , 103.896 , Total Energy , -102.667, Delta Energy , -4.98481e-05, Time , 870, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -206.658 , Kinetic Energy , 103.991 , Total Energy , -102.667, Delta Energy , -5.08761e-05, Time , 871, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -206.753 , Kinetic Energy , 104.086 , Total Energy , -102.667, Delta Energy , -5.17964e-05, Time , 872, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -206.848 , Kinetic Energy , 104.181 , Total Energy , -102.667, Delta Energy , -5.26156e-05, Time , 873, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -206.943 , Kinetic Energy , 104.277 , Total Energy , -102.667, Delta Energy , -5.33406e-05, Time , 874, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -207.039 , Kinetic Energy , 104.372 , Total Energy , -102.667, Delta Energy , -5.39782e-05, Time , 875, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -207.134 , Kinetic Energy , 104.467 , Total Energy , -102.667, Delta Energy , -5.45356e-05, Time , 876, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -207.23 , Kinetic Energy , 104.563 , Total Energy , -102.667, Delta Energy , -5.50195e-05, Time , 877, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -207.326 , Kinetic Energy , 104.659 , Total Energy , -102.667, Delta Energy , -5.54365e-05, Time , 878, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -207.422 , Kinetic Energy , 104.755 , Total Energy , -102.667, Delta Energy , -5.57927e-05, Time , 879, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -207.518 , Kinetic Energy , 104.851 , Total Energy , -102.667, Delta Energy , -5.60937e-05, Time , 880, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -207.614 , Kinetic Energy , 104.947 , Total Energy , -102.667, Delta Energy , -5.63443e-05, Time , 881, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -207.71 , Kinetic Energy , 105.043 , Total Energy , -102.667, Delta Energy , -5.65483e-05, Time , 882, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -207.806 , Kinetic Energy , 105.139 , Total Energy , -102.667, Delta Energy , -5.67085e-05, Time , 883, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -207.903 , Kinetic Energy , 105.236 , Total Energy , -102.667, Delta Energy , -5.68264e-05, Time , 884, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -207.999 , Kinetic Energy , 105.332 , Total Energy , -102.667, Delta Energy , -5.6902e-05, Time , 885, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -208.096 , Kinetic Energy , 105.429 , Total Energy , -102.667, Delta Energy , -5.69333e-05, Time , 886, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -208.192 , Kinetic Energy , 105.525 , Total Energy , -102.667, Delta Energy , -5.69168e-05, Time , 887, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -208.289 , Kinetic Energy , 105.622 , Total Energy , -102.667, Delta Energy , -5.68466e-05, Time , 888, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -208.385 , Kinetic Energy , 105.719 , Total Energy , -102.667, Delta Energy , -5.67147e-05, Time , 889, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -208.482 , Kinetic Energy , 105.815 , Total Energy , -102.667, Delta Energy , -5.65107e-05, Time , 890, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -208.579 , Kinetic Energy , 105.912 , Total Energy , -102.667, Delta Energy , -5.62221e-05, Time , 891, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -208.675 , Kinetic Energy , 106.009 , Total Energy , -102.667, Delta Energy , -5.58341e-05, Time , 892, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -208.772 , Kinetic Energy , 106.105 , Total Energy , -102.667, Delta Energy , -5.53297e-05, Time , 893, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -208.869 , Kinetic Energy , 106.202 , Total Energy , -102.667, Delta Energy , -5.46908e-05, Time , 894, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -208.965 , Kinetic Energy , 106.298 , Total Energy , -102.667, Delta Energy , -5.38979e-05, Time , 895, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -209.062 , Kinetic Energy , 106.395 , Total Energy , -102.667, Delta Energy , -5.29313e-05, Time , 896, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -209.158 , Kinetic Energy , 106.491 , Total Energy , -102.667, Delta Energy , -5.17716e-05, Time , 897, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -209.254 , Kinetic Energy , 106.588 , Total Energy , -102.667, Delta Energy , -5.04008e-05, Time , 898, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -209.351 , Kinetic Energy , 106.684 , Total Energy , -102.667, Delta Energy , -4.88031e-05, Time , 899, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -209.447 , Kinetic Energy , 106.78 , Total Energy , -102.667, Delta Energy , -4.69659e-05, Time , 900, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -209.543 , Kinetic Energy , 106.876 , Total Energy , -102.667, Delta Energy , -4.48807e-05, Time , 901, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -209.638 , Kinetic Energy , 106.972 , Total Energy , -102.667, Delta Energy , -4.25435e-05, Time , 902, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -209.734 , Kinetic Energy , 107.067 , Total Energy , -102.667, Delta Energy , -3.9956e-05, Time , 903, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -209.83 , Kinetic Energy , 107.163 , Total Energy , -102.667, Delta Energy , -3.71252e-05, Time , 904, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -209.925 , Kinetic Energy , 107.259 , Total Energy , -102.667, Delta Energy , -3.40641e-05, Time , 905, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -210.021 , Kinetic Energy , 107.354 , Total Energy , -102.667, Delta Energy , -3.07911e-05, Time , 906, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -210.116 , Kinetic Energy , 107.449 , Total Energy , -102.667, Delta Energy , -2.73297e-05, Time , 907, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -210.211 , Kinetic Energy , 107.544 , Total Energy , -102.667, Delta Energy , -2.37082e-05, Time , 908, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -210.306 , Kinetic Energy , 107.64 , Total Energy , -102.667, Delta Energy , -1.99588e-05, Time , 909, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -210.401 , Kinetic Energy , 107.735 , Total Energy , -102.667, Delta Energy , -1.61171e-05, Time , 910, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -210.496 , Kinetic Energy , 107.83 , Total Energy , -102.667, Delta Energy , -1.22211e-05, Time , 911, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -210.591 , Kinetic Energy , 107.924 , Total Energy , -102.667, Delta Energy , -8.31114e-06, Time , 912, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -210.686 , Kinetic Energy , 108.019 , Total Energy , -102.667, Delta Energy , -4.42872e-06, Time , 913, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -210.781 , Kinetic Energy , 108.114 , Total Energy , -102.667, Delta Energy , -6.1642e-07, Time , 914, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -210.875 , Kinetic Energy , 108.209 , Total Energy , -102.667, Delta Energy , 3.08274e-06, Time , 915, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -210.97 , Kinetic Energy , 108.303 , Total Energy , -102.667, Delta Energy , 6.62578e-06, Time , 916, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -211.064 , Kinetic Energy , 108.397 , Total Energy , -102.667, Delta Energy , 9.97051e-06, Time , 917, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -211.158 , Kinetic Energy , 108.491 , Total Energy , -102.667, Delta Energy , 1.30765e-05, Time , 918, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -211.252 , Kinetic Energy , 108.585 , Total Energy , -102.667, Delta Energy , 1.59066e-05, Time , 919, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -211.346 , Kinetic Energy , 108.679 , Total Energy , -102.667, Delta Energy , 1.84291e-05, Time , 920, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -211.439 , Kinetic Energy , 108.772 , Total Energy , -102.667, Delta Energy , 2.06199e-05, Time , 921, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -211.532 , Kinetic Energy , 108.865 , Total Energy , -102.667, Delta Energy , 2.24663e-05, Time , 922, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -211.624 , Kinetic Energy , 108.957 , Total Energy , -102.667, Delta Energy , 2.397e-05, Time , 923, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -211.716 , Kinetic Energy , 109.049 , Total Energy , -102.667, Delta Energy , 2.515e-05, Time , 924, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -211.807 , Kinetic Energy , 109.141 , Total Energy , -102.667, Delta Energy , 2.60444e-05, Time , 925, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -211.898 , Kinetic Energy , 109.231 , Total Energy , -102.667, Delta Energy , 2.67094e-05, Time , 926, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -211.988 , Kinetic Energy , 109.321 , Total Energy , -102.667, Delta Energy , 2.72162e-05, Time , 927, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -212.077 , Kinetic Energy , 109.41 , Total Energy , -102.667, Delta Energy , 2.76429e-05, Time , 928, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -212.165 , Kinetic Energy , 109.498 , Total Energy , -102.667, Delta Energy , 2.80654e-05, Time , 929, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -212.252 , Kinetic Energy , 109.585 , Total Energy , -102.667, Delta Energy , 2.85457e-05, Time , 930, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -212.338 , Kinetic Energy , 109.671 , Total Energy , -102.667, Delta Energy , 2.91222e-05, Time , 931, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -212.423 , Kinetic Energy , 109.756 , Total Energy , -102.667, Delta Energy , 2.9803e-05, Time , 932, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -212.507 , Kinetic Energy , 109.841 , Total Energy , -102.667, Delta Energy , 3.05647e-05, Time , 933, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -212.591 , Kinetic Energy , 109.924 , Total Energy , -102.667, Delta Energy , 3.13574e-05, Time , 934, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -212.674 , Kinetic Energy , 110.007 , Total Energy , -102.667, Delta Energy , 3.21128e-05, Time , 935, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -212.756 , Kinetic Energy , 110.089 , Total Energy , -102.667, Delta Energy , 3.27561e-05, Time , 936, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -212.837 , Kinetic Energy , 110.17 , Total Energy , -102.667, Delta Energy , 3.32159e-05, Time , 937, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -212.917 , Kinetic Energy , 110.251 , Total Energy , -102.667, Delta Energy , 3.34332e-05, Time , 938, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -212.998 , Kinetic Energy , 110.331 , Total Energy , -102.667, Delta Energy , 3.33664e-05, Time , 939, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -213.077 , Kinetic Energy , 110.41 , Total Energy , -102.667, Delta Energy , 3.29924e-05, Time , 940, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -213.156 , Kinetic Energy , 110.49 , Total Energy , -102.667, Delta Energy , 3.23055e-05, Time , 941, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -213.235 , Kinetic Energy , 110.569 , Total Energy , -102.667, Delta Energy , 3.13148e-05, Time , 942, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -213.314 , Kinetic Energy , 110.647 , Total Energy , -102.667, Delta Energy , 3.00399e-05, Time , 943, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -213.393 , Kinetic Energy , 110.726 , Total Energy , -102.667, Delta Energy , 2.85073e-05, Time , 944, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -213.471 , Kinetic Energy , 110.804 , Total Energy , -102.667, Delta Energy , 2.6747e-05, Time , 945, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -213.549 , Kinetic Energy , 110.882 , Total Energy , -102.667, Delta Energy , 2.47901e-05, Time , 946, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -213.627 , Kinetic Energy , 110.96 , Total Energy , -102.667, Delta Energy , 2.26669e-05, Time , 947, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -213.705 , Kinetic Energy , 111.038 , Total Energy , -102.667, Delta Energy , 2.04059e-05, Time , 948, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -213.783 , Kinetic Energy , 111.116 , Total Energy , -102.667, Delta Energy , 1.80335e-05, Time , 949, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -213.86 , Kinetic Energy , 111.194 , Total Energy , -102.667, Delta Energy , 1.55738e-05, Time , 950, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -213.938 , Kinetic Energy , 111.271 , Total Energy , -102.667, Delta Energy , 1.30492e-05, Time , 951, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -214.015 , Kinetic Energy , 111.349 , Total Energy , -102.667, Delta Energy , 1.0481e-05, Time , 952, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -214.093 , Kinetic Energy , 111.426 , Total Energy , -102.667, Delta Energy , 7.88966e-06, Time , 953, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -214.17 , Kinetic Energy , 111.503 , Total Energy , -102.667, Delta Energy , 5.29567e-06, Time , 954, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -214.247 , Kinetic Energy , 111.58 , Total Energy , -102.667, Delta Energy , 2.72005e-06, Time , 955, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -214.324 , Kinetic Energy , 111.657 , Total Energy , -102.667, Delta Energy , 1.84647e-07, Time , 956, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -214.4 , Kinetic Energy , 111.734 , Total Energy , -102.667, Delta Energy , -2.28759e-06, Time , 957, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -214.477 , Kinetic Energy , 111.81 , Total Energy , -102.667, Delta Energy , -4.67271e-06, Time , 958, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -214.553 , Kinetic Energy , 111.886 , Total Energy , -102.667, Delta Energy , -6.94595e-06, Time , 959, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -214.629 , Kinetic Energy , 111.962 , Total Energy , -102.667, Delta Energy , -9.08225e-06, Time , 960, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -214.705 , Kinetic Energy , 112.038 , Total Energy , -102.667, Delta Energy , -1.1057e-05, Time , 961, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -214.78 , Kinetic Energy , 112.113 , Total Energy , -102.667, Delta Energy , -1.28466e-05, Time , 962, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -214.855 , Kinetic Energy , 112.189 , Total Energy , -102.667, Delta Energy , -1.443e-05, Time , 963, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -214.93 , Kinetic Energy , 112.263 , Total Energy , -102.667, Delta Energy , -1.57889e-05, Time , 964, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -215.005 , Kinetic Energy , 112.338 , Total Energy , -102.667, Delta Energy , -1.69092e-05, Time , 965, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -215.079 , Kinetic Energy , 112.412 , Total Energy , -102.667, Delta Energy , -1.77814e-05, Time , 966, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -215.153 , Kinetic Energy , 112.486 , Total Energy , -102.667, Delta Energy , -1.84012e-05, Time , 967, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -215.226 , Kinetic Energy , 112.559 , Total Energy , -102.667, Delta Energy , -1.87699e-05, Time , 968, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -215.299 , Kinetic Energy , 112.632 , Total Energy , -102.667, Delta Energy , -1.88939e-05, Time , 969, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -215.372 , Kinetic Energy , 112.705 , Total Energy , -102.667, Delta Energy , -1.87846e-05, Time , 970, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -215.445 , Kinetic Energy , 112.778 , Total Energy , -102.667, Delta Energy , -1.84575e-05, Time , 971, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -215.517 , Kinetic Energy , 112.85 , Total Energy , -102.667, Delta Energy , -1.79317e-05, Time , 972, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -215.589 , Kinetic Energy , 112.922 , Total Energy , -102.667, Delta Energy , -1.72285e-05, Time , 973, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -215.661 , Kinetic Energy , 112.994 , Total Energy , -102.667, Delta Energy , -1.63706e-05, Time , 974, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -215.732 , Kinetic Energy , 113.065 , Total Energy , -102.667, Delta Energy , -1.53811e-05, Time , 975, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -215.803 , Kinetic Energy , 113.137 , Total Energy , -102.667, Delta Energy , -1.42822e-05, Time , 976, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -215.875 , Kinetic Energy , 113.208 , Total Energy , -102.667, Delta Energy , -1.30948e-05, Time , 977, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -215.946 , Kinetic Energy , 113.279 , Total Energy , -102.667, Delta Energy , -1.18378e-05, Time , 978, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -216.016 , Kinetic Energy , 113.35 , Total Energy , -102.667, Delta Energy , -1.05276e-05, Time , 979, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -216.087 , Kinetic Energy , 113.42 , Total Energy , -102.667, Delta Energy , -9.17743e-06, Time , 980, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -216.158 , Kinetic Energy , 113.491 , Total Energy , -102.667, Delta Energy , -7.79804e-06, Time , 981, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -216.228 , Kinetic Energy , 113.561 , Total Energy , -102.667, Delta Energy , -6.39702e-06, Time , 982, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -216.299 , Kinetic Energy , 113.632 , Total Energy , -102.667, Delta Energy , -4.97921e-06, Time , 983, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -216.369 , Kinetic Energy , 113.702 , Total Energy , -102.667, Delta Energy , -3.54689e-06, Time , 984, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -216.44 , Kinetic Energy , 113.773 , Total Energy , -102.667, Delta Energy , -2.1e-06, Time , 985, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -216.51 , Kinetic Energy , 113.843 , Total Energy , -102.667, Delta Energy , -6.36473e-07, Time , 986, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -216.581 , Kinetic Energy , 113.914 , Total Energy , -102.667, Delta Energy , 8.47434e-07, Time , 987, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -216.651 , Kinetic Energy , 113.984 , Total Energy , -102.667, Delta Energy , 2.35682e-06, Time , 988, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -216.722 , Kinetic Energy , 114.055 , Total Energy , -102.667, Delta Energy , 3.89781e-06, Time , 989, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -216.792 , Kinetic Energy , 114.126 , Total Energy , -102.667, Delta Energy , 5.47717e-06, Time , 990, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -216.863 , Kinetic Energy , 114.196 , Total Energy , -102.667, Delta Energy , 7.10201e-06, Time , 991, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -216.934 , Kinetic Energy , 114.267 , Total Energy , -102.667, Delta Energy , 8.77944e-06, Time , 992, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -217.005 , Kinetic Energy , 114.338 , Total Energy , -102.667, Delta Energy , 1.05162e-05, Time , 993, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -217.076 , Kinetic Energy , 114.409 , Total Energy , -102.667, Delta Energy , 1.23182e-05, Time , 994, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -217.147 , Kinetic Energy , 114.48 , Total Energy , -102.667, Delta Energy , 1.41903e-05, Time , 995, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -217.218 , Kinetic Energy , 114.552 , Total Energy , -102.667, Delta Energy , 1.61359e-05, Time , 996, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -217.29 , Kinetic Energy , 114.623 , Total Energy , -102.667, Delta Energy , 1.81562e-05, Time , 997, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -217.361 , Kinetic Energy , 114.694 , Total Energy , -102.667, Delta Energy , 2.02503e-05, Time , 998, Angular Momentum , 0.000000,0.000000,-90350.000000
+Potential Energy , -217.433 , Kinetic Energy , 114.766 , Total Energy , -102.667, Delta Energy , 2.24145e-05, Time , 999, Angular Momentum , 0.000000,0.000000,-90350.000000
