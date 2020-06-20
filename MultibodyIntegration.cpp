@@ -6,6 +6,7 @@
 using namespace std;
 
 double t = 0;
+double dt = 0;
 int force_eval_counter = 0;
 
 //Overloading the Vector class and declaring a Particle and System class
@@ -206,7 +207,6 @@ vector<double> force(const Particle &p1, const Particle &p2) {
 	// ( G * m * m / |r|^3 ) * r
 
 	f = ( G*p1.mass*p2.mass / ( pow( magnitude(p2.position - p1.position) , 3 ) ) )  *  (p2.position - p1.position);
-
 	
 
 	return f;
@@ -333,6 +333,7 @@ vector<double> angular_momentum(System &sys) {
 // Functions defining different integration methods 
 
 
+
 // The driver for the leap-frogging algorithm, where position is updated twice (DKD)
 void leap_frog1(System &sys, double dt) {
 
@@ -363,7 +364,6 @@ void leap_frog1(System &sys, double dt) {
 
 
 // The driver for the leap-frogging algorithm, where momentum is updated twice (KDK)
-
 void leap_frog2(System &sys, double dt) {
 
 	vector<vector<double> > f;
@@ -618,6 +618,8 @@ void adaptive_step2(System &sys, double dt) {
 
 
 
+
+
 //Implementing the RK method described in the IAS15 paper
 
 #include <eigen3/Eigen/Dense>
@@ -625,26 +627,22 @@ using namespace Eigen;
 
 //Coefficients for the RK method, where the first index is the index of the particle in question
 //and the second index is the dimension (in 3 dimensional space)
-vector<vector<Matrix<double,3,1> > > b_values;
-vector<vector<Matrix<double,3,1> > > g_values;
+vector<vector<Matrix<double,8,1> > > b_values;
+vector<vector<Matrix<double,8,1> > > g_values;
 vector<vector<double> > init_pos;
 vector<vector<double> > init_vel;
 vector<vector<double> > init_acc;
-
-//Initializes the b_value and g_value vectors with i particles having initial coefficients equal to 0
-void initialize_first_RK_step(System &sys) {
-
-	int size = sys.size();
-	for (int i = 0; i < size; i ++) {
-		vector<Matrix<double,3,1> > coeff(3);
-		b_values.push_back(coeff);
-		g_values.push_back(coeff);
-		init_pos.push_back(sys[i].position);
-		init_vel.push_back((1/sys[i].mass) * sys[i].momentum);
-		init_acc.push_back((1/sys[i].mass) * net_force_on_i(sys, i));
-	}
-}
-
+Matrix<double,8,8> c_m;
+double h1 = 0.0562625605369221464656521910318;
+double h2 = 0.180240691736892364987579942780; 
+double h3 = 0.352624717113169637373907769648;
+double h4 = 0.547153626330555383001448554766;
+double h5 = 0.734210177215410531523210605558; 
+double h6 = 0.885320946839095768090359771030;
+double h7 = 0.977520613561287501891174488626;
+double h8 = 1;
+//Initializes the position, velocity and acceleration for the beginning of the time-step
+//Is done at the start of every time-step
 void initialize_RK_step(System &sys) {
 
 	int size = sys.size();
@@ -658,6 +656,80 @@ void initialize_RK_step(System &sys) {
 
 }
 
+
+static const double h[8]    = { 0.0, 0.0562625605369221464656521910318, 0.180240691736892364987579942780, 0.352624717113169637373907769648, 0.547153626330555383001448554766, 0.734210177215410531523210605558, 0.885320946839095768090359771030, 0.977520613561287501891174488626};
+void find_matrix(int j, int k) {
+	if(j > 7 or k > 7) {
+		return;
+	}
+
+	else {
+		if(j == k) {
+			c_m(k,j) = 1;
+		}
+		else {
+			if (j > 0 and k == 0) {
+				c_m(k,j) = -h[j]*c_m(0,j-1);
+			}
+			else{
+				if(k<j) {
+
+					c_m(k,j) = c_m(k-1,j-1) - h[j]*c_m(k,j-1);
+				}
+			}
+		}
+
+		if(j < 7) {
+			find_matrix(j+1,k);
+		}
+		else {
+			find_matrix(k+1,k+1);
+		}
+
+	}
+
+}
+
+//Initializes the b_value and g_value vectors with i particles having initial coefficients equal to 0
+//Only needs to be done once per simulation
+bool very_first_timestep = true;
+void initialize_first_RK_step(System &sys) {
+	
+	if(very_first_timestep){
+		
+		int size = sys.size();
+		
+		vector<Matrix<double,8,1> > v_coeff(3);
+		Matrix<double,8,1> coeff;
+		for (int i = 0; i < 8; i ++) {
+			coeff[i] = 0;
+		}
+		vector<double> V(3);
+		for (int j = 0; j < 3; j ++) {
+			v_coeff[j] = coeff;
+		}
+
+		for (int i = 0; i < size; i ++) {
+
+			b_values.push_back(v_coeff);
+			g_values.push_back(v_coeff);
+			init_pos.push_back(V);
+			init_vel.push_back(V);
+			init_acc.push_back(V);
+		}
+
+		find_matrix(0,0);
+
+	}
+
+	very_first_timestep = false;		
+
+
+	initialize_RK_step(sys);
+}
+
+
+//Advances the position and velocity of all particles in the system to t = dt*h
 void substepRK(System &sys, double h, double dt) {
 	
 	int size = sys.size();
@@ -667,8 +739,30 @@ void substepRK(System &sys, double h, double dt) {
 		vector<double> vel(3);
 
 		for (int j = 0; j < 3; j++) {
-			pos[j] = init_pos[i][j] + ((h*dt) * init_vel[i][j]) + ((h*h*dt*dt/2)*init_acc[i][j]) + ((h*h*h*dt*dt/6)*b_values[i][j][0]) + ((h*h*h*h*dt*dt/12)*b_values[i][j][1]) + ((h*h*h*h*h*dt*dt/20)*b_values[i][j][2]);
-			vel[j] = init_vel[i][j] + ((h*dt)*init_acc[i][j]) + ((h*h*dt/2)*b_values[i][j][0]) + ((h*h*h*dt/3)*b_values[i][j][1]) + ((h*h*h*h*dt/4)*b_values[i][j][2]);
+			pos[j] = init_pos[i][j]
+				+ ((h*dt) * init_vel[i][j]) 
+				+ ((h*h*dt*dt/2)*init_acc[i][j]) 
+				+ ((h*h*h*dt*dt/6)*b_values[i][j][0]) 
+				+ ((h*h*h*h*dt*dt/12)*b_values[i][j][1]) 
+				+ ((h*h*h*h*h*dt*dt/20)*b_values[i][j][2])
+				+ ((h*h*h*h*h*h*dt*dt/30)*b_values[i][j][3])
+				+ ((h*h*h*h*h*h*h*dt*dt/42)*b_values[i][j][4])
+				+ ((h*h*h*h*h*h*h*h*dt*dt/56)*b_values[i][j][5])
+				+ ((h*h*h*h*h*h*h*h*h*dt*dt/72)*b_values[i][j][6])
+				+ ((h*h*h*h*h*h*h*h*h*h*dt*dt/90)*b_values[i][j][7]);
+
+
+
+			vel[j] = init_vel[i][j]
+				+ ((h*dt)*init_acc[i][j]) 
+				+ ((h*h*dt/2)*b_values[i][j][0]) 
+				+ ((h*h*h*dt/3)*b_values[i][j][1]) 
+				+ ((h*h*h*h*dt/4)*b_values[i][j][2])
+				+ ((h*h*h*h*h*dt/5)*b_values[i][j][3])
+				+ ((h*h*h*h*h*h*dt/6)*b_values[i][j][4])
+				+ ((h*h*h*h*h*h*h*dt/7)*b_values[i][j][5])
+				+ ((h*h*h*h*h*h*h*h*dt/8)*b_values[i][j][6])
+				+ ((h*h*h*h*h*h*h*h*h*dt/9)*b_values[i][j][7]);
 		}
 
 		sys[i].position = pos;
@@ -677,35 +771,27 @@ void substepRK(System &sys, double h, double dt) {
 	}
 }
 
-
-double h1 = 0.2123405;
-double h2 = 0.590533;
-double h3 = 1;
-
+//Reassigns the b_values based upon the current g_values
 void convert_g_to_b(System &sys) {
 
-	int size = sys.size();
-
-	Matrix<double,3,3> c_m;
-
-	c_m(0) = 1; c_m(3) = -h1; c_m(6) = h1*h2;
-	c_m(1) = 0; c_m(4) = 1;	  c_m(7) = -(h2+h1);
-	c_m(2) = 0; c_m(5) = 0;   c_m(8) = 1;
-
-
+	int size = sys.size();			
+	
+	Matrix<double,8,1> new_b;
+	
 	for(int i = 0; i < size; i ++) {
 
 		for(int j = 0; j < 3; j ++) {
-
-			Matrix<double,3,1> new_b;
+			
 			new_b = c_m * g_values[i][j];
 			b_values[i][j] = new_b;
-
+			
 		}
 	}
 
+
 }
 
+//Finds the g_values based on the initial conditions and the current b_values
 void find_g_values(System &sys, double dt) {
 
 	int size = sys.size();
@@ -761,63 +847,190 @@ void find_g_values(System &sys, double dt) {
 
 	}
 
-	//Returns system to dt = 0;
-	substepRK(sys,0,dt);
+	//Steps system forward to dt = h4
+	substepRK(sys, h4, dt);
 
+	//Calculates all g4 values
+	for (int i = 0; i < size; i ++) {
+
+		vector<double> next_acc;
+		next_acc = (1/sys[i].mass) * net_force_on_i(sys, i);
+
+		for (int j = 0; j < 3; j ++) {
+
+			g_values[i][j][3] = ( (next_acc[j] - init_acc[i][j] - g_values[i][j][0]*h4 - g_values[i][j][1]*h4*(h4-h1) - g_values[i][j][2]*h4*(h4-h1)*(h4-h2) ) / (h4*(h4-h1)*(h4-h2)*(h4-h3)) );
+
+		}
+
+	}
+
+	//Steps system forward to dt = h5
+	substepRK(sys, h5, dt);
+
+	//Calculates all g5 values
+	for (int i = 0; i < size; i ++) {
+
+		vector<double> next_acc;
+		next_acc = (1/sys[i].mass) * net_force_on_i(sys, i);
+
+		for (int j = 0; j < 3; j ++) {
+
+			g_values[i][j][4] = ( (next_acc[j] - init_acc[i][j] - g_values[i][j][0]*h5 - g_values[i][j][1]*h5*(h5-h1) - g_values[i][j][2]*h5*(h5-h1)*(h5-h2) - g_values[i][j][3]*h5*(h5-h1)*(h5-h2)*(h5-h3) ) / (h5*(h5-h1)*(h5-h2)*(h5-h3)*(h5-h4)) );
+
+		}
+
+	}
+
+	//Steps system forward to dt = h6
+	substepRK(sys, h6, dt);
+
+	//Calculates all g6 values
+	for (int i = 0; i < size; i ++) {
+
+		vector<double> next_acc;
+		next_acc = (1/sys[i].mass) * net_force_on_i(sys, i);
+
+		for (int j = 0; j < 3; j ++) {
+
+			g_values[i][j][5] = ( (next_acc[j] - init_acc[i][j] - g_values[i][j][0]*h6 - g_values[i][j][1]*h6*(h6-h1) - g_values[i][j][2]*h6*(h6-h1)*(h6-h2) - g_values[i][j][3]*h6*(h6-h1)*(h6-h2)*(h6-h3) - g_values[i][j][4]*h6*(h6-h1)*(h6-h2)*(h6-h3)*(h6-h4) ) / (h6*(h6-h1)*(h6-h2)*(h6-h3)*(h6-h4)*(h6-h5)) );
+
+		}
+
+	}
+
+	//Steps system forward to dt=h7
+	substepRK(sys, h7, dt);
+
+	//Calculates all g7 values
+	for (int i = 0; i < size; i ++) {
+
+		vector<double> next_acc;
+		next_acc = (1/sys[i].mass) * net_force_on_i(sys, i);
+
+		for (int j = 0; j < 3; j ++) {
+
+			g_values[i][j][6] = ( (next_acc[j] - init_acc[i][j] - g_values[i][j][0]*h7 - g_values[i][j][1]*h7*(h7-h1) - g_values[i][j][2]*h7*(h7-h1)*(h7-h2) - g_values[i][j][3]*h7*(h7-h1)*(h7-h2)*(h7-h3) - g_values[i][j][4]*h7*(h7-h1)*(h7-h2)*(h7-h3)*(h7-h4) - g_values[i][j][5]*h7*(h7-h1)*(h7-h2)*(h7-h3)*(h7-h4)*(h7-h5) ) / (h7*(h7-h1)*(h7-h2)*(h7-h3)*(h7-h4)*(h7-h5)*(h7-h6)) );
+
+		}
+
+	}
+
+	//Steps system forward to dt = dt
+	substepRK(sys, h8, dt);
+
+	//Calculates all g8 values
+	for (int i = 0; i < size; i ++) {
+
+		vector<double> next_acc;
+		next_acc = (1/sys[i].mass) * net_force_on_i(sys, i);
+
+		for (int j = 0; j < 3; j ++) {
+
+			g_values[i][j][7] = ( (next_acc[j] - init_acc[i][j] - g_values[i][j][0]*h8 - g_values[i][j][1]*h8*(h8-h1) - g_values[i][j][2]*h8*(h8-h1)*(h8-h2) - g_values[i][j][3]*h8*(h8-h1)*(h8-h2)*(h8-h3) - g_values[i][j][4]*h8*(h8-h1)*(h8-h2)*(h8-h3)*(h8-h4) - g_values[i][j][5]*h8*(h8-h1)*(h8-h2)*(h8-h3)*(h8-h4)*(h8-h5) - g_values[i][j][6]*h8*(h8-h1)*(h8-h2)*(h8-h3)*(h8-h4)*(h8-h5)*(h8-h6) ) / (h8*(h8-h1)*(h8-h2)*(h8-h3)*(h8-h4)*(h8-h5)*(h8-h6)*(h8-h7)) );
+
+		}
+
+	}
+
+	//Returns system to dt = 0 and converts the g values to b values
+	
+	substepRK(sys,0,dt);
 	convert_g_to_b(sys);
 	
 }
 
-void RK_Recurse(System &sys, double dt) {
 
-	int size = sys.size();
-
-	initialize_RK_step(sys);
-
-	find_g_values(sys,dt);
-
-	vector<vector<Matrix<double,3,1> > > old_b_values = b_values;
-	
-	double difference = 0;
-
-	find_g_values(sys,dt);
-
-	for (int i = 0; i < size; i ++) {
-
-		difference += abs(old_b_values[i][0][2] - b_values[i][0][2]);
-		difference += abs(old_b_values[i][1][2] - b_values[i][1][2]);
-		difference += abs(old_b_values[i][2][2] - b_values[i][2][2]);
-
-	}
-
-	if (difference > 0.00000000000001) {
-		RK_Recurse(sys,dt);
-	}
-	else {
-		t += dt;
-		substepRK(sys,1,dt);
-	}
-
-}
-
+//The driver for one time-step of the RK algorithm
+//Recursively updates b and g values until they approach machine precision
 bool first_step = true;
-void RK_Driver(System &sys, double dt) {
 
+vector<vector<Matrix<double,8,1> > > old_b_values;
+
+int count_ = 0;
+double epsilon = 0.00000028;
+
+void RK_Driver(System &sys, bool use_adaptive_stepsize) {
+
+	//Needs to be done once per time-step in order get initial values
 	if (first_step) {
 		initialize_first_RK_step(sys);
+		find_g_values(sys,dt);
 		first_step = false;
 	}
 
-	RK_Recurse(sys,dt);
+	
+	int size = sys.size();
+
+	old_b_values = b_values;
+	
+	find_g_values(sys,dt);
+
+	//Determines whether the g_values have converged to machine precision yet
+	double max_del_b_6 = 0;
+	double max_y_pp = 0;
+
+	//For use in Adaptive Stepsize Algorithm
+	double max_b_6 = 0;
+
+	for (int i = 0; i < size; i ++) {
+		for (int j = 0; j < 3; j ++) {
+			max_b_6 = max( abs(max_b_6) , abs(b_values[i][j][5]) );
+			max_del_b_6 = max( abs(max_del_b_6) , abs(old_b_values[i][j][5] - b_values[i][j][5]) );
+			max_y_pp = max( abs(max_y_pp) , abs(init_acc[i][j]) );
+		
+		}
+	}
+
+	double global_error = max_del_b_6 / max_y_pp ;
+	//Determines if the predictor corrector loop has converged or not
+	if ( ( global_error > pow(10,-16) ) and (count_ < 12)) {
+
+
+
+		count_ ++;
+		RK_Driver(sys, use_adaptive_stepsize);
+
+	}
+
+	else {
+
+		if (use_adaptive_stepsize) {
+			double dt_req = dt * pow ( (epsilon / (max_b_6 / max_y_pp)) , 0.14285714);
+			cout << dt_req << endl;
+			if (dt > dt_req) {
+				dt = dt_req;
+				RK_Driver(sys, use_adaptive_stepsize);
+			}
+
+			else {
+
+				t += dt;
+				substepRK(sys, 1, dt);
+				dt = dt_req;
+				first_step = true;
+
+			}
+
+		}
+
+
+
+		t += dt;
+		substepRK(sys, 1, dt);
+		first_step = true;
+
+	}
+
 
 }
+
 
 
 
 
 // Output Energy / Position Data to csv file
 
-void output_energy(System sys, int num_iterations, string name, double dt, string method) {
+void output_energy(System sys, int end_time, string name, double _dt, string method) {
 	
 	ofstream myFile;
 	myFile.open(name+".csv");
@@ -826,10 +1039,10 @@ void output_energy(System sys, int num_iterations, string name, double dt, strin
 	double PE;
 
 	t = 0;
-
+	dt = _dt;
 	double initial_energy = total_kinetic(sys) + total_potential(sys);
 
-	for (int i = 0; i < num_iterations; i++) {
+	while (t < end_time) {
 
 		KE = total_kinetic(sys);
 		PE = total_potential(sys);
@@ -856,30 +1069,32 @@ void output_energy(System sys, int num_iterations, string name, double dt, strin
 			leap_frog1(sys,dt);
 		}
 
-		if (method == "LF2") {
-			leap_frog2(sys,dt);
+		if (method == "RK") {
+			RK_Driver(sys,false);
+			count_ = 0;
 		}
 
-		if (method == "RK") {
-			RK_Driver(sys,dt);
+		if (method == "RK_AT") {
+			RK_Driver(sys,true);
+			count_ = 0;
 		}
 
 	}
 }
 
 
-void output_position(System sys, int num_iterations, string name, double dt, string method) {
+void output_position(System sys, int end_time, string name, double _dt, string method) {
 
 	ofstream myFile;
 	myFile.open(name+".csv");
 
 	t = 0;
-
-	for (int i = 0; i < num_iterations; i++) {
-		if (2*t == int(2*t)) {
-			myFile << sys.get_data() << " Time , " << t << "," << endl;
-		}
+	dt = _dt;
+	while (t < end_time) {
 		
+		//Only records every integer time-step
+		myFile << sys.get_data() << " Time , " << t << "," << endl;
+
 		//integration method
 		if (method == "AT1") {
 			adaptive_step1(sys, dt);
@@ -900,13 +1115,23 @@ void output_position(System sys, int num_iterations, string name, double dt, str
 		}
 
 		if (method == "RK") {
-			RK_Driver(sys,dt);
+			RK_Driver(sys,false);
+			count_ = 0;
+		}
+
+		if (method == "RK_AT") {
+			RK_Driver(sys,true);
+			count_ = 0;
 		}
 
 	}
 }
 
+
+
+
 int main() {
+
 	System sys;
 	
 	Particle p1(400,0,0,0,0.5,0,300);
@@ -922,45 +1147,28 @@ int main() {
 	sys.add_particle(p4);
 	sys.add_particle(p5);
 	sys.add_particle(p6);
-	
-	/*
-	Particle p1(200,0,0,0,.2,0,100);
-	Particle p2(-200,0,0,0,-.2,0,100);
-	sys.add_particle(p1);
-	sys.add_particle(p2);
-	*/
 
 
 	auto start1 = chrono::steady_clock::now();
-
-	output_energy(sys, 2000, "Data/Output/EnergyLF", 0.5, "RK");
-	output_position(sys, 2000, "Data/Output/DataLF", 0.5, "RK");
-
+	
+	output_energy(sys, 50, "Data/Output/Energy", 0.5, "RK_AT");
+	output_position(sys, 50, "Data/Output/Data", 0.5, "RK_AT");
 	cout << "Force Evals with RK: " << force_eval_counter << endl;
+	
 	auto end1 = chrono::steady_clock::now();
+
 
 	auto start2 = chrono::steady_clock::now();
 	
-	myFile2.open("Data/Output/timestep_eval_data.csv");
-	
-	
 	force_eval_counter = 0;
+	//output_position(sys, 250, "Data/Output/Data2", 0.5, "RK_AT");
+	//output_energy(sys, 250, "Data/Output/Energy2", 0.5, "RK_AT");
+	cout << "Force Evals with LF: " << force_eval_counter << endl;
 	
-	output_energy(sys, 2400, "Data/Output/EnergyAT", 0.5, "AT2");
-
-	already_initialized = false;
-	output_position(sys, 2400, "Data/Output/DataAT", 0.5, "AT2");
-
-	cout << "Force Evals with AT: " << force_eval_counter << endl;
-
 	auto end2 = chrono::steady_clock::now();
 
 	cout << "Runga Kutta: " << chrono::duration <double, milli> (end1-start1).count() << " ms" << endl;
-
-	cout << "Adaptive Time: " << chrono::duration <double, milli> (end2-start2).count() << " ms" << endl;
+	cout << "LF: " << chrono::duration <double, milli> (end2-start2).count() << " ms" << endl;
 
 	return 0;
 }
-
-
-

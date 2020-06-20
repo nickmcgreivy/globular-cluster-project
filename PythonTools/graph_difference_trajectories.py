@@ -6,13 +6,13 @@ x2 = []
 
 x = []
 
-with open('Data/Output/DataAT.csv') as csvfile1:
+with open('Data/Output/Data1.csv') as csvfile1:
   read_position = csv.reader(csvfile1, delimiter = ',')
 
   for row in read_position:
     x1.append(row)
 
-with open('Data/Output/DataLF.csv') as csvfile2:
+with open('Data/Output/Data2.csv') as csvfile2:
   read_position = csv.reader(csvfile2, delimiter = ',')
 
   for row in read_position:

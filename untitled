@@ -1,0 +1,16 @@
+
+Relative Error in Energy due to time-step:
+dt =   error =
+	1 -> 	e-10
+	.1 -> 	e-14
+	.01 -> 	e-15
+	.001 -> e-15
+
+Relative Error in Energy due to length of simulation:
+dt = 0.01
+t_max =		error =
+
+	.1 ->	1e-15
+	1 ->	5e-15
+	10 ->	8e-14
+	100->	9e-14
