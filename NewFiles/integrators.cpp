@@ -518,13 +518,13 @@ namespace ODE_Integrator
 
 			double global_error = max_del_b6 / max_y_pp ;
 
-
 			if ( global_error <= pow(10,-15) or count > 12 )
 			{
 				std::cout << "Ended Iteration with count = " << count << " and global error = " << global_error << std::endl;
 				RungaKutta::substep(1, dt);
 				count = 0;
 			}
+
 			else
 			{
 				count += 1;
