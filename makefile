@@ -1,8 +1,7 @@
-CC=c++
-STD=--std=c++17
+CC=g++
 
 make:main.cpp
-	$(CC) -I -w $(STD) -o main.o main.cpp
-
+	@$(CC) -w main.cpp
+	@./a.out
 clean:
-	rm main
+	@rm a.out
